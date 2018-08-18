@@ -11,7 +11,7 @@ manubot \
   --content-directory=content \
   --output-directory=output \
   --cache-directory=ci/cache \
-  --log-level=INFO
+  --log-level=DEBUG
 
 # pandoc settings
 # Exports so that we can convert and resize figures.
