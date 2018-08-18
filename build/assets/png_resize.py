@@ -14,7 +14,7 @@ png = svg_name + ".png"
 
 
 def find_height_and_width(svg, filename):
-    dimensions = [None, None]
+    dimensions = None
     with open(filename, "r") as f:
         content = f.readlines()
     for line in content:
@@ -48,4 +48,5 @@ if __name__ == "__main__":
     except KeyError:
         markdown_file = "manuscript.md"
     dimensions = find_height_and_width(svg=svg, filename=markdown_file)
-    resize_png(png=png, dimensions=dimensions)
+    if dimensions:
+        resize_png(png=png, dimensions=dimensions)
