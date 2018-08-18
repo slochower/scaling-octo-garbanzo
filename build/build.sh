@@ -16,6 +16,7 @@ manubot \
 # pandoc settings
 CSL_PATH=build/assets/style.csl
 DOCX_PATH=build/assets/pandoc-reference.docx
+SVG_FIX=build/assets/pandoc-svg.py
 BIBLIOGRAPHY_PATH=output/references.json
 INPUT_PATH=output/manuscript.md
 
@@ -72,6 +73,7 @@ then
     --filter=pandoc-fignos \
     --filter=pandoc-eqnos \
     --filter=pandoc-tablenos \
+    --filter=$SVG_FIX \
     --bibliography=$BIBLIOGRAPHY_PATH \
     --csl=$CSL_PATH \
     --metadata link-citations=true \
