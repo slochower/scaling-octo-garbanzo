@@ -18,9 +18,9 @@ title: 'Manubot Rootstock: Manuscript Title'
 
 <small><em>
 This manuscript
-([permalink](https://slochower.github.io/scaling-octo-garbanzo/v/613b0e960dcc84141858733aa2642c830bcdbd75/))
+([permalink](https://slochower.github.io/scaling-octo-garbanzo/v/e0f6a69697243d40717f15c836a0424cb2c12403/))
 was automatically generated
-from [slochower/scaling-octo-garbanzo@613b0e9](https://github.com/slochower/scaling-octo-garbanzo/tree/613b0e960dcc84141858733aa2642c830bcdbd75)
+from [slochower/scaling-octo-garbanzo@e0f6a69](https://github.com/slochower/scaling-octo-garbanzo/tree/e0f6a69697243d40717f15c836a0424cb2c12403)
 on August 18, 2018.
 </em></small>
 
@@ -56,7 +56,8 @@ on August 18, 2018.
 
 
 
-![](images/figure.svg){height="50px" width="50px}
+![](images/figure.svg){height="50px" width="50px"}
+
 
 ## References {.page_break_before}
 
