@@ -15,6 +15,9 @@ before_install:
 install:
   - conda env create --quiet --file build/environment.yml
   - conda activate manubot
+  - pip install panflute
+  - pip install pandocfilters
+  - pip install pandoc-img-glob  
 script:
   - BUILD_DOCX=true sh build/build.sh
 cache:
