@@ -56,7 +56,7 @@ def svg_to_any(key, value, fmt, meta):
                 sys.stderr.write("Running %s\n" % " ".join(cmd_line))
                 subprocess.call(cmd_line, stdout=sys.stderr.fileno())
             if attrs:
-                cmd_line = ["python", "svg_height_width.py", "--svg", file_name]
+                cmd_line = ["python", png_resize, "--svg", file_name]
                 subprocess.check_output(cmd_line)
 
                 return Image(attrs, alt, [eps_name, title])
