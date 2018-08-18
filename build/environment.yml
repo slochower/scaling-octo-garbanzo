@@ -27,4 +27,3 @@ dependencies:
     - requests-cache==0.4.13
     - weasyprint==0.42.2
     - panflute
-    - pandoc-img-glob
