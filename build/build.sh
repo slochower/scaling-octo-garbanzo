@@ -14,12 +14,13 @@ manubot \
   --log-level=INFO
 
 # pandoc settings
+# Exports so that we can convert and resize figures.
 CSL_PATH=build/assets/style.csl
 DOCX_PATH=build/assets/pandoc-reference.docx
 SVG_FIX=build/assets/pandoc-svg.py
-export PNG_RESIZE=png_resize.py
+export PNG_RESIZE=build/assets/png_resize.py
 BIBLIOGRAPHY_PATH=output/references.json
-INPUT_PATH=output/manuscript.md
+export INPUT_PATH=output/manuscript.md
 
 # Make output directory
 mkdir -p output
