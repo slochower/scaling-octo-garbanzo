@@ -64,6 +64,8 @@ def svg_to_any(key, value, fmt, meta):
             if attrs:
                 # If we wanted to be fancy, we could call `identify` on the
                 # PNG here and detect if it's already the right size.
+                svg_name, svg_extension = os.path.splitext(file_name)
+                png = os.path.join(os.path.dirname(file_name), svg_name) + ".png"
                 sys.stderr.write(f"`pandoc-svg`: resizing {png}...")
                 cmd_line = ["python", png_resize, "--svg", file_name]
                 sys.stderr.write("Running %s\n" % " ".join(cmd_line))
