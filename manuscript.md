@@ -18,9 +18,9 @@ title: 'Manubot Rootstock: Manuscript Title'
 
 <small><em>
 This manuscript
-([permalink](https://slochower.github.io/scaling-octo-garbanzo/v/e0f6a69697243d40717f15c836a0424cb2c12403/))
+([permalink](https://slochower.github.io/scaling-octo-garbanzo/v/9acb0c9205540d3daf650e40b3cda9389ed92ff4/))
 was automatically generated
-from [slochower/scaling-octo-garbanzo@e0f6a69](https://github.com/slochower/scaling-octo-garbanzo/tree/e0f6a69697243d40717f15c836a0424cb2c12403)
+from [slochower/scaling-octo-garbanzo@9acb0c9](https://github.com/slochower/scaling-octo-garbanzo/tree/9acb0c9205540d3daf650e40b3cda9389ed92ff4)
 on August 18, 2018.
 </em></small>
 
@@ -56,7 +56,10 @@ on August 18, 2018.
 
 
 
-![](images/figure.svg){height="50px" width="50px"}
+# Determine the mechanism by which highly enriched PtdIns*P*~2~ domains are stabilized
+
+
+
 
 
 ## References {.page_break_before}
