@@ -40,7 +40,7 @@ def resize_png(png, dimensions):
 if __name__ == "__main__":
     if os.path.exists(png):
         # Assume that if a PNG exists already, it is appropriately sized.
-        sys.stderr.write(f"`png_resize`: Skipping {png}...")
+        sys.stderr.write(f"`png_resize`: Found {png} skipping...\n")
         sys.exit()
     try:
         input_path = os.environ["INPUT_PATH"]
@@ -49,5 +49,5 @@ if __name__ == "__main__":
         markdown_file = "manuscript.md"
     dimensions = find_height_and_width(svg=svg, filename=markdown_file)
     if dimensions:
-        sys.stderr.write(f"`png_resize`: Found dimensions, resizing {png}...")
+        sys.stderr.write(f"`png_resize`: Found dimensions, resizing {png}...\n")
         resize_png(png=png, dimensions=dimensions)

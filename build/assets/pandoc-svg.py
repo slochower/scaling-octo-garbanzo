@@ -56,20 +56,18 @@ def svg_to_any(key, value, fmt, meta):
                 png = os.path.join(os.path.dirname(file_name), svg_name) + ".png"
                 if not os.path.exists(png):
                     sys.stderr.write(
-                        f"`pandoc-svg`: could not find {png}, converting..."
+                        f"`pandoc-svg`: could not find {png}, converting...\n"
                     )
                     cmd_line = ["convert", "-density", "300", file_name, eps_name]
-                    sys.stderr.write("Running %s\n" % " ".join(cmd_line))
+                    # sys.stderr.write("Running %s\n" % " ".join(cmd_line))
                     subprocess.call(cmd_line, stdout=sys.stderr.fileno())
+                    cmd_line = ["python", png_resize, "--svg", file_name]
+                    # sys.stderr.write("Running %s\n" % " ".join(cmd_line))
+                    subprocess.call(cmd_line)
+                else:
+                    sys.stderr.write(f"`pandoc-svg`: Found {png} skipping...\n")
+
             if attrs:
-                # If we wanted to be fancy, we could call `identify` on the
-                # PNG here and detect if it's already the right size.
-                svg_name, svg_extension = os.path.splitext(file_name)
-                png = os.path.join(os.path.dirname(file_name), svg_name) + ".png"
-                sys.stderr.write(f"`pandoc-svg`: resizing {png}...")
-                cmd_line = ["python", png_resize, "--svg", file_name]
-                sys.stderr.write("Running %s\n" % " ".join(cmd_line))
-                subprocess.call(cmd_line)
                 return Image(attrs, alt, [eps_name, title])
             else:
                 return Image(alt, [eps_name, title])
