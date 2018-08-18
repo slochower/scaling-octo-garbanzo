@@ -73,6 +73,7 @@ then
     --filter=pandoc-fignos \
     --filter=pandoc-eqnos \
     --filter=pandoc-tablenos \
+    --filter=pandoc-img-glob \
     --filter=$SVG_FIX \
     --bibliography=$BIBLIOGRAPHY_PATH \
     --csl=$CSL_PATH \
