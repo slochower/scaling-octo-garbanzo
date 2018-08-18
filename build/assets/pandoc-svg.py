@@ -55,12 +55,16 @@ def svg_to_any(key, value, fmt, meta):
                 svg_name, svg_extension = os.path.splitext(file_name)
                 png = os.path.join(os.path.dirname(file_name), svg_name) + ".png"
                 if not os.path.exists(png):
+                    sys.stderr.write(
+                        f"`pandoc-svg`: could not find {png}, converting..."
+                    )
                     cmd_line = ["convert", "-density", "300", file_name, eps_name]
                     sys.stderr.write("Running %s\n" % " ".join(cmd_line))
                     subprocess.call(cmd_line, stdout=sys.stderr.fileno())
             if attrs:
                 # If we wanted to be fancy, we could call `identify` on the
                 # PNG here and detect if it's already the right size.
+                sys.stderr.write(f"`pandoc-svg`: resizing {png}...")
                 cmd_line = ["python", png_resize, "--svg", file_name]
                 sys.stderr.write("Running %s\n" % " ".join(cmd_line))
                 subprocess.call(cmd_line)

@@ -28,10 +28,6 @@ def find_height_and_width(svg, filename):
                 dimension = dimension.replace('"', "")
                 if "px" in dimension[-2:]:
                     dimensions.append(int(dimension[:-2]))
-    # print(
-    #    f"Found dimensions of {dimensions[0]}x{dimensions[1]} for {svg} in {filename}"
-    # )
-
     return dimensions
 
 
@@ -39,14 +35,12 @@ def resize_png(png, dimensions):
     height, width = dimensions[0], dimensions[1]
     command = f"""mogrify -resize {height}x{width} {png}"""
     sp.call(shlex.split(command))
-    # stdout, stderr = p.communicate()
-    # if p.returncode != 0:
-    #   print(stdout, stderr)
 
 
 if __name__ == "__main__":
     if os.path.exists(png):
         # Assume that if a PNG exists already, it is appropriately sized.
+        sys.stderr.write(f"`png_resize`: Skipping {png}...")
         sys.exit()
     try:
         input_path = os.environ["INPUT_PATH"]
@@ -55,4 +49,5 @@ if __name__ == "__main__":
         markdown_file = "manuscript.md"
     dimensions = find_height_and_width(svg=svg, filename=markdown_file)
     if dimensions:
+        sys.stderr.write(f"`png_resize`: Found dimensions, resizing {png}...")
         resize_png(png=png, dimensions=dimensions)
