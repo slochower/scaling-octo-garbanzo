@@ -59,12 +59,11 @@ def svg_to_any(key, value, fmt, meta):
                     sys.stderr.write("Running %s\n" % " ".join(cmd_line))
                     subprocess.call(cmd_line, stdout=sys.stderr.fileno())
             if attrs:
-                svg_name, svg_extension = os.path.splitext(file_name)
-                png = os.path.join(os.path.dirname(file_name), svg_name) + ".png"
-                if not os.path.exists(png):
-                    cmd_line = ["python", png_resize, "--svg", file_name]
-                    sys.stderr.write("Running %s\n" % " ".join(cmd_line))
-                    subprocess.call(cmd_line)
+                # If we wanted to be fancy, we could call `identify` on the
+                # PNG here and detect if it's already the right size.
+                cmd_line = ["python", png_resize, "--svg", file_name]
+                sys.stderr.write("Running %s\n" % " ".join(cmd_line))
+                subprocess.call(cmd_line)
                 return Image(attrs, alt, [eps_name, title])
             else:
                 return Image(alt, [eps_name, title])
