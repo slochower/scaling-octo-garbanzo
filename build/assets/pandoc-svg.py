@@ -19,6 +19,7 @@ fmt_to_option = {"docx": ("--export-png", "png")}
 
 build_dir = os.getcwd()
 img_dir = os.getcwd()
+png_resize = os.environ["PNG_RESIZE"]
 
 
 def svg_to_any(key, value, fmt, meta):
@@ -51,10 +52,13 @@ def svg_to_any(key, value, fmt, meta):
             except FileNotFoundError:
                 src_mtime = -1
             if mtime < src_mtime or web_image.match(src):
-                cmd_line = ["convert", "--density 300", eps_name, file_name]
+                cmd_line = ["convert", file_name, eps_name]
                 sys.stderr.write("Running %s\n" % " ".join(cmd_line))
                 subprocess.call(cmd_line, stdout=sys.stderr.fileno())
             if attrs:
+                cmd_line = ["python", "svg_height_width.py", "--svg", file_name]
+                subprocess.check_output(cmd_line)
+
                 return Image(attrs, alt, [eps_name, title])
             else:
                 return Image(alt, [eps_name, title])

@@ -17,6 +17,7 @@ manubot \
 CSL_PATH=build/assets/style.csl
 DOCX_PATH=build/assets/pandoc-reference.docx
 SVG_FIX=build/assets/pandoc-svg.py
+PNG_RESIZE=build/assets/png_resize.py
 BIBLIOGRAPHY_PATH=output/references.json
 INPUT_PATH=output/manuscript.md
 
