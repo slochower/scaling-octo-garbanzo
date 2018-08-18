@@ -52,7 +52,7 @@ def svg_to_any(key, value, fmt, meta):
             except FileNotFoundError:
                 src_mtime = -1
             if mtime < src_mtime or web_image.match(src):
-                cmd_line = ["convert", file_name, eps_name]
+                cmd_line = ["convert", "-density", "300", file_name, eps_name]
                 sys.stderr.write("Running %s\n" % " ".join(cmd_line))
                 subprocess.call(cmd_line, stdout=sys.stderr.fileno())
             if attrs:
