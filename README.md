@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/slochower/scaling-octo-garbanzo/tree/gh-pages) branch hosts the contents of this directory at https://slochower.github.io/scaling-octo-garbanzo/.
-The permalink for this webpage version is https://slochower.github.io/scaling-octo-garbanzo/v/7f27e785822a9c97856f7ce8c93e22091aac1b99/.
+The permalink for this webpage version is https://slochower.github.io/scaling-octo-garbanzo/v/58208260c48b1387e43179f57e0fed8f22bb3702/.
 To redirect to the permalink for the latest manuscript version at anytime, use the link https://slochower.github.io/scaling-octo-garbanzo/v/freeze/.
 
 ## Files
@@ -32,4 +32,4 @@ git add v/*/*.ots
 ## Source
 
 The manuscripts in this directory were built from
-[`7f27e785822a9c97856f7ce8c93e22091aac1b99`](https://github.com/slochower/scaling-octo-garbanzo/commit/7f27e785822a9c97856f7ce8c93e22091aac1b99).
+[`58208260c48b1387e43179f57e0fed8f22bb3702`](https://github.com/slochower/scaling-octo-garbanzo/commit/58208260c48b1387e43179f57e0fed8f22bb3702).
