@@ -44,6 +44,9 @@ def resize_png(png, dimensions):
 
 
 if __name__ == "__main__":
+    if os.path.exists(png):
+        # Assume that if a PNG exists already, it is appropriately sized.
+        sys.exit()
     try:
         input_path = os.environ["INPUT_PATH"]
         markdown_file = input_path
