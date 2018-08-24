@@ -18,5 +18,45 @@
       "family": "Himmelstein"
     }
   ]
+},
+{
+  "type": "chapter",
+  "standard_citation": "url:www.google.com",
+  "title": "Lipid Membrane Shape Evolution and the Actin Cytoskeleton",
+  "container-title": "Handbook of Lipid Membranes, Molecular and Materials aspects",
+  "publisher": "Taylor & Francis Publishers",
+  "ISBN": "978-1-4665-5572-3",
+  "author": [
+    {
+      "family": "Slochower",
+      "given": "David R."
+    },
+    {
+      "family": "Wang",
+      "given": "Yu-Hsiu"
+    },
+    {
+      "family": "Radhakrishnan",
+      "given": "Ravi"
+    },
+    {
+      "family": "Janmey",
+      "given": "Paul A."
+    }
+  ],
+  "collection-editor": [
+    {
+      "family": "Safinya",
+      "given": "Cyrus"
+    },
+    {
+      "family": "Rädler",
+      "given": "Joachim"
+    }
+  ],
+
+  "issued": {
+    "literal": "2018"
+  }
 }
 ]
