@@ -4,11 +4,9 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <meta name="author" content="John Doe" />
-  <meta name="author" content="Jane Roe" />
-  <meta name="dcterms.date" content="2018-08-18" />
-  <meta name="keywords" content="markdown, publishing, manubot" />
-  <title>Manubot Rootstock: Manuscript Title</title>
+  <meta name="author" content="David R. Slochower" />
+  <meta name="dcterms.date" content="2018-08-31" />
+  <title>Membranes, motors, and molecular modeling</title>
   <style type="text/css">
       code{white-space: pre-wrap;}
       span.smallcaps{font-variant: small-caps;}
@@ -16,6 +14,7 @@
       div.column{display: inline-block; vertical-align: top; width: 50%;}
   </style>
   <link rel="stylesheet" href="github-pandoc.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_CHTML-full" type="text/javascript"></script>
   <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
@@ -26,25 +25,219 @@
 </head>
 <body>
 <header>
-<h1 class="title">Manubot Rootstock: Manuscript Title</h1>
+<h1 class="title">Membranes, motors, and molecular modeling</h1>
 </header>
-<h1 id="research-plan">Research Plan</h1>
-<h2 id="authors">Authors</h2>
+<p>In 1953 Stanley Miller mixed methane, ammonia, and hydrogen in glass tubes. A flask with heated water and one with electrodes connected the tubes, and when a spark of electricity bolted across the electrodes, the apparatus produced amino acids, the building blocks of all proteins. When I first heard about this experiment in high school, I was attracted to its simplicity and elegance. Now, I recognize that it’s explanatory power originates in the novelty of looking at a seemingly impenetrable question—the origin of life—from a new perspective. I am looking for a research environment where disciplines are combined to tackle problems on the boundary of biological and medical science.</p>
+<p>My research interests center on uncovering the physical principles that underlie biological and chemical phenomena. I try to create more accurate molecular simulations by improving physics-based force fields and combining new simulation procedures with nonequilibrium analytical tools. I will extend my previous work on biological membranes to elucidate driving forces behind the formation of membrane domains featuring phosphoinositides. I will also run simulations of synthetic molecular motors, such as those designed by Ben Feringa, to characterize their mechanical properties. Finally, I will participate in a systematic overhaul of force field science, changing the way force fields are built and how they are distributed, by focusing on transparent and rigorous optimization criteria, in an open setting. These investigations will provide a detailed accounting of the physical principles that are at work in biological systems. My undergraduate degree in physics combined with my graduate work in biochemistry and biophysics, together with my postdoctoral training in computational chemistry, makes me well suited to this research plan. Each aim of my detailed research plan focuses on a physical or chemical question at the heart of molecular motion.</p>
+<h1 id="summary-of-previous-research">Summary of previous research</h1>
+<h2 id="improving-free-energy-calculations">Improving free energy calculations</h2>
+<p>Accurate binding thermodynamics calculations remain one of the central goals of biomolecular simulations. While in the Gilson group, I contributed to an overall evaluation of more than ten different methods, from research groups around the world, used to compute host-guest binding free energies and enthalpies<span class="citation" data-cites="BGsUYQln"><sup><a href="#ref-BGsUYQln">1</a></sup></span>. As part of that work, I extended our own method (attach-pull-release<span class="citation" data-cites="uzHaEv9Z"><sup><a href="#ref-uzHaEv9Z">2</a></sup></span>) by completely rewriting the code in Python and adding several advanced features enabling larger and more challenging systems to be used (this code is available on <a href="https://www.github.com/slochower/pAPRika">GitHub</a>). More recently, I have also worked on assessing the efficiency and reproducibility of how different algorithms converge toward free energy estimates (forthcoming publication).</p>
+<h2 id="the-evolution-of-molecular-motors">The evolution of molecular motors</h2>
+<p>Biological motors are enzymes that use chemical energy to drive directional motion. Although motor proteins must have arisen through random mutation and natural selection, it is not clear how the evolutionary leap from non-motor enzymes to molecular motors could have occurred. I showed that any chiral molecule driven out of equilibrium should undergo cycles of conformational change<span class="citation" data-cites="1BfYw0gk2"><sup><a href="#ref-1BfYw0gk2">3</a></sup></span>. This work was highlighted by <a href="http://ucsdhealthsciences.tumblr.com/post/173707350285/its-not-intelligent-design-so-how-did">UCSD</a> and <a href="https://www.cell.com/biophysj/fulltext/S0006-3495(18)30444-2">“New and Notable”</a> in Biophysical Journal.</p>
+<h2 id="the-design-of-new-force-fields">The design of new force fields</h2>
+<p>As part of the open force field consortium—a collaboration with Dr. David Mobley, Dr. John Chodera, Dr. Michael Shirts, Dr. Lee-Ping Wang, and Dr. Chris Bayly— I participated in the effort to build new molecular mechanics force fields based on direct chemical perception instead of indirect, atom-type based approaches (forthcoming publication). I have also contributed to the design, coding, and implementation of a new force field format—SMIRKS Native Open Force Field (SMIRNOFF)—based on a hierarchical structure that supports customized combining rules, partial bond orders, polarizability, and other advanced features. The tools and data are open source and available on <a href="https://github.com/openforcefield">GitHub</a>.</p>
+<h2 id="simulations-of-complex-membranes">Simulations of complex membranes</h2>
+<p>Continuing the work that I started during graduate school at the University of Pennsylvania<span class="citation" data-cites="1G0A01ZNq SdO7fVnR Ag1rh6TA 1E1rz4J4o 1AHXI1BtY"><sup><a href="#ref-1G0A01ZNq">4</a>–<a href="#ref-1AHXI1BtY">8</a></sup></span>, I’m interested in simulating increasingly complex, and thus more physiologically relevant, models of biological membranes. We recently reported (forthcoming publication) how the interplay between lipid species, cholesterol, counterions, and water near the membrane interface can lead to the formation of nano-scale lipid clusters. A natural next step is to understand the role proteins play in stabilizing these clusters, as discussed below.</p>
+<h1 id="detailed-research-plan">Detailed research plan</h1>
+<h2 id="how-are-highly-enriched-clusters-of-negatively-charged-phospholipids-stabilized">How are highly enriched clusters of negatively charged phospholipids stabilized?</h2>
+<p>Phosphoinositides are a minor class of lipids located on the inner leaflet of the plasma membrane, found at about 0.5 mole percent of all phospholipids in mammalian cells (10-100 μM), that have an outsized biological role. This class of lipids participates in myriad cell processes including attachment of the cytoskeleton, membrane fusion, vesiculation, and both activation and inhibition of enzymes<span class="citation" data-cites="GGlssBvj"><sup><a href="#ref-GGlssBvj">9</a></sup></span>. Disruption in signaling pathways associated with the phosphoinositides have been implicated in several cancers as well as Charcot-Marie-Tooth disease along with other neurodegenerative disorders<span class="citation" data-cites="8Xw2kuUO 12CAxA8dE l2gqdgv izLqFTEH 1HRoQaadQ 1DCzqvykg"><sup><a href="#ref-8Xw2kuUO">10</a>–<a href="#ref-1DCzqvykg">15</a></sup></span>. Among all phospholipids, PtdIns(4,5)<em>P</em><sub>2</sub> may be the most common regulatory lipid: hundreds of cytosolic proteins have been found to bind PtdIns(4,5)<em>P</em><sub>2</sub> in vitro<span class="citation" data-cites="uyKE7bWV"><sup><a href="#ref-uyKE7bWV">16</a></sup></span> including proteins that cause or sense membrane curvature<span class="citation" data-cites="3EmJ4esY 5PUA7pLD"><sup><a href="#ref-3EmJ4esY">17</a>,<a href="#ref-5PUA7pLD">18</a></sup></span>.</p>
+<p>PtdIns(4,5)<em>P</em><sub>2</sub> is one of the most highly charged molecules in the cell, carrying a net charge from -3 to -5 at physiological pH, owing to a phosphodinoester and two phosphomonoester groups<span class="citation" data-cites="8pFCG7HG"><sup><a href="#ref-8pFCG7HG">19</a></sup></span>. Despite their high charge, through the use of super-resolution microscopy, there is mounting evidence for nano-scale clusters of PtdIns(4,5)<em>P</em><sub>2</sub> within cells. In neuronal cells, clusters of PtdIns(4,5)<em>P</em><sub>2</sub> have been visualized using fluorescent phosphoinositide-binding domains and phosphoinositide-specific antibodies<span class="citation" data-cites="U2YHSNKE Gw4f4Ayu"><sup><a href="#ref-U2YHSNKE">20</a>,<a href="#ref-Gw4f4Ayu">21</a></sup></span>. These clusters are circular, roughly 70–90 nm in diameter, and composed of greater than 80% PtdIns(4,5)<em>P</em><sub>2</sub>. A separate study found clusters of around 60 nm for PtdIns(4,5)<em>P</em><sub>2</sub>, and larger clusters for PtdIns(3,4,5)<em>P</em><sub>3</sub>, in the plasma membrane<span class="citation" data-cites="rvpDeSHJ"><sup><a href="#ref-rvpDeSHJ">22</a></sup></span>. Even in the absence of proteins, <em>in vitro</em> assays in the Janmey group have demonstrated PtdIns(4,5)<em>P</em><sub>2</sub> clusters of 40–50 nm, by AFM and TEM imaging, after the addition of as little as ~1 μM Ca<sup>2+</sup><span class="citation" data-cites="LhOwGz4k"><sup><a href="#ref-LhOwGz4k">23</a></sup></span>. Another study using fluorescence self-quenching and Förster resonance energy transfer assays noted PtdIns(4,5)<em>P</em><sub>2</sub> self association at concentrations as low as 0.05 mole percent, with divalent and trivalent metal ions, in model membranes and liposomes<span class="citation" data-cites="ior8wlwH"><sup><a href="#ref-ior8wlwH">24</a></sup></span>.</p>
+<h3 id="how-do-divalent-cations-grow-and-stabilize-clusters">How do divalent cations grow and stabilize clusters?</h3>
+<p>The finite and well-defined size of PtdIns(4,5)<em>P</em><sub>2</sub> clusters suggests there is a balance between the mutual electrostatic and steric repulsion of the negatively charged lipids and the attraction mediated by Ca<sup>2+</sup>. A key piece of evidence is the observation from molecular dynamics simulations that a single Ca<sup>2+</sup> ion is able to bring together groupings of up to three lipids and lead to changes in membrane packing (as detailed in a publication currently under review). In simulations, we find that only Ca<sup>2+</sup> has the ability to nucleate clusters; in experiments, clusters are detected only at higher concentrations of Mg<sup>2+</sup> and not at all with the monovalent ions Na<sup>+</sup> or K<sup>+</sup><span class="citation" data-cites="JWXdIfNt"><sup><a href="#ref-JWXdIfNt">25</a></sup></span>.</p>
+<p>Building upon an automated toolchain for constructing heterogeneous membrane compositions for molecular simulations<span class="citation" data-cites="14RTQvTQS aHkuGDrS"><sup><a href="#ref-14RTQvTQS">26</a>,<a href="#ref-aHkuGDrS">27</a></sup></span>, I will construct and run simulations of PtdIns(4,5)<em>P</em><sub>2</sub> clusters. As in my previous work, I will test several variables independently by varying the counterion species, counterion concentration, and presence or absence of proteins.</p>
+<h3 id="what-are-the-physical-properties-of-the-clusters">What are the physical properties of the clusters?</h3>
+<p>That the clusters so far visualized in experiments are round suggests the domains are fluid, rather than crystalline. I am going to test the hypothesis that PtdIns(4,5)<em>P</em><sub>2</sub> clusters increase the height of the membrane, are more laterally stiff, and display curvature.</p>
+<h3 id="how-does-the-ability-of-ptdins45p2-to-bind-proteins-change-when-it-is-present-in-a-cluster">How does the ability of PtdIns(4,5)<em>P</em><sub>2</sub> to bind proteins change when it is present in a cluster?</h3>
+<p>I am going to test the hypothesis that PtdIns(4,5)<em>P</em><sub>2</sub> clusters can form even in the absence of proteins.</p>
+<h2 id="what-are-the-mechanical-properties-of-synthetic-molecular-motors">What are the mechanical properties of synthetic molecular motors?</h2>
+<p>The ability of light-driven molecular motors to switch between two or more states makes them suitable for new forms of optical data storage<span class="citation" data-cites="18PGyWtWV"><sup><a href="#ref-18PGyWtWV">28</a></sup></span>, as “wheels” on nano-scale cars<span class="citation" data-cites="OAnfwOYX"><sup><a href="#ref-OAnfwOYX">29</a></sup></span>, trains<span class="citation" data-cites="10MPrT2Vf"><sup><a href="#ref-10MPrT2Vf">30</a></sup></span>, worms<span class="citation" data-cites="Tels98bO"><sup><a href="#ref-Tels98bO">31</a></sup></span>, and walkers<span class="citation" data-cites="SfUEsk0e"><sup><a href="#ref-SfUEsk0e">32</a></sup></span>, or in new forms of responsive materials<span class="citation" data-cites="jCuccJLJ"><sup><a href="#ref-jCuccJLJ">33</a></sup></span>. Unlike switches, whose work is reversed after every full cycle, molecular motors can be used to progressively move systems away from thermodynamic equilibrium<span class="citation" data-cites="1H5r7SBir"><sup><a href="#ref-1H5r7SBir">34</a></sup></span>. The synthetic molecular motors of Ben Fergina operate by converting light and heat into directional rotary motion. These motors belong to a class of molecules called overcrowded alkenes, with two stable enantiomers, and adopt a helical shape due to steric strain around the central double bond. The two sets of conjugated rings rotate relative to each other, with the central bond acting as an axle, and for simplicity, one set of rings is designated the “stator” while the other set is called the “rotor.” The directional motion of these molecules can be analyzed in terms of two degrees of freedom: <span class="math inline">\(E\)</span> to <span class="math inline">\(Z\)</span> for the isomerization of the double bond (analogous to <em>cis</em> and <em>trans</em>) and <span class="math inline">\(P\)</span> and <span class="math inline">\(M\)</span> for the overall twist or helicity of the molecule (Figure <a href="#fig:motor-diagram">1</a>).</p>
+<figure>
+<img src="images/motor.png" alt="Figure 1: The two degrees of freedom in a synthetic molecular motor." id="fig:motor-diagram" /><figcaption><span>Figure 1:</span> The two degrees of freedom in a synthetic molecular motor.</figcaption>
+</figure>
+<h3 id="calculate-the-speed-torque-and-efficiency-of-motors">Calculate the speed, torque, and efficiency of motors</h3>
+<p>In 2006, it was shown that light driven molecular motors can rotate a glass rod that is more than 10,000 times their size upon irradiation with light and when included as a dopant in a liquid crystal film<span class="citation" data-cites="thFGBz32"><sup><a href="#ref-thFGBz32">35</a></sup></span>. While it is clear that artificial motors, when aligned appropriately so their individual effects are magnified, can produce macroscopic effects, it is not known how much force an individual molecular motor can generate. I will use the nonequilibrium model I developed to quantify directional motion in biological motors with these artificial molecular motors. I will focus on the “second generation” class of motors from Ben Feringa and colleagues, which possess symmetric stators that enable easier functionalization, and a lower energy cost for the thermal helix inversion step. I will study the four ground states that comprise the 360 degree cycle depicted in Figure <a href="#fig:motors">2</a>. On the left, the four structural states of the motor demonstrate movement of the upper rotor relative to the fixed stator through two photochemical and two thermal steps. On the right, the free energy profiles along a given surface <span class="math inline">\(E\)</span> or <span class="math inline">\(Z\)</span> represent the pattern of energy troughs and barriers for changing the helicity of the structure while maintaining the same orientation of the double bond, essentially sliding the bulky biaryl rings connected to the rotor past the stator. This barrier can be considerable, on the order of tens to hundreds of kcal/mol, depending on the chemical groups attached to the rotor. Each ground state can have a half life of months to years at room temperature<span class="citation" data-cites="1H5r7SBir"><sup><a href="#ref-1H5r7SBir">34</a></sup></span>. The excited state structures and dynamics are considerably more complex and, based on preliminary work in the Gilson group, are difficult to converge.</p>
+<figure>
+<embed src="images/offset-barriers.pdf" id="fig:motors" width="970" height="321" /><figcaption><span>Figure 2:</span> On the left, the four ground state conformations of a second generation motor, adapted from Štacko et al<span class="citation" data-cites="mKSNFvW7"><sup><a href="#ref-mKSNFvW7">36</a></sup></span>. On the right, the same four states placed on free energy profiles. The energy profiles are periodic, with two cycles shown for both isomerization state. A clone of the lower <span class="math inline">\(E\)</span> energy surface is shown above, for clarity, to demonstrate the progression from state 4 to state 1 requires energy.</figcaption>
+</figure>
+<p>To run the nonequilibrium model, we need to know the shape of the energy surfaces and the rate constants for moving between and along each surface. The free energy profiles along a given surface represent the energy barrier for the changing the helicity of the structure while maintaining the same orientation of the double bond. Previously we used microsecond-scale molecular dynamics simulations to determine the energy landscapes based on equilibrium population distributions. However, because the barriers here are expected to be much larger, I will directly probe the potential surfaces by evaluating the energy of conformations for different values of the central dihedral angle. I will perform this dihedral scan using a quantum chemistry package, such as <a href="http://psicode.org/">Psi4</a> using density functional theory and semi-empirical methods. B3LYP calculations with the 6-31G* basis set were used to optimize the geometry of a related motor and then subjected to surface scanning using PM3 semi-empirical methods<span class="citation" data-cites="N6pRFM85"><sup><a href="#ref-N6pRFM85">37</a></sup></span>. I will begin using those methods and move to higher level basis sets and higher levels of theory if necessary. I will test the sensitivity of these results to different quantum methods.</p>
+<p>I expect there to be a small but nonzero energy gap between the surfaces due to the chirality of the molecule. Although the motion from <span class="math inline">\(3 \rightarrow 4\)</span> is the reverse of <span class="math inline">\(1 \rightarrow 2\)</span>, there are small differences in the maximum wavelength used to achieve the transformations. A difference in the relative stability of each isomer has also been detected through proton NMR. The quantum calculations will reveal the difference between the two conformers for a specific helicity, and this will be used to offset the surfaces in the nonequilibrium model.</p>
+<h3 id="how-can-we-design-better-molecular-motors">How can we design better molecular motors?</h3>
+<p>As demonstrated by Richard Feynman in a lecture on Brownian ratchets, the challenge of designing molecular motors is not how to create motion, but how to control the directionality of the omnipresent motion on the molecular scale<span class="citation" data-cites="10FsKpWBI"><sup><a href="#ref-10FsKpWBI">38</a></sup></span>. This is the so-called “gating” of stochastic motion<span class="citation" data-cites="qhUBHBOM"><sup><a href="#ref-qhUBHBOM">39</a></sup></span>. In my previous work<span class="citation" data-cites="1BfYw0gk2"><sup><a href="#ref-1BfYw0gk2">3</a></sup></span>, I showed that the gating can arise purely from the complementary shape of two potential energy surfaces, whereby an unpassable barrier on one surface can be bypassed through motion on the other surface (see Figure S6, in particular.) In this section, I will explore the relationship between the shape of the potential energy surfaces the directionality of artificial molecular motors.</p>
+<p>I will begin using steepest descent and gradient based methods to optimize the potential energy surfaces to yield the maximal directional flux and maximum torque generated. If those methods fail, I will use a method that does not rely on the gradient, such as constrained optimization by linear approximation (COBYLA). The surfaces will be modeled as splines with six to eight control points evenly spaced out along the periodic degree of freedom and the spline points will be allowed to move as the optimization procedure runs. Based on preliminary work using analytical functions as the potential energy surfaces, this procedure affords ample room to significantly change the properties of the surfaces. Indeed, some perturbations have reversed the flux on a given surface.</p>
+<p>I will combine this information with knowledge of how different chemical constituents affect overall rotation rates to suggest new designs for synthetic motors.</p>
+<h2 id="can-we-build-a-truly-open-force-field">Can we build a truly open force field?</h2>
+<p>In this aim, I test the hypothesis that all-atom molecular dynamics force fields for small molecules (e.g., the general AMBER force field, GAFF<span class="citation" data-cites="YmRgHfeU"><sup><a href="#ref-YmRgHfeU">40</a></sup></span>) can be improved by incorporating host-guest binding data in their parameterization. Many small molecule force fields have been parameterized against the properties of pure liquids, such as heats of vaporization and density. Although force fields such as GAFF are able to reproduce some equilibrium thermodynamic properties well, they have notable failures<span class="citation" data-cites="HlBr7NrU"><sup><a href="#ref-HlBr7NrU">41</a></sup></span> and perform only moderately well for predicting binding free energies and enthalpies<span class="citation" data-cites="HVgz5rZq"><sup><a href="#ref-HVgz5rZq">42</a></sup></span>.</p>
+<h3 id="incorporate-host-guest-binding-data-into-force-field-development">Incorporate host-guest binding data into force field development</h3>
 <ul>
-<li><p><strong>John Doe</strong><br></p></li>
-<li><p><strong>Jane Roe</strong><br></p></li>
+<li>APR diagram with workflow.</li>
 </ul>
-<h1 id="introduction">Introduction</h1>
-<h1 id="determine-the-mechanism-by-which-highly-enriched-ptdinsp2-domains-are-stabilized">Determine the mechanism by which highly enriched PtdIns<em>P</em><sub>2</sub> domains are stabilized</h1>
-<p>Recent studies have shown that submicron domains of PtdIns(4,5)<em>P</em><sub>2</sub> exist <em>in vivo</em> at physiological levels of monovalent and divalent cations.</p>
-<p>These clusters reach a stable size around 80 nm.</p>
-<p>PtdIns(4,5)<em>P</em><sub>2</sub> caries a large negative charge.</p>
-<p>We have shown that Ca<sup>2+</sup> is able to stabilize these clusters, in a limited fashion.</p>
-<p>We have recently shown how Ca<sup>2+</sup> can initiate the formation of clusters, however, it is not clear how clustesrs grow until they reach ~ 80 nm.</p>
-<h2 id="references" class="page_break_before">References</h2>
+<p>We will also investigate end-state methods, such as interaction entropy</p>
+<p>The partial derivatives can be used to linearly extrapolate.</p>
+<p>Cyclodextrins only have three functional groups, but through selective syntehsis, we can test more.</p>
+<p><span id="eq:roi" style="display: inline-block; position: relative; width: 100%"><span class="math display">\[
+\text{ROI} = \frac{\partial (\partial G_\text{SEM})}{\partial (dU/d\lambda_\text{SEM})} \frac{\partial (dU/d\lambda_\text{SEM})}{\partial N_\text{frames}}
+\]</span><span style="position: absolute; right: 0em; top: 50%; line-height:0; text-align: right">(1)</span></span> </p>
+<p>Equation <a href="#eq:roi">1</a> is the return on investment.</p>
+<h3 id="integrate-automated-optimization-techniques-such-as-forcebalance-with-host-guest-binding-data">Integrate automated optimization techniques, such as ForceBalance, with host-guest binding data</h3>
+<p>ForceBalance<span class="citation" data-cites="8Q2gLatV JFWYe0Pp"><sup><a href="#ref-8Q2gLatV">43</a>,<a href="#ref-JFWYe0Pp">44</a></sup></span>.</p>
+<h1 id="notes">Notes</h1>
+<p><font color="red"> - Do we have to explain the nonequilibrium model completely? Concerns</p>
+<p>Too much from Mudong? Too much from Niel and/or Mobley? Introduction okay? Too mawkish?</p>
+<p>I know there’s something wrong the diagram, but I’m not sure what I want to show or how to fix it. I need to somehow show that the vertical axis is some “pseudo” energy – the heights along <span class="math inline">\(x\)</span> axis are supposed to barriers, but the isomer states themselves don’t increase in energy.</p>
+<ul>
+<li>Diffusion is very slow.</li>
+<li>Induction of pores or local regions of high curvature.</li>
+<li>What is the Gaussian curvature?</li>
+<li>What is the modulus of elasticity?</li>
+<li>What is the equivalent radius of curvature?</li>
+<li>Match AFM or scattering experiments.</li>
+<li>Saffron-Delbruk model of diffusion.</li>
+</ul>
+<p>The results can be compared to AFM, IR, neutron scattering, or other biophysical experiments on membranes. As I reported previously, the angle between the head group and the surface of the membrane affects the lipid’s ability to bind proteins.</p>
+<p>The thermodynamic and kinetic properties of molecular motors depend on the chemical substituents of the rotor and the stator. Chemical modification of the two rings connected by a double bond affects the racemization barrier of several kcal/mol, by changing the interatomic distance between the rings and therefore, also increasing or decreasing the steric hindrance<span class="citation" data-cites="2eTPSj9q"><sup><a href="#ref-2eTPSj9q">45</a></sup></span>. The rotation rate of molecular motors can vary from seconds to milliseconds<span class="citation" data-cites="Sjg8ym5x"><sup><a href="#ref-Sjg8ym5x">46</a></sup></span>. Gravity and inertia are irrelevant, but viscosity and Brownian motion are dominant.</p>
+<p>AJDLFK;JASL;KDFJ;ASLFJL;KSADJFLJ </font></p>
+<h1 id="references" class="page_break_before unnumbered">References</h1>
 <!-- Explicitly insert bibliography here -->
-<div id="refs">
-
+<div id="refs", custom-style="References"></div>
+<div id="refs" class="references">
+<div id="ref-BGsUYQln">
+<p>(1) Yin, J.; Henriksen, N. M.; Slochower, D. R.; Shirts, M. R.; Chiu, M. W.; Mobley, D. L.; Gilson, M. K. Overview of the SAMPL5 Host–Guest Challenge: Are We Doing Better? <em>J Comput Aided Mol Des</em> <strong>2016</strong>, <em>31</em> (1), 1–19.</p>
+</div>
+<div id="ref-uzHaEv9Z">
+<p>(2) Yin, J.; Henriksen, N. M.; Slochower, D. R.; Gilson, M. K. The SAMPL5 Host–Guest Challenge: Computing Binding Free Energies and Enthalpies from Explicit Solvent Simulations by the Attach-Pull-Release (APR) Method. <em>J Comput Aided Mol Des</em> <strong>2016</strong>, <em>31</em> (1), 133–145.</p>
+</div>
+<div id="ref-1BfYw0gk2">
+<p>(3) Slochower, D. R.; Gilson, M. K. Motor-Like Properties of Nonmotor Enzymes. <em>Biophysical Journal</em> <strong>2018</strong>, <em>114</em> (9), 2174–2179.</p>
+</div>
+<div id="ref-1G0A01ZNq">
+<p>(4) Slochower, D. R.; Huwe, P. J.; Radhakrishnan, R.; Janmey, P. A. Quantum and All-Atom Molecular Dynamics Simulations of Protonation and Divalent Ion Binding to Phosphatidylinositol 4,5-Bisphosphate (PIP2). <em>J. Phys. Chem. B</em> <strong>2013</strong>, <em>117</em> (28), 8322–8329.</p>
+</div>
+<div id="ref-SdO7fVnR">
+<p>(5) Slochower, D. R.; Wang, Y.-H.; Tourdot, R. W.; Radhakrishnan, R.; Janmey, P. A. Counterion-Mediated Pattern Formation in Membranes Containing Anionic Lipids. <em>Advances in Colloid and Interface Science</em> <strong>2014</strong>, <em>208</em>, 177–188.</p>
+</div>
+<div id="ref-Ag1rh6TA">
+<p>(6) Wang, Y.-H.; Slochower, D. R.; Janmey, P. A. Counterion-Mediated Cluster Formation by Polyphosphoinositides. <em>Chemistry and Physics of Lipids</em> <strong>2014</strong>, <em>182</em>, 38–51.</p>
+</div>
+<div id="ref-1E1rz4J4o">
+<p>(7) Slochower, D. R.; Wang, Y.-H.; Radhakrishnan, R.; Janmey, P. A. Physical Chemistry and Membrane Properties of Two Phosphatidylinositol Bisphosphate Isomers. <em>Phys. Chem. Chem. Phys.</em> <strong>2015</strong>, <em>17</em> (19), 12608–12615.</p>
+</div>
+<div id="ref-1AHXI1BtY">
+<p>(8) Slochower, D. R.; Wang, Y.-H.; Radhakrishnan, R.; Janmey, P. A. Lipid Membrane Shape Evolution and the Actin Cytoskeleton. In <em>Handbook of Lipid Membranes, Molecular and Materials aspects</em>; Safinya, C., Rädler, J., Series Eds.; Taylor &amp; Francis Publishers, 2018.</p>
+</div>
+<div id="ref-GGlssBvj">
+<p>(9) Di Paolo, G.; De Camilli, P. Phosphoinositides in Cell Regulation and Membrane Dynamics. <em>Nature</em> <strong>2006</strong>, <em>443</em> (7112), 651–657.</p>
+</div>
+<div id="ref-8Xw2kuUO">
+<p>(10) Faiderbe, S.; Chagnaud, J.-L.; Geffard, M. Anti-Phosphoinositide Auto-Antibodies in Sera of Cancer Patients: Isotypic and Immunochemical Characterization. <em>Cancer Letters</em> <strong>1992</strong>, <em>66</em> (1), 35–41.</p>
+</div>
+<div id="ref-12CAxA8dE">
+<p>(11) Lin, W.; Leung, L. W.; Bae, Y. S.; Bittman, R.; Arthur, G. Effects of a Water-Soluble Antitumor Ether Phosphonoinositide, d-Myo-Inositol 4-(Hexadecyloxy)-3(S)-Methoxybutanephosphonate (C4-Pi), on Inositol Lipid Metabolism in Breast Epithelial Cancer Cell Lines. <em>Biochemical Pharmacology</em> <strong>1999</strong>, <em>57</em> (10), 1153–1158.</p>
+</div>
+<div id="ref-l2gqdgv">
+<p>(12) Katso, R.; Okkenhaug, K.; Ahmadi, K.; White, S.; Timms, J.; Waterfield, M. D. Cellular Function of Phosphoinositide 3-Kinases: Implications for Development, Immunity, Homeostasis, and Cancer. <em>Annu. Rev. Cell Dev. Biol.</em> <strong>2001</strong>, <em>17</em> (1), 615–675.</p>
+</div>
+<div id="ref-izLqFTEH">
+<p>(13) Engelman, J. A. The Role of Phosphoinositide 3-Kinase Pathway Inhibitors in the Treatment of Lung Cancer. <em>Clinical Cancer Research</em> <strong>2007</strong>, <em>13</em> (15), 4637s–4640s.</p>
+</div>
+<div id="ref-1HRoQaadQ">
+<p>(14) Miled, N.; Yan, Y.; Hon, W.-C.; Perisic, O.; Zvelebil, M.; Inbar, Y.; Schneidman-Duhovny, D.; Wolfson, H. J.; Backer, J. M.; Williams, R. L. Mechanism of Two Classes of Cancer Mutations in the Phosphoinositide 3-Kinase Catalytic Subunit. <em>Science</em> <strong>2007</strong>, <em>317</em> (5835), 239–242.</p>
+</div>
+<div id="ref-1DCzqvykg">
+<p>(15) Bunney, T. D.; Katan, M. Phosphoinositide Signalling in Cancer: Beyond PI3K and PTEN. <em>Nat Rev Cancer</em> <strong>2010</strong>, <em>10</em> (5), 342–352.</p>
+</div>
+<div id="ref-uyKE7bWV">
+<p>(16) Lemmon, M. A. Membrane Recognition by Phospholipid-Binding Domains. <em>Nat Rev Mol Cell Biol</em> <strong>2008</strong>, <em>9</em> (2), 99–111.</p>
+</div>
+<div id="ref-3EmJ4esY">
+<p>(17) McLaughlin, S.; Wang, J.; Gambhir, A.; Murray, D. PIP2 and Proteins: Interactions, Organization, and Information Flow. <em>Annu. Rev. Biophys. Biomol. Struct.</em> <strong>2002</strong>, <em>31</em> (1), 151–175.</p>
+</div>
+<div id="ref-5PUA7pLD">
+<p>(18) Bradley, R.; Radhakrishnan, R. Curvature-Undulation Coupling as a Basis for Curvature Sensing and Generation in Bilayer Membranes. <em>Biophysical Journal</em> <strong>2017</strong>, <em>112</em> (3), 220a–221a.</p>
+</div>
+<div id="ref-8pFCG7HG">
+<p>(19) Kooijman, E. E.; King, K. E.; Gangoda, M.; Gericke, A. Ionization Properties of Phosphatidylinositol Polyphosphates in Mixed Model Membranes. <em>Biochemistry</em> <strong>2009</strong>, <em>48</em> (40), 9360–9371.</p>
+</div>
+<div id="ref-U2YHSNKE">
+<p>(20) van den Bogaart, G.; Meyenberg, K.; Risselada, H. J.; Amin, H.; Willig, K. I.; Hubrich, B. E.; Dier, M.; Hell, S. W.; Grubmüller, H.; Diederichsen, U.; et al. Membrane Protein Sequestering by Ionic Protein–Lipid Interactions. <em>Nature</em> <strong>2011</strong>, <em>479</em> (7374), 552–555.</p>
+</div>
+<div id="ref-Gw4f4Ayu">
+<p>(21) Honigmann, A.; van den Bogaart, G.; Iraheta, E.; Risselada, H. J.; Milovanovic, D.; Mueller, V.; Müllar, S.; Diederichsen, U.; Fasshauer, D.; Grubmüller, H.; et al. Phosphatidylinositol 4,5-Bisphosphate Clusters Act as Molecular Beacons for Vesicle Recruitment. <em>Nat Struct Mol Biol</em> <strong>2013</strong>, <em>20</em> (6), 679–686.</p>
+</div>
+<div id="ref-rvpDeSHJ">
+<p>(22) Wang, J.; Richards, D. A. Segregation of PIP2 and PIP3 into Distinct Nanoscale Regions Within the Plasma Membrane. <em>Biology Open</em> <strong>2012</strong>, <em>1</em> (9), 857–862.</p>
+</div>
+<div id="ref-LhOwGz4k">
+<p>(23) Wang, Y.-H.; Collins, A.; Guo, L.; Smith-Dupont, K. B.; Gai, F.; Svitkina, T.; Janmey, P. A. Divalent Cation-Induced Cluster Formation by Polyphosphoinositides in Model Membranes. <em>J. Am. Chem. Soc.</em> <strong>2012</strong>, <em>134</em> (7), 3387–3395.</p>
+</div>
+<div id="ref-ior8wlwH">
+<p>(24) Wen, Y.; Vogt, V. M.; Feigenson, G. W. Multivalent Cation-Bridged PI(4,5)P 2 Clusters Form at Very Low Concentrations. <em>Biophysical Journal</em> <strong>2018</strong>, <em>114</em> (11), 2630–2639.</p>
+</div>
+<div id="ref-JWXdIfNt">
+<p>(25) Levental, I.; Christian, D. A.; Wang, Y.-H.; Madara, J. J.; Discher, D. E.; Janmey, P. A. Calcium-Dependent Lateral Organization in Phosphatidylinositol 4,5-Bisphosphate (PIP2)- and Cholesterol-Containing Monolayers. <em>Biochemistry</em> <strong>2009</strong>, <em>48</em> (34), 8241–8248.</p>
+</div>
+<div id="ref-14RTQvTQS">
+<p>(26) BioPhysCode <a href="https://github.com/biophyscode" class="uri">https://github.com/biophyscode</a>.</p>
+</div>
+<div id="ref-aHkuGDrS">
+<p>(27) BioPhysCode Portal <a href="https://biophyscode.github.io/" class="uri">https://biophyscode.github.io/</a>.</p>
+</div>
+<div id="ref-18PGyWtWV">
+<p>(28) Feringa, B.; Koumura, N.; van Delden, R.; ter Wiel, M. Light-Driven Molecular Switches and Motors. <em>Appl Phys A</em> <strong>2002</strong>, <em>75</em> (2), 301–308.</p>
+</div>
+<div id="ref-OAnfwOYX">
+<p>(29) Kudernac, T.; Ruangsupapichat, N.; Parschau, M.; Maciá, B.; Katsonis, N.; Harutyunyan, S. R.; Ernst, K.-H.; Feringa, B. L. Electrically Driven Directional Motion of a Four-Wheeled Molecule on a Metal Surface. <em>Nature</em> <strong>2011</strong>, <em>479</em> (7372), 208–211.</p>
+</div>
+<div id="ref-10MPrT2Vf">
+<p>(30) Sasaki, T.; Guerrero, J. M.; Leonard, A. D.; Tour, J. M. Nanotrains and Self-Assembled Two-Dimensional Arrays Built from Carboranes Linked by Hydrogen Bonding of Dipyridones. <em>Nano Res.</em> <strong>2008</strong>, <em>1</em> (5), 412–419.</p>
+</div>
+<div id="ref-Tels98bO">
+<p>(31) Sasaki, T.; Tour, J. M. Synthesis of a New Photoactive Nanovehicle:  A Nanoworm. <em>Org. Lett.</em> <strong>2008</strong>, <em>10</em> (5), 897–900.</p>
+</div>
+<div id="ref-SfUEsk0e">
+<p>(32) von Delius, M.; Leigh, D. A. Walking Molecules. <em>Chem. Soc. Rev.</em> <strong>2011</strong>, <em>40</em> (7), 3656.</p>
+</div>
+<div id="ref-jCuccJLJ">
+<p>(33) Lucas, L. N.; van Esch, J.; Feringa, B. L.; Kellogg, R. M. Photocontrolled Self-Assembly of Molecular Switches. <em>Chem. Commun.</em> <strong>2001</strong>, No. 8, 759–760.</p>
+</div>
+<div id="ref-1H5r7SBir">
+<p>(34) Kassem, S.; van Leeuwen, T.; Lubbe, A. S.; Wilson, M. R.; Feringa, B. L.; Leigh, D. A. Artificial Molecular Motors. <em>Chem. Soc. Rev.</em> <strong>2017</strong>, <em>46</em> (9), 2592–2621.</p>
+</div>
+<div id="ref-thFGBz32">
+<p>(35) Eelkema, R.; Pollard, M. M.; Vicario, J.; Katsonis, N.; Ramon, B. S.; Bastiaansen, C. W. M.; Broer, D. J.; Feringa, B. L. Nanomotor Rotates Microscale Objects. <em>Nature</em> <strong>2006</strong>, <em>440</em> (7081), 163–163.</p>
+</div>
+<div id="ref-mKSNFvW7">
+<p>(36) Štacko, P.; Kistemaker, J. C. M.; van Leeuwen, T.; Chang, M.-C.; Otten, E.; Feringa, B. L. Locked Synchronous Rotor Motion in a Molecular Motor. <em>Science</em> <strong>2017</strong>, <em>356</em> (6341), 964–968.</p>
+</div>
+<div id="ref-N6pRFM85">
+<p>(37) Kazaryan, A.; Kistemaker, J. C. M.; Schäfer, L. V.; Browne, W. R.; Feringa, B. L.; Filatov, M. Understanding the Dynamics Behind the Photoisomerization of a Light-Driven Fluorene Molecular Rotary Motor. <em>J. Phys. Chem. A</em> <strong>2010</strong>, <em>114</em> (15), 5058–5067.</p>
+</div>
+<div id="ref-10FsKpWBI">
+<p>(38) Browne, W. R.; Feringa, B. L. Making Molecular Machines Work. <em>Nature Nanotech</em> <strong>2006</strong>, <em>1</em> (1), 25–35.</p>
+</div>
+<div id="ref-qhUBHBOM">
+<p>(39) Astumian, R. D. Stochastic Pumping of Non-Equilibrium Steady-States: How Molecules Adapt to a Fluctuating Environment. <em>Chem. Commun.</em> <strong>2018</strong>, <em>54</em> (5), 427–444.</p>
+</div>
+<div id="ref-YmRgHfeU">
+<p>(40) Wang, J.; Wolf, R. M.; Caldwell, J. W.; Kollman, P. A.; Case, D. A. Development and Testing of a General Amber Force Field. <em>J. Comput. Chem.</em> <strong>2004</strong>, <em>25</em> (9), 1157–1174.</p>
+</div>
+<div id="ref-HlBr7NrU">
+<p>(41) Mobley, D.; Bannan, C. C.; Rizzi, A.; Bayly, C. I.; Chodera, J. D.; Lim, V. T.; Lim, N. M.; Beauchamp, K. A.; Shirts, M. R.; Gilson, M. K.; et al. Open Force Field Consortium: Escaping Atom Types Using Direct Chemical Perception with SMIRNOFF V0.1, 2018.</p>
+</div>
+<div id="ref-HVgz5rZq">
+<p>(42) Henriksen, N. M.; Gilson, M. K. Evaluating Force Field Performance in Thermodynamic Calculations of Cyclodextrin Host–Guest Binding: Water Models, Partial Charges, and Host Force Field Parameters. <em>J. Chem. Theory Comput.</em> <strong>2017</strong>, <em>13</em> (9), 4253–4269.</p>
+</div>
+<div id="ref-8Q2gLatV">
+<p>(43) Wang, L.-P. leeping/forcebalance <a href="https://github.com/leeping/forcebalance" class="uri">https://github.com/leeping/forcebalance</a>.</p>
+</div>
+<div id="ref-JFWYe0Pp">
+<p>(44) Wang, L.-P.; Martinez, T. J.; Pande, V. S. Building Force Fields: An Automatic, Systematic, and Reproducible Approach. <em>J. Phys. Chem. Lett.</em> <strong>2014</strong>, <em>5</em> (11), 1885–1891.</p>
+</div>
+<div id="ref-2eTPSj9q">
+<p>(45) Feringa, B. L.; Jager, W. F.; de Lange, B. Resolution of Sterically Overcrowded Ethylenes; a Remarkable Correlation Between Bond Lengths and Racemization Barriers. <em>Tetrahedron Letters</em> <strong>1992</strong>, <em>33</em> (20), 2887–2890.</p>
+</div>
+<div id="ref-Sjg8ym5x">
+<p>(46) Klok, M.; Boyle, N.; Pryce, M. T.; Meetsma, A.; Browne, W. R.; Feringa, B. L. MHz Unidirectional Rotation of Molecular Rotary Motors. <em>J. Am. Chem. Soc.</em> <strong>2008</strong>, <em>130</em> (32), 10484–10485.</p>
+</div>
 </div>
 <script>
 // AnchorJS minified version below.
