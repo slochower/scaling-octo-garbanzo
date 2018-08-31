@@ -13,10 +13,10 @@ manubot \
   --cache-directory=ci/cache \
   --log-level=DEBUG
 
-BUILD_HTML="false"
+BUILD_HTML="true"
 BUILD_PDF="false"
 BUILD_DOCX="false"
-BUILD_LATEX="true"
+BUILD_LATEX="false"
 
 # pandoc settings
 # Exports so that we can convert and resize figures.
