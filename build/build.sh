@@ -14,7 +14,7 @@ manubot \
   --log-level=DEBUG
 
 BUILD_HTML="true"
-BUILD_PDF="false"
+BUILD_PDF="true"
 BUILD_DOCX="false"
 BUILD_LATEX="false"
 
