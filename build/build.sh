@@ -15,7 +15,8 @@ manubot \
 
 BUILD_HTML="false"
 BUILD_PDF="false"
-BUILD_DOCX="true"
+BUILD_DOCX="false"
+BUILD_LATEX="true"
 
 # pandoc settings
 # Exports so that we can convert and resize figures.
@@ -78,14 +79,14 @@ fi
 # Create DOCX output when user specifies to do so
 if [ "$BUILD_DOCX" = "true" ];
 then
-    pandoc --verbose \
+  echo "Exporting DOCX manuscript"
+  pandoc --verbose \
     --from=markdown \
     --to=docx \
     --filter=pandoc-fignos \
     --filter=pandoc-eqnos \
     --filter=pandoc-tablenos \
     --filter=pandoc-img-glob \
-    --filter=$SVG_FIX \
     --bibliography=$BIBLIOGRAPHY_PATH \
     --csl=$CSL_PATH \
     --reference-doc=$DOCX_PATH \
@@ -93,7 +94,45 @@ then
     --resource-path=.:content \
     --output=output/manuscript.docx \
     $INPUT_PATH
+fi
+
+if [ "$BUILD_LATEX" = "true" ];
+then
+  echo "Exporting LATEX manuscript"
+  pandoc --verbose \
+    --from=markdown \
+    --to=latex \
+    --filter=pandoc-fignos \
+    --filter=pandoc-eqnos \
+    --filter=pandoc-tablenos \
+    --filter=pandoc-img-glob \
+    --bibliography=$BIBLIOGRAPHY_PATH \
+    --csl=$CSL_PATH \
+    --template=build/assets/nih.tex \
+    --metadata link-citations=true \
+    --number-sections \
+    --resource-path=.:content \
+    -s --output=output/manuscript.tex \
+    $INPUT_PATH
+
+  echo "Exporting LATEX (PDF) manuscript"
+  pandoc --verbose \
+    --from=markdown \
+    --filter=pandoc-fignos \
+    --filter=pandoc-eqnos \
+    --filter=pandoc-tablenos \
+    --filter=pandoc-img-glob \
+    --bibliography=$BIBLIOGRAPHY_PATH \
+    --csl=$CSL_PATH \
+    --template=build/assets/nih.tex \
+    --metadata link-citations=true \
+    --number-sections \
+    --resource-path=.:content \
+    --pdf-engine=xelatex \
+    --output=output/manuscript.pdf \
+    $INPUT_PATH
 
 fi
+
 
 echo "Build complete"

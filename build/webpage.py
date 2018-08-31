@@ -104,11 +104,13 @@ def create_version(args):
     """
     Populate the version directory for a new version.
     """
-
+    src=pathlib.Path('content/images')
+    dst=args.version_directory.joinpath('images')
+    print(f"Copying from {src} to {dst}")
     # Copy content/images to webpage/v/commit/images
     shutil.copytree(
-        src=pathlib.Path('content/images'),
-        dst=args.version_directory.joinpath('images'),
+        src,
+        dst,
     )
 
     # Copy output files to to webpage/v/version/

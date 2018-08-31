@@ -58,5 +58,21 @@
   "issued": {
     "literal": "2018"
   }
+},
+{
+  "standard_citation": "url:https://github.com/leeping/forcebalance",
+  "URL": "https://github.com/leeping/forcebalance",
+  "title": "leeping/forcebalance",
+  "container-title": "GitHub",
+  "author": [
+    {
+      "family": "Wang",
+      "given": "Lee-Ping"
+    }
+  ],
+  "greycite-status": "Scanned",
+  "greycite-scanned": "2018-08-22 18:03:15",
+  "type": "webpage",
+  "id": "8Q2gLatV"
 }
 ]
