@@ -16,5 +16,5 @@ __pycache__/
 
 # Misc temporary files
 *.bak
-*texpaddump*
+*texpadtmp*
 *DS_STORE*
