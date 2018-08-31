@@ -1,1 +1,7292 @@
-[]
+[
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          30
+        ]
+      ],
+      "date-time": "2018-08-30T22:42:31Z",
+      "timestamp": 1535668951703
+    },
+    "reference-count": 29,
+    "publisher": "Wiley",
+    "issue": "9",
+    "license": [
+      {
+        "URL": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+        "start": {
+          "date-parts": [
+            [
+              2015,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2015-09-01T00:00:00Z",
+          "timestamp": 1441065600000
+        },
+        "delay-in-days": 4261,
+        "content-version": "tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2004,
+          7,
+          15
+        ]
+      ]
+    },
+    "DOI": "10.1002/jcc.20035",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2004,
+          4,
+          13
+        ]
+      ],
+      "date-time": "2004-04-13T21:01:04Z",
+      "timestamp": 1081890064000
+    },
+    "page": "1157-1174",
+    "source": "Crossref",
+    "is-referenced-by-count": 5293,
+    "title": "Development and testing of a general amber force field",
+    "prefix": "10.1002",
+    "volume": "25",
+    "author": [
+      {
+        "given": "Junmei",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Romain M.",
+        "family": "Wolf",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "James W.",
+        "family": "Caldwell",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Peter A.",
+        "family": "Kollman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David A.",
+        "family": "Case",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "311",
+    "published-online": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "container-title": "Journal of Computational Chemistry",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1002%2Fjcc.20035",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://onlinelibrary.wiley.com/doi/full/10.1002/jcc.20035",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          4
+        ]
+      ],
+      "date-time": "2018-08-04T03:23:30Z",
+      "timestamp": 1533353010000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2004
+        ]
+      ]
+    },
+    "references-count": 29,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2004,
+            7,
+            15
+          ]
+        ]
+      },
+      "issue": "9"
+    },
+    "URL": "https://doi.org/10.1002/jcc.20035",
+    "relation": {
+      "cites": []
+    },
+    "subject": [
+      "General Chemistry",
+      "Computational Mathematics"
+    ],
+    "container-title-short": "J. Comput. Chem.",
+    "short_url": "https://doi.org/cdmcnb",
+    "id": "YmRgHfeU"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          4
+        ]
+      ],
+      "date-time": "2018-05-04T00:03:52Z",
+      "timestamp": 1525392232343
+    },
+    "reference-count": 0,
+    "publisher": "Springer Nature",
+    "issue": "2",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2002,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1007/s003390201338",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2003,
+          11,
+          24
+        ]
+      ],
+      "date-time": "2003-11-24T17:29:36Z",
+      "timestamp": 1069694976000
+    },
+    "page": "301-308",
+    "source": "Crossref",
+    "is-referenced-by-count": 49,
+    "title": "Light-driven molecular switches and motors",
+    "prefix": "10.1007",
+    "volume": "75",
+    "author": [
+      {
+        "given": "B.L.",
+        "family": "Feringa",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "N.",
+        "family": "Koumura",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "R.A.",
+        "family": "van Delden",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "M.K.J.",
+        "family": "ter Wiel",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2014,
+          1,
+          27
+        ]
+      ]
+    },
+    "container-title": "Applied Physics A",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s003390201338",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2014,
+          4,
+          8
+        ]
+      ],
+      "date-time": "2014-04-08T20:20:34Z",
+      "timestamp": 1396988434000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2002,
+          8
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2002,
+            8
+          ]
+        ]
+      },
+      "issue": "2"
+    },
+    "alternative-id": [
+      "7502301"
+    ],
+    "URL": "https://doi.org/10.1007/s003390201338",
+    "relation": {},
+    "container-title-short": "Appl Phys A",
+    "short_url": "https://doi.org/bsb5wz",
+    "id": "18PGyWtWV"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          24
+        ]
+      ],
+      "date-time": "2018-08-24T04:02:54Z",
+      "timestamp": 1535083374450
+    },
+    "reference-count": 48,
+    "publisher": "Springer Nature",
+    "issue": "1",
+    "license": [
+      {
+        "URL": "http://www.springer.com/tdm",
+        "start": {
+          "date-parts": [
+            [
+              2016,
+              9,
+              16
+            ]
+          ],
+          "date-time": "2016-09-16T00:00:00Z",
+          "timestamp": 1473984000000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "U01GM111528",
+          "R01GM061300"
+        ]
+      },
+      {
+        "DOI": "10.13039/100000181",
+        "name": "Air Force Office of Scientific Research",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "FA9550-12-1-644 0414"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1007/s10822-016-9970-8",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          9,
+          16
+        ]
+      ],
+      "date-time": "2016-09-16T10:27:47Z",
+      "timestamp": 1474021667000
+    },
+    "page": "133-145",
+    "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 9,
+    "title": "The SAMPL5 host–guest challenge: computing binding free energies and enthalpies from explicit solvent simulations by the attach-pull-release (APR) method",
+    "prefix": "10.1007",
+    "volume": "31",
+    "author": [
+      {
+        "given": "Jian",
+        "family": "Yin",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Niel M.",
+        "family": "Henriksen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David R.",
+        "family": "Slochower",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael K.",
+        "family": "Gilson",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2016,
+          9,
+          16
+        ]
+      ]
+    },
+    "container-title": "Journal of Computer-Aided Molecular Design",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s10822-016-9970-8.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/article/10.1007/s10822-016-9970-8/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s10822-016-9970-8.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          24
+        ]
+      ],
+      "date-time": "2017-06-24T22:57:58Z",
+      "timestamp": 1498345078000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          9,
+          16
+        ]
+      ]
+    },
+    "references-count": 48,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2017,
+            1
+          ]
+        ]
+      },
+      "issue": "1"
+    },
+    "alternative-id": [
+      "9970"
+    ],
+    "URL": "https://doi.org/10.1007/s10822-016-9970-8",
+    "relation": {
+      "cites": []
+    },
+    "container-title-short": "J Comput Aided Mol Des",
+    "short_url": "https://doi.org/f9m9fb",
+    "id": "uzHaEv9Z"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          24
+        ]
+      ],
+      "date-time": "2018-08-24T04:02:54Z",
+      "timestamp": 1535083374451
+    },
+    "reference-count": 82,
+    "publisher": "Springer Nature",
+    "issue": "1",
+    "license": [
+      {
+        "URL": "http://www.springer.com/tdm",
+        "start": {
+          "date-parts": [
+            [
+              2016,
+              9,
+              22
+            ]
+          ],
+          "date-time": "2016-09-22T00:00:00Z",
+          "timestamp": 1474502400000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "1R01GM108889-01",
+          "U01GM111528",
+          "GM061300"
+        ]
+      },
+      {
+        "DOI": "10.13039/100000181",
+        "name": "Air Force Office of Scientific Research",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "FA9550-12-1-6440414"
+        ]
+      },
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "CHE 1352608"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "link.springer.com"
+      ],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1007/s10822-016-9974-4",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2016,
+          9,
+          22
+        ]
+      ],
+      "date-time": "2016-09-22T13:40:27Z",
+      "timestamp": 1474551627000
+    },
+    "page": "1-19",
+    "update-policy": "http://dx.doi.org/10.1007/springer_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 26,
+    "title": "Overview of the SAMPL5 host–guest challenge: Are we doing better?",
+    "prefix": "10.1007",
+    "volume": "31",
+    "author": [
+      {
+        "given": "Jian",
+        "family": "Yin",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Niel M.",
+        "family": "Henriksen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David R.",
+        "family": "Slochower",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael R.",
+        "family": "Shirts",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael W.",
+        "family": "Chiu",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "David L.",
+        "family": "Mobley",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael K.",
+        "family": "Gilson",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2016,
+          9,
+          22
+        ]
+      ]
+    },
+    "container-title": "Journal of Computer-Aided Molecular Design",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s10822-016-9974-4.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/article/10.1007/s10822-016-9974-4/fulltext.html",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://link.springer.com/content/pdf/10.1007/s10822-016-9974-4.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          24
+        ]
+      ],
+      "date-time": "2017-06-24T23:27:55Z",
+      "timestamp": 1498346875000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          9,
+          22
+        ]
+      ]
+    },
+    "references-count": 82,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2017,
+            1
+          ]
+        ]
+      },
+      "issue": "1"
+    },
+    "alternative-id": [
+      "9974"
+    ],
+    "URL": "https://doi.org/10.1007/s10822-016-9974-4",
+    "relation": {
+      "cites": []
+    },
+    "container-title-short": "J Comput Aided Mol Des",
+    "short_url": "https://doi.org/f9m82x",
+    "id": "BGsUYQln"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          24
+        ]
+      ],
+      "date-time": "2018-08-24T09:43:02Z",
+      "timestamp": 1535103782236
+    },
+    "reference-count": 62,
+    "publisher": "Springer Nature",
+    "issue": "5",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2008,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1007/s12274-008-8041-4",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2008,
+          11,
+          10
+        ]
+      ],
+      "date-time": "2008-11-10T15:17:03Z",
+      "timestamp": 1226330223000
+    },
+    "page": "412-419",
+    "source": "Crossref",
+    "is-referenced-by-count": 22,
+    "title": "Nanotrains and self-assembled two-dimensional arrays built from carboranes linked by hydrogen bonding of dipyridones",
+    "prefix": "10.1007",
+    "volume": "1",
+    "author": [
+      {
+        "given": "Takashi",
+        "family": "Sasaki",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Jason M.",
+        "family": "Guerrero",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ashley D.",
+        "family": "Leonard",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "James M.",
+        "family": "Tour",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2010,
+          3,
+          5
+        ]
+      ]
+    },
+    "container-title": "Nano Research",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://www.springerlink.com/index/pdf/10.1007/s12274-008-8041-4",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          18
+        ]
+      ],
+      "date-time": "2017-06-18T13:21:40Z",
+      "timestamp": 1497792100000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2008,
+          11
+        ]
+      ]
+    },
+    "references-count": 62,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2008,
+            11
+          ]
+        ]
+      },
+      "issue": "5"
+    },
+    "alternative-id": [
+      "8041"
+    ],
+    "URL": "https://doi.org/10.1007/s12274-008-8041-4",
+    "relation": {
+      "cites": []
+    },
+    "container-title-short": "Nano Res.",
+    "short_url": "https://doi.org/bn7xn7",
+    "id": "10MPrT2Vf"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          4
+        ]
+      ],
+      "date-time": "2018-05-04T02:45:48Z",
+      "timestamp": 1525401948885
+    },
+    "reference-count": 19,
+    "publisher": "Elsevier BV",
+    "issue": "1",
+    "license": [
+      {
+        "URL": "http://www.elsevier.com/tdm/userlicense/1.0/",
+        "start": {
+          "date-parts": [
+            [
+              1992,
+              9,
+              1
+            ]
+          ],
+          "date-time": "1992-09-01T00:00:00Z",
+          "timestamp": 715305600000
+        },
+        "delay-in-days": 0,
+        "content-version": "tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          1992,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1016/0304-3835(92)90277-3",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2004,
+          4,
+          17
+        ]
+      ],
+      "date-time": "2004-04-17T14:18:17Z",
+      "timestamp": 1082211497000
+    },
+    "page": "35-41",
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "title": "Anti-phosphoinositide auto-antibodies in sera of cancer patients: isotypic and immunochemical characterization",
+    "prefix": "10.1016",
+    "volume": "66",
+    "author": [
+      {
+        "given": "Sylvie",
+        "family": "Faiderbe",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Jean-Luc",
+        "family": "Chagnaud",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michel",
+        "family": "Geffard",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "container-title": "Cancer Letters",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://api.elsevier.com/content/article/PII:0304383592902773?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://api.elsevier.com/content/article/PII:0304383592902773?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          4,
+          29
+        ]
+      ],
+      "date-time": "2018-04-29T17:41:36Z",
+      "timestamp": 1525023696000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1992,
+          9
+        ]
+      ]
+    },
+    "references-count": 19,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            1992,
+            9
+          ]
+        ]
+      },
+      "issue": "1"
+    },
+    "alternative-id": [
+      "0304383592902773"
+    ],
+    "URL": "https://doi.org/10.1016/0304-3835(92)90277-3",
+    "relation": {},
+    "container-title-short": "Cancer Letters",
+    "short_url": "https://doi.org/b4gpt4",
+    "id": "8Xw2kuUO"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          4,
+          18
+        ]
+      ],
+      "date-time": "2018-04-18T06:08:27Z",
+      "timestamp": 1524031707443
+    },
+    "reference-count": 0,
+    "publisher": "Elsevier BV",
+    "issue": "3",
+    "license": [
+      {
+        "URL": "http://www.elsevier.com/tdm/userlicense/1.0/",
+        "start": {
+          "date-parts": [
+            [
+              2017,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2017-02-01T00:00:00Z",
+          "timestamp": 1485907200000
+        },
+        "delay-in-days": 0,
+        "content-version": "tdm"
+      },
+      {
+        "URL": "http://www.elsevier.com/open-access/userlicense/1.0/",
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              2,
+              3
+            ]
+          ],
+          "date-time": "2018-02-03T00:00:00Z",
+          "timestamp": 1517616000000
+        },
+        "delay-in-days": 367,
+        "content-version": "vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.bpj.2016.11.1216",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          2,
+          4
+        ]
+      ],
+      "date-time": "2017-02-04T09:05:31Z",
+      "timestamp": 1486199131000
+    },
+    "page": "220a-221a",
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Curvature-Undulation Coupling as a Basis for Curvature Sensing and Generation in Bilayer Membranes",
+    "prefix": "10.1016",
+    "volume": "112",
+    "author": [
+      {
+        "given": "Ryan",
+        "family": "Bradley",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Ravi",
+        "family": "Radhakrishnan",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "container-title": "Biophysical Journal",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://api.elsevier.com/content/article/PII:S0006349516322469?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://api.elsevier.com/content/article/PII:S0006349516322469?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          20
+        ]
+      ],
+      "date-time": "2018-03-20T18:36:52Z",
+      "timestamp": 1521571012000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          2
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2017,
+            2
+          ]
+        ]
+      },
+      "issue": "3"
+    },
+    "alternative-id": [
+      "S0006349516322469"
+    ],
+    "URL": "https://doi.org/10.1016/j.bpj.2016.11.1216",
+    "relation": {},
+    "container-title-short": "Biophysical Journal",
+    "short_url": "https://doi.org/gd2xpd",
+    "id": "5PUA7pLD"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          21
+        ]
+      ],
+      "date-time": "2018-08-21T22:41:17Z",
+      "timestamp": 1534891277130
+    },
+    "reference-count": 25,
+    "publisher": "Elsevier BV",
+    "issue": "9",
+    "license": [
+      {
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2018-05-01T00:00:00Z",
+          "timestamp": 1525132800000
+        },
+        "delay-in-days": 0,
+        "content-version": "tdm"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "GM061300"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "biophysj.org",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.bpj.2018.02.008",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          8
+        ]
+      ],
+      "date-time": "2018-05-08T14:57:50Z",
+      "timestamp": 1525791470000
+    },
+    "page": "2174-2179",
+    "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": "Motor-like Properties of Nonmotor Enzymes",
+    "prefix": "10.1016",
+    "volume": "114",
+    "author": [
+      {
+        "given": "David R.",
+        "family": "Slochower",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Michael K.",
+        "family": "Gilson",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "container-title": "Biophysical Journal",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S000634951830211X?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S000634951830211X?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          21
+        ]
+      ],
+      "date-time": "2018-08-21T22:27:23Z",
+      "timestamp": 1534890443000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          5
+        ]
+      ]
+    },
+    "references-count": 25,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2018,
+            5
+          ]
+        ]
+      },
+      "issue": "9"
+    },
+    "alternative-id": [
+      "S000634951830211X"
+    ],
+    "URL": "https://doi.org/10.1016/j.bpj.2018.02.008",
+    "relation": {},
+    "subject": [
+      "Biophysics"
+    ],
+    "container-title-short": "Biophysical Journal",
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Motor-like Properties of Nonmotor Enzymes",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Biophysical Journal",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.bpj.2018.02.008",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.bpj.2018.04.005",
+        "name": "associatedlink",
+        "label": "CrossRef DOI link to the associated document"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2018 Biophysical Society.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "short_url": "https://doi.org/gdns98",
+    "id": "1BfYw0gk2"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          21
+        ]
+      ],
+      "date-time": "2018-08-21T08:41:15Z",
+      "timestamp": 1534840875524
+    },
+    "reference-count": 53,
+    "publisher": "Elsevier BV",
+    "issue": "11",
+    "license": [
+      {
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/",
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2018-06-01T00:00:00Z",
+          "timestamp": 1527811200000
+        },
+        "delay-in-days": 0,
+        "content-version": "tdm"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "2R01GM107013",
+          "R01GM105684"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "biophysj.org",
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.bpj.2018.04.048",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          7
+        ]
+      ],
+      "date-time": "2018-06-07T21:42:38Z",
+      "timestamp": 1528407758000
+    },
+    "page": "2630-2639",
+    "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": "Multivalent Cation-Bridged PI(4,5)P 2 Clusters Form at Very Low Concentrations",
+    "prefix": "10.1016",
+    "volume": "114",
+    "author": [
+      {
+        "given": "Yi",
+        "family": "Wen",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Volker M.",
+        "family": "Vogt",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Gerald W.",
+        "family": "Feigenson",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "container-title": "Biophysical Journal",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0006349518305733?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0006349518305733?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          21
+        ]
+      ],
+      "date-time": "2018-08-21T08:01:21Z",
+      "timestamp": 1534838481000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          6
+        ]
+      ]
+    },
+    "references-count": 53,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2018,
+            6
+          ]
+        ]
+      },
+      "issue": "11"
+    },
+    "alternative-id": [
+      "S0006349518305733"
+    ],
+    "URL": "https://doi.org/10.1016/j.bpj.2018.04.048",
+    "relation": {},
+    "subject": [
+      "Biophysics"
+    ],
+    "container-title-short": "Biophysical Journal",
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Multivalent Cation-Bridged PI(4,5)P2 Clusters Form at Very Low Concentrations",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Biophysical Journal",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.bpj.2018.04.048",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.bpj.2018.05.004",
+        "name": "associatedlink",
+        "label": "CrossRef DOI link to the associated document"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2018 Biophysical Society.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "short_url": "https://doi.org/gdpd4g",
+    "id": "ior8wlwH"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          13
+        ]
+      ],
+      "date-time": "2018-08-13T10:42:35Z",
+      "timestamp": 1534156955301
+    },
+    "reference-count": 120,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "URL": "http://www.elsevier.com/tdm/userlicense/1.0/",
+        "start": {
+          "date-parts": [
+            [
+              2014,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2014-09-01T00:00:00Z",
+          "timestamp": 1409529600000
+        },
+        "delay-in-days": 0,
+        "content-version": "tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2014,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.chemphyslip.2014.01.001",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          1,
+          15
+        ]
+      ],
+      "date-time": "2014-01-15T15:45:23Z",
+      "timestamp": 1389800723000
+    },
+    "page": "38-51",
+    "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 24,
+    "title": "Counterion-mediated cluster formation by polyphosphoinositides",
+    "prefix": "10.1016",
+    "volume": "182",
+    "author": [
+      {
+        "given": "Yu-Hsiu",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "David R.",
+        "family": "Slochower",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Paul A.",
+        "family": "Janmey",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "container-title": "Chemistry and Physics of Lipids",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://api.elsevier.com/content/article/PII:S0009308414000024?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://api.elsevier.com/content/article/PII:S0009308414000024?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          22
+        ]
+      ],
+      "date-time": "2017-06-22T06:05:42Z",
+      "timestamp": 1498111542000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          9
+        ]
+      ]
+    },
+    "references-count": 120,
+    "alternative-id": [
+      "S0009308414000024"
+    ],
+    "URL": "https://doi.org/10.1016/j.chemphyslip.2014.01.001",
+    "relation": {},
+    "container-title-short": "Chemistry and Physics of Lipids",
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Counterion-mediated cluster formation by polyphosphoinositides",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Chemistry and Physics of Lipids",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "http://dx.doi.org/10.1016/j.chemphyslip.2014.01.001",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "Copyright © 2014 Elsevier Ireland Ltd. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "short_url": "https://doi.org/gdpd4j",
+    "id": "Ag1rh6TA"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          7,
+          3
+        ]
+      ],
+      "date-time": "2018-07-03T10:22:29Z",
+      "timestamp": 1530613349492
+    },
+    "reference-count": 132,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "URL": "http://www.elsevier.com/tdm/userlicense/1.0/",
+        "start": {
+          "date-parts": [
+            [
+              2014,
+              6,
+              1
+            ]
+          ],
+          "date-time": "2014-06-01T00:00:00Z",
+          "timestamp": 1401580800000
+        },
+        "delay-in-days": 0,
+        "content-version": "tdm"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "CBET-1133267",
+          "CBET-1244507",
+          "DMR-1120901"
+        ]
+      },
+      {
+        "DOI": "10.13039/100000002",
+        "name": "National Institutes of Health",
+        "doi-asserted-by": "crossref",
+        "award": [
+          "NIH T32-HL07954",
+          "NIH DK-083592",
+          "NIH U01-EB016027"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2014,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.cis.2014.01.016",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          2,
+          18
+        ]
+      ],
+      "date-time": "2014-02-18T08:17:26Z",
+      "timestamp": 1392711446000
+    },
+    "page": "177-188",
+    "update-policy": "http://dx.doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 15,
+    "title": "Counterion-mediated pattern formation in membranes containing anionic lipids",
+    "prefix": "10.1016",
+    "volume": "208",
+    "author": [
+      {
+        "given": "David R.",
+        "family": "Slochower",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Yu-Hsiu",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Richard W.",
+        "family": "Tourdot",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ravi",
+        "family": "Radhakrishnan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Paul A.",
+        "family": "Janmey",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "container-title": "Advances in Colloid and Interface Science",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://api.elsevier.com/content/article/PII:S0001868614000281?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://api.elsevier.com/content/article/PII:S0001868614000281?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          22
+        ]
+      ],
+      "date-time": "2017-06-22T08:03:45Z",
+      "timestamp": 1498118625000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          6
+        ]
+      ]
+    },
+    "references-count": 132,
+    "alternative-id": [
+      "S0001868614000281"
+    ],
+    "URL": "https://doi.org/10.1016/j.cis.2014.01.016",
+    "relation": {},
+    "container-title-short": "Advances in Colloid and Interface Science",
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Counterion-mediated pattern formation in membranes containing anionic lipids",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Advances in Colloid and Interface Science",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "http://dx.doi.org/10.1016/j.cis.2014.01.016",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "Copyright © 2014 Published by Elsevier B.V.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "short_url": "https://doi.org/gdpd4k",
+    "id": "SdO7fVnR"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          2
+        ]
+      ],
+      "date-time": "2018-05-02T21:59:30Z",
+      "timestamp": 1525298370377
+    },
+    "reference-count": 24,
+    "publisher": "Elsevier BV",
+    "issue": "10",
+    "license": [
+      {
+        "URL": "http://www.elsevier.com/tdm/userlicense/1.0/",
+        "start": {
+          "date-parts": [
+            [
+              1999,
+              5,
+              1
+            ]
+          ],
+          "date-time": "1999-05-01T00:00:00Z",
+          "timestamp": 925516800000
+        },
+        "delay-in-days": 0,
+        "content-version": "tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          1999,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1016/s0006-2952(99)00019-2",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2002,
+          7,
+          25
+        ]
+      ],
+      "date-time": "2002-07-25T14:47:39Z",
+      "timestamp": 1027608459000
+    },
+    "page": "1153-1158",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": "Effects of a water-soluble antitumor ether phosphonoinositide, d-myo-inositol 4-(hexadecyloxy)-3(S)-methoxybutanephosphonate (c4-pi), on inositol lipid metabolism in breast epithelial cancer cell lines",
+    "prefix": "10.1016",
+    "volume": "57",
+    "author": [
+      {
+        "given": "Weiyang",
+        "family": "Lin",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Lawrence W",
+        "family": "Leung",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yun Soo",
+        "family": "Bae",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Robert",
+        "family": "Bittman",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Gilbert",
+        "family": "Arthur",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "container-title": "Biochemical Pharmacology",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://api.elsevier.com/content/article/PII:S0006295299000192?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://api.elsevier.com/content/article/PII:S0006295299000192?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          14
+        ]
+      ],
+      "date-time": "2017-06-14T21:32:42Z",
+      "timestamp": 1497475962000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1999,
+          5
+        ]
+      ]
+    },
+    "references-count": 24,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            1999,
+            5
+          ]
+        ]
+      },
+      "issue": "10"
+    },
+    "alternative-id": [
+      "S0006295299000192"
+    ],
+    "URL": "https://doi.org/10.1016/s0006-2952(99)00019-2",
+    "relation": {},
+    "container-title-short": "Biochemical Pharmacology",
+    "short_url": "https://doi.org/d9dhsg",
+    "id": "12CAxA8dE"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          3
+        ]
+      ],
+      "date-time": "2018-05-03T00:01:42Z",
+      "timestamp": 1525305702993
+    },
+    "reference-count": 24,
+    "publisher": "Elsevier BV",
+    "issue": "20",
+    "license": [
+      {
+        "URL": "http://www.elsevier.com/tdm/userlicense/1.0/",
+        "start": {
+          "date-parts": [
+            [
+              1992,
+              5,
+              1
+            ]
+          ],
+          "date-time": "1992-05-01T00:00:00Z",
+          "timestamp": 704678400000
+        },
+        "delay-in-days": 0,
+        "content-version": "tdm"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          1992,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1016/s0040-4039(00)78887-3",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2002,
+          7,
+          25
+        ]
+      ],
+      "date-time": "2002-07-25T21:45:34Z",
+      "timestamp": 1027633534000
+    },
+    "page": "2887-2890",
+    "source": "Crossref",
+    "is-referenced-by-count": 32,
+    "title": "Resolution of sterically overcrowded ethylenes; a remarkable correlation between bond lengths and racemization barriers.",
+    "prefix": "10.1016",
+    "volume": "33",
+    "author": [
+      {
+        "given": "Ben L.",
+        "family": "Feringa",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Wolter F.",
+        "family": "Jager",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ben",
+        "family": "de Lange",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "78",
+    "container-title": "Tetrahedron Letters",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://api.elsevier.com/content/article/PII:S0040403900788873?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://api.elsevier.com/content/article/PII:S0040403900788873?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          15
+        ]
+      ],
+      "date-time": "2017-06-15T01:05:39Z",
+      "timestamp": 1497488739000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1992,
+          5
+        ]
+      ]
+    },
+    "references-count": 24,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            1992,
+            5
+          ]
+        ]
+      },
+      "issue": "20"
+    },
+    "alternative-id": [
+      "S0040403900788873"
+    ],
+    "URL": "https://doi.org/10.1016/s0040-4039(00)78887-3",
+    "relation": {},
+    "container-title-short": "Tetrahedron Letters",
+    "short_url": "https://doi.org/dch85f",
+    "id": "2eTPSj9q"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          1
+        ]
+      ],
+      "date-time": "2018-08-01T11:02:34Z",
+      "timestamp": 1533121354341
+    },
+    "reference-count": 67,
+    "publisher": "American Chemical Society (ACS)",
+    "issue": "9",
+    "license": [
+      {
+        "URL": "http://pubs.acs.org/page/policy/authorchoice_termsofuse.html",
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              7,
+              11
+            ]
+          ],
+          "date-time": "2018-07-11T00:00:00Z",
+          "timestamp": 1531267200000
+        },
+        "delay-in-days": 365,
+        "content-version": "vor"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/100000057",
+        "name": "National Institute of General Medical Sciences",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "GM61300"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          9,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1021/acs.jctc.7b00359",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          7,
+          11
+        ]
+      ],
+      "date-time": "2017-07-11T18:43:32Z",
+      "timestamp": 1499798612000
+    },
+    "page": "4253-4269",
+    "source": "Crossref",
+    "is-referenced-by-count": 8,
+    "title": "Evaluating Force Field Performance in Thermodynamic Calculations of Cyclodextrin Host–Guest Binding: Water Models, Partial Charges, and Host Force Field Parameters",
+    "prefix": "10.1021",
+    "volume": "13",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0002-7916-0757",
+        "authenticated-orcid": true,
+        "given": "Niel M.",
+        "family": "Henriksen",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California San Diego, La Jolla, California 92093-0736, United States"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-3375-1738",
+        "authenticated-orcid": true,
+        "given": "Michael K.",
+        "family": "Gilson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Skaggs School of Pharmacy and Pharmaceutical Sciences, University of California San Diego, La Jolla, California 92093-0736, United States"
+          }
+        ]
+      }
+    ],
+    "member": "316",
+    "published-online": {
+      "date-parts": [
+        [
+          2017,
+          7,
+          11
+        ]
+      ]
+    },
+    "container-title": "Journal of Chemical Theory and Computation",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://pubs.acs.org/doi/pdf/10.1021/acs.jctc.7b00359",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "unspecified"
+      },
+      {
+        "URL": "http://pubs.acs.org/doi/pdf/10.1021/acs.jctc.7b00359",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          7,
+          11
+        ]
+      ],
+      "date-time": "2018-07-11T10:54:16Z",
+      "timestamp": 1531306456000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          7,
+          11
+        ]
+      ]
+    },
+    "references-count": 67,
+    "journal-issue": {
+      "published-online": {
+        "date-parts": [
+          [
+            2017,
+            7,
+            11
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2017,
+            9,
+            12
+          ]
+        ]
+      },
+      "issue": "9"
+    },
+    "alternative-id": [
+      "10.1021/acs.jctc.7b00359"
+    ],
+    "URL": "https://doi.org/10.1021/acs.jctc.7b00359",
+    "relation": {},
+    "subject": [
+      "Physical and Theoretical Chemistry",
+      "Computer Science Applications"
+    ],
+    "container-title-short": "J. Chem. Theory Comput.",
+    "short_url": "https://doi.org/gd2z2t",
+    "id": "HVgz5rZq"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          7
+        ]
+      ],
+      "date-time": "2018-08-07T18:02:40Z",
+      "timestamp": 1533664960104
+    },
+    "reference-count": 0,
+    "publisher": "American Chemical Society (ACS)",
+    "issue": "34",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2009,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1021/bi9007879",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2009,
+          7,
+          24
+        ]
+      ],
+      "date-time": "2009-07-24T17:58:26Z",
+      "timestamp": 1248458306000
+    },
+    "page": "8241-8248",
+    "source": "Crossref",
+    "is-referenced-by-count": 53,
+    "title": "Calcium-Dependent Lateral Organization in Phosphatidylinositol 4,5-Bisphosphate (PIP2)- and Cholesterol-Containing Monolayers",
+    "prefix": "10.1021",
+    "volume": "48",
+    "author": [
+      {
+        "given": "Ilya",
+        "family": "Levental",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "David A.",
+        "family": "Christian",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Yu-Hsiu",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Jonathan J.",
+        "family": "Madara",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dennis E.",
+        "family": "Discher",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Paul A.",
+        "family": "Janmey",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "316",
+    "container-title": "Biochemistry",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://pubs.acs.org/doi/pdf/10.1021/bi9007879",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2016,
+          9,
+          2
+        ]
+      ],
+      "date-time": "2016-09-02T03:48:33Z",
+      "timestamp": 1472788113000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2009,
+          9
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2009,
+            9
+          ]
+        ]
+      },
+      "issue": "34"
+    },
+    "alternative-id": [
+      "10.1021/bi9007879"
+    ],
+    "URL": "https://doi.org/10.1021/bi9007879",
+    "relation": {},
+    "container-title-short": "Biochemistry",
+    "short_url": "https://doi.org/cxpps9",
+    "id": "JWXdIfNt"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          27
+        ]
+      ],
+      "date-time": "2018-08-27T13:42:32Z",
+      "timestamp": 1535377352654
+    },
+    "reference-count": 0,
+    "publisher": "American Chemical Society (ACS)",
+    "issue": "40",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2009,
+          10,
+          13
+        ]
+      ]
+    },
+    "DOI": "10.1021/bi9008616",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2009,
+          9,
+          2
+        ]
+      ],
+      "date-time": "2009-09-02T12:56:55Z",
+      "timestamp": 1251896215000
+    },
+    "page": "9360-9371",
+    "source": "Crossref",
+    "is-referenced-by-count": 59,
+    "title": "Ionization Properties of Phosphatidylinositol Polyphosphates in Mixed Model Membranes",
+    "prefix": "10.1021",
+    "volume": "48",
+    "author": [
+      {
+        "given": "Edgar E.",
+        "family": "Kooijman",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Katrice E.",
+        "family": "King",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mahinda",
+        "family": "Gangoda",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Arne",
+        "family": "Gericke",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "316",
+    "container-title": "Biochemistry",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://pubs.acs.org/doi/pdf/10.1021/bi9008616",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2016,
+          9,
+          2
+        ]
+      ],
+      "date-time": "2016-09-02T03:48:44Z",
+      "timestamp": 1472788124000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2009,
+          10,
+          13
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2009,
+            10,
+            13
+          ]
+        ]
+      },
+      "issue": "40"
+    },
+    "alternative-id": [
+      "10.1021/bi9008616"
+    ],
+    "URL": "https://doi.org/10.1021/bi9008616",
+    "relation": {},
+    "container-title-short": "Biochemistry",
+    "short_url": "https://doi.org/dxgrzx",
+    "id": "8pFCG7HG"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          27
+        ]
+      ],
+      "date-time": "2018-08-27T13:42:32Z",
+      "timestamp": 1535377352661
+    },
+    "reference-count": 63,
+    "publisher": "American Chemical Society (ACS)",
+    "issue": "7",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2012,
+          2,
+          22
+        ]
+      ]
+    },
+    "DOI": "10.1021/ja208640t",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2012,
+          1,
+          23
+        ]
+      ],
+      "date-time": "2012-01-23T23:34:32Z",
+      "timestamp": 1327361672000
+    },
+    "page": "3387-3395",
+    "source": "Crossref",
+    "is-referenced-by-count": 64,
+    "title": "Divalent Cation-Induced Cluster Formation by Polyphosphoinositides in Model Membranes",
+    "prefix": "10.1021",
+    "volume": "134",
+    "author": [
+      {
+        "given": "Yu-Hsiu",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department\rof Chemistry, §Department of Biology, #Department of Physics and Astronomy, and ‡Institute for Medicine and EngineeringUniversity of Pennsylvania, Philadelphia,\rPennsylvania 19104, United States"
+          },
+          {
+            "name": "Graduate\rGroup in Biochemistry and Molecular Biophysics and ¶Department of Physiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania 19104, United States"
+          }
+        ]
+      },
+      {
+        "given": "Agnieszka",
+        "family": "Collins",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department\rof Chemistry, §Department of Biology, #Department of Physics and Astronomy, and ‡Institute for Medicine and EngineeringUniversity of Pennsylvania, Philadelphia,\rPennsylvania 19104, United States"
+          },
+          {
+            "name": "Graduate\rGroup in Biochemistry and Molecular Biophysics and ¶Department of Physiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania 19104, United States"
+          }
+        ]
+      },
+      {
+        "given": "Lin",
+        "family": "Guo",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department\rof Chemistry, §Department of Biology, #Department of Physics and Astronomy, and ‡Institute for Medicine and EngineeringUniversity of Pennsylvania, Philadelphia,\rPennsylvania 19104, United States"
+          },
+          {
+            "name": "Graduate\rGroup in Biochemistry and Molecular Biophysics and ¶Department of Physiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania 19104, United States"
+          }
+        ]
+      },
+      {
+        "given": "Kathryn B.",
+        "family": "Smith-Dupont",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department\rof Chemistry, §Department of Biology, #Department of Physics and Astronomy, and ‡Institute for Medicine and EngineeringUniversity of Pennsylvania, Philadelphia,\rPennsylvania 19104, United States"
+          },
+          {
+            "name": "Graduate\rGroup in Biochemistry and Molecular Biophysics and ¶Department of Physiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania 19104, United States"
+          }
+        ]
+      },
+      {
+        "given": "Feng",
+        "family": "Gai",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department\rof Chemistry, §Department of Biology, #Department of Physics and Astronomy, and ‡Institute for Medicine and EngineeringUniversity of Pennsylvania, Philadelphia,\rPennsylvania 19104, United States"
+          },
+          {
+            "name": "Graduate\rGroup in Biochemistry and Molecular Biophysics and ¶Department of Physiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania 19104, United States"
+          }
+        ]
+      },
+      {
+        "given": "Tatyana",
+        "family": "Svitkina",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department\rof Chemistry, §Department of Biology, #Department of Physics and Astronomy, and ‡Institute for Medicine and EngineeringUniversity of Pennsylvania, Philadelphia,\rPennsylvania 19104, United States"
+          },
+          {
+            "name": "Graduate\rGroup in Biochemistry and Molecular Biophysics and ¶Department of Physiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania 19104, United States"
+          }
+        ]
+      },
+      {
+        "given": "Paul A.",
+        "family": "Janmey",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department\rof Chemistry, §Department of Biology, #Department of Physics and Astronomy, and ‡Institute for Medicine and EngineeringUniversity of Pennsylvania, Philadelphia,\rPennsylvania 19104, United States"
+          },
+          {
+            "name": "Graduate\rGroup in Biochemistry and Molecular Biophysics and ¶Department of Physiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania 19104, United States"
+          }
+        ]
+      }
+    ],
+    "member": "316",
+    "published-online": {
+      "date-parts": [
+        [
+          2012,
+          2,
+          10
+        ]
+      ]
+    },
+    "container-title": "Journal of the American Chemical Society",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://pubs.acs.org/doi/pdf/10.1021/ja208640t",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          10,
+          24
+        ]
+      ],
+      "date-time": "2017-10-24T00:55:34Z",
+      "timestamp": 1508806534000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          2,
+          10
+        ]
+      ]
+    },
+    "references-count": 63,
+    "journal-issue": {
+      "published-online": {
+        "date-parts": [
+          [
+            2012,
+            2,
+            10
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2012,
+            2,
+            22
+          ]
+        ]
+      },
+      "issue": "7"
+    },
+    "alternative-id": [
+      "10.1021/ja208640t"
+    ],
+    "URL": "https://doi.org/10.1021/ja208640t",
+    "relation": {},
+    "container-title-short": "J. Am. Chem. Soc.",
+    "short_url": "https://doi.org/fz2p6h",
+    "id": "LhOwGz4k"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          3
+        ]
+      ],
+      "date-time": "2018-08-03T23:43:14Z",
+      "timestamp": 1533339794610
+    },
+    "reference-count": 0,
+    "publisher": "American Chemical Society (ACS)",
+    "issue": "32",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2008,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1021/ja8037245",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2008,
+          7,
+          18
+        ]
+      ],
+      "date-time": "2008-07-18T07:00:44Z",
+      "timestamp": 1216364444000
+    },
+    "page": "10484-10485",
+    "source": "Crossref",
+    "is-referenced-by-count": 110,
+    "title": "MHz Unidirectional Rotation of Molecular Rotary Motors",
+    "prefix": "10.1021",
+    "volume": "130",
+    "author": [
+      {
+        "given": "Martin",
+        "family": "Klok",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Nicola",
+        "family": "Boyle",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Mary T.",
+        "family": "Pryce",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Auke",
+        "family": "Meetsma",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wesley R.",
+        "family": "Browne",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ben L.",
+        "family": "Feringa",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "316",
+    "container-title": "Journal of the American Chemical Society",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://pubs.acs.org/doi/pdf/10.1021/ja8037245",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2016,
+          9,
+          1
+        ]
+      ],
+      "date-time": "2016-09-01T20:21:35Z",
+      "timestamp": 1472761295000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2008,
+          8
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2008,
+            8
+          ]
+        ]
+      },
+      "issue": "32"
+    },
+    "alternative-id": [
+      "10.1021/ja8037245"
+    ],
+    "URL": "https://doi.org/10.1021/ja8037245",
+    "relation": {},
+    "container-title-short": "J. Am. Chem. Soc.",
+    "short_url": "https://doi.org/crsbqx",
+    "id": "Sjg8ym5x"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          24
+        ]
+      ],
+      "date-time": "2018-08-24T02:02:30Z",
+      "timestamp": 1535076150885
+    },
+    "reference-count": 0,
+    "publisher": "American Chemical Society (ACS)",
+    "issue": "15",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2010,
+          4,
+          22
+        ]
+      ]
+    },
+    "DOI": "10.1021/jp100609m",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2010,
+          3,
+          29
+        ]
+      ],
+      "date-time": "2010-03-29T17:21:55Z",
+      "timestamp": 1269883315000
+    },
+    "page": "5058-5067",
+    "source": "Crossref",
+    "is-referenced-by-count": 60,
+    "title": "Understanding the Dynamics Behind the Photoisomerization of a Light-Driven Fluorene Molecular Rotary Motor",
+    "prefix": "10.1021",
+    "volume": "114",
+    "author": [
+      {
+        "given": "Andranik",
+        "family": "Kazaryan",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Jos C. M.",
+        "family": "Kistemaker",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Lars V.",
+        "family": "Schäfer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Wesley R.",
+        "family": "Browne",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ben L.",
+        "family": "Feringa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Michael",
+        "family": "Filatov",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "316",
+    "container-title": "The Journal of Physical Chemistry A",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://pubs.acs.org/doi/pdf/10.1021/jp100609m",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2016,
+          9,
+          1
+        ]
+      ],
+      "date-time": "2016-09-01T16:18:02Z",
+      "timestamp": 1472746682000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2010,
+          4,
+          22
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2010,
+            4,
+            22
+          ]
+        ]
+      },
+      "issue": "15"
+    },
+    "alternative-id": [
+      "10.1021/jp100609m"
+    ],
+    "URL": "https://doi.org/10.1021/jp100609m",
+    "relation": {},
+    "container-title-short": "J. Phys. Chem. A",
+    "short_url": "https://doi.org/bgm2ts",
+    "id": "N6pRFM85"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          7
+        ]
+      ],
+      "date-time": "2018-06-07T22:02:37Z",
+      "timestamp": 1528408957188
+    },
+    "reference-count": 48,
+    "publisher": "American Chemical Society (ACS)",
+    "issue": "28",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2013,
+          7,
+          18
+        ]
+      ]
+    },
+    "DOI": "10.1021/jp401414y",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2013,
+          6,
+          20
+        ]
+      ],
+      "date-time": "2013-06-20T17:42:20Z",
+      "timestamp": 1371750140000
+    },
+    "page": "8322-8329",
+    "source": "Crossref",
+    "is-referenced-by-count": 18,
+    "title": "Quantum and All-Atom Molecular Dynamics Simulations of Protonation and Divalent Ion Binding to Phosphatidylinositol 4,5-Bisphosphate (PIP2)",
+    "prefix": "10.1021",
+    "volume": "117",
+    "author": [
+      {
+        "given": "David R.",
+        "family": "Slochower",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Graduate\rGroup in Biochemistry and Molecular Biophysics, Perelman School of\rMedicine, ‡Department of Bioengineering, School of Engineering and Applied Sciences, and §Department of\rPhysiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania\r19104, United States"
+          }
+        ]
+      },
+      {
+        "given": "Peter J.",
+        "family": "Huwe",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Graduate\rGroup in Biochemistry and Molecular Biophysics, Perelman School of\rMedicine, ‡Department of Bioengineering, School of Engineering and Applied Sciences, and §Department of\rPhysiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania\r19104, United States"
+          }
+        ]
+      },
+      {
+        "given": "Ravi",
+        "family": "Radhakrishnan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Graduate\rGroup in Biochemistry and Molecular Biophysics, Perelman School of\rMedicine, ‡Department of Bioengineering, School of Engineering and Applied Sciences, and §Department of\rPhysiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania\r19104, United States"
+          }
+        ]
+      },
+      {
+        "given": "Paul A.",
+        "family": "Janmey",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Graduate\rGroup in Biochemistry and Molecular Biophysics, Perelman School of\rMedicine, ‡Department of Bioengineering, School of Engineering and Applied Sciences, and §Department of\rPhysiology, Perelman School of Medicine, University of Pennsylvania, Philadelphia, Pennsylvania\r19104, United States"
+          }
+        ]
+      }
+    ],
+    "member": "316",
+    "published-online": {
+      "date-parts": [
+        [
+          2013,
+          7,
+          3
+        ]
+      ]
+    },
+    "container-title": "The Journal of Physical Chemistry B",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://pubs.acs.org/doi/pdf/10.1021/jp401414y",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          14
+        ]
+      ],
+      "date-time": "2017-11-14T19:50:45Z",
+      "timestamp": 1510689045000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          7,
+          3
+        ]
+      ]
+    },
+    "references-count": 48,
+    "journal-issue": {
+      "published-online": {
+        "date-parts": [
+          [
+            2013,
+            7,
+            2
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2013,
+            7,
+            18
+          ]
+        ]
+      },
+      "issue": "28"
+    },
+    "alternative-id": [
+      "10.1021/jp401414y"
+    ],
+    "URL": "https://doi.org/10.1021/jp401414y",
+    "relation": {},
+    "container-title-short": "J. Phys. Chem. B",
+    "short_url": "https://doi.org/f45mz9",
+    "id": "1G0A01ZNq"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          30
+        ]
+      ],
+      "date-time": "2018-08-30T15:22:32Z",
+      "timestamp": 1535642552652
+    },
+    "reference-count": 32,
+    "publisher": "American Chemical Society (ACS)",
+    "issue": "11",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2014,
+          6,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1021/jz500737m",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          5,
+          13
+        ]
+      ],
+      "date-time": "2014-05-13T16:34:36Z",
+      "timestamp": 1399998876000
+    },
+    "page": "1885-1891",
+    "source": "Crossref",
+    "is-referenced-by-count": 89,
+    "title": "Building Force Fields: An Automatic, Systematic, and Reproducible Approach",
+    "prefix": "10.1021",
+    "volume": "5",
+    "author": [
+      {
+        "given": "Lee-Ping",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Chemistry, Stanford University, Stanford, California 94305, United States"
+          }
+        ]
+      },
+      {
+        "given": "Todd J.",
+        "family": "Martinez",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemistry, Stanford University, Stanford, California 94305, United States"
+          }
+        ]
+      },
+      {
+        "given": "Vijay S.",
+        "family": "Pande",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Chemistry, Stanford University, Stanford, California 94305, United States"
+          }
+        ]
+      }
+    ],
+    "member": "316",
+    "published-online": {
+      "date-parts": [
+        [
+          2014,
+          5,
+          16
+        ]
+      ]
+    },
+    "container-title": "The Journal of Physical Chemistry Letters",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://pubs.acs.org/doi/pdf/10.1021/jz500737m",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          27
+        ]
+      ],
+      "date-time": "2017-11-27T19:56:34Z",
+      "timestamp": 1511812594000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          5,
+          16
+        ]
+      ]
+    },
+    "references-count": 32,
+    "journal-issue": {
+      "published-online": {
+        "date-parts": [
+          [
+            2014,
+            5,
+            28
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2014,
+            6,
+            5
+          ]
+        ]
+      },
+      "issue": "11"
+    },
+    "alternative-id": [
+      "10.1021/jz500737m"
+    ],
+    "URL": "https://doi.org/10.1021/jz500737m",
+    "relation": {},
+    "container-title-short": "J. Phys. Chem. Lett.",
+    "short_url": "https://doi.org/gcz65j",
+    "id": "JFWYe0Pp"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          4
+        ]
+      ],
+      "date-time": "2018-05-04T06:10:21Z",
+      "timestamp": 1525414221197
+    },
+    "reference-count": 0,
+    "publisher": "American Chemical Society (ACS)",
+    "issue": "5",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2008,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1021/ol703027h",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2008,
+          2,
+          9
+        ]
+      ],
+      "date-time": "2008-02-09T10:01:00Z",
+      "timestamp": 1202551260000
+    },
+    "page": "897-900",
+    "source": "Crossref",
+    "is-referenced-by-count": 53,
+    "title": "Synthesis of a New Photoactive Nanovehicle:  A Nanoworm",
+    "prefix": "10.1021",
+    "volume": "10",
+    "author": [
+      {
+        "given": "Takashi",
+        "family": "Sasaki",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "James M.",
+        "family": "Tour",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "316",
+    "container-title": "Organic Letters",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://pubs.acs.org/doi/pdf/10.1021/ol703027h",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2016,
+          9,
+          1
+        ]
+      ],
+      "date-time": "2016-09-01T21:13:41Z",
+      "timestamp": 1472764421000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2008,
+          3
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2008,
+            3
+          ]
+        ]
+      },
+      "issue": "5"
+    },
+    "alternative-id": [
+      "10.1021/ol703027h"
+    ],
+    "URL": "https://doi.org/10.1021/ol703027h",
+    "relation": {},
+    "container-title-short": "Org. Lett.",
+    "short_url": "https://doi.org/bxh4gj",
+    "id": "Tels98bO"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          30
+        ]
+      ],
+      "date-time": "2018-08-30T18:22:27Z",
+      "timestamp": 1535653347765
+    },
+    "reference-count": 8,
+    "publisher": "Springer Nature",
+    "issue": "7081",
+    "license": [
+      {
+        "URL": "http://www.springer.com/tdm",
+        "start": {
+          "date-parts": [
+            [
+              2006,
+              3,
+              1
+            ]
+          ],
+          "date-time": "2006-03-01T00:00:00Z",
+          "timestamp": 1141171200000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2006,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.1038/440163a",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2006,
+          3,
+          14
+        ]
+      ],
+      "date-time": "2006-03-14T15:02:11Z",
+      "timestamp": 1142348531000
+    },
+    "page": "163-163",
+    "source": "Crossref",
+    "is-referenced-by-count": 456,
+    "title": "Nanomotor rotates microscale objects",
+    "prefix": "10.1038",
+    "volume": "440",
+    "author": [
+      {
+        "given": "Rienk",
+        "family": "Eelkema",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Michael M.",
+        "family": "Pollard",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Javier",
+        "family": "Vicario",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nathalie",
+        "family": "Katsonis",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Blanca Serrano",
+        "family": "Ramon",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Cees W. M.",
+        "family": "Bastiaansen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dirk J.",
+        "family": "Broer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ben L.",
+        "family": "Feringa",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2006,
+          3,
+          9
+        ]
+      ]
+    },
+    "container-title": "Nature",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://www.nature.com/articles/440163a.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/440163a",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/440163a.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          6
+        ]
+      ],
+      "date-time": "2017-11-06T13:36:19Z",
+      "timestamp": 1509975379000
+    },
+    "score": 1.0,
+    "subtitle": [
+      "Molecular machines"
+    ],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2006,
+          3
+        ]
+      ]
+    },
+    "references-count": 8,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2006,
+            3
+          ]
+        ]
+      },
+      "issue": "7081"
+    },
+    "alternative-id": [
+      "BF440163a"
+    ],
+    "URL": "https://doi.org/10.1038/440163a",
+    "relation": {
+      "cites": []
+    },
+    "container-title-short": "Nature",
+    "short_url": "https://doi.org/c733kx",
+    "id": "thFGBz32"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          30
+        ]
+      ],
+      "date-time": "2018-08-30T16:42:31Z",
+      "timestamp": 1535647351655
+    },
+    "reference-count": 75,
+    "publisher": "Springer Nature",
+    "issue": "7112",
+    "license": [
+      {
+        "URL": "http://www.springer.com/tdm",
+        "start": {
+          "date-parts": [
+            [
+              2006,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2006-10-01T00:00:00Z",
+          "timestamp": 1159660800000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2006,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1038/nature05185",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2006,
+          10,
+          12
+        ]
+      ],
+      "date-time": "2006-10-12T00:06:18Z",
+      "timestamp": 1160611578000
+    },
+    "page": "651-657",
+    "source": "Crossref",
+    "is-referenced-by-count": 1295,
+    "title": "Phosphoinositides in cell regulation and membrane dynamics",
+    "prefix": "10.1038",
+    "volume": "443",
+    "author": [
+      {
+        "given": "Gilbert",
+        "family": "Di Paolo",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Pietro",
+        "family": "De Camilli",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2006,
+          10,
+          12
+        ]
+      ]
+    },
+    "container-title": "Nature",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://www.nature.com/articles/nature05185.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/nature05185",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/nature05185.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          1
+        ]
+      ],
+      "date-time": "2017-12-01T11:13:32Z",
+      "timestamp": 1512126812000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2006,
+          10
+        ]
+      ]
+    },
+    "references-count": 75,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2006,
+            10
+          ]
+        ]
+      },
+      "issue": "7112"
+    },
+    "alternative-id": [
+      "BFnature05185"
+    ],
+    "URL": "https://doi.org/10.1038/nature05185",
+    "relation": {
+      "cites": []
+    },
+    "container-title-short": "Nature",
+    "short_url": "https://doi.org/dqdvrx",
+    "id": "GGlssBvj"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          30
+        ]
+      ],
+      "date-time": "2018-08-30T18:22:27Z",
+      "timestamp": 1535653347782
+    },
+    "reference-count": 29,
+    "publisher": "Springer Nature",
+    "issue": "7374",
+    "license": [
+      {
+        "URL": "http://www.springer.com/tdm",
+        "start": {
+          "date-parts": [
+            [
+              2011,
+              10,
+              23
+            ]
+          ],
+          "date-time": "2011-10-23T00:00:00Z",
+          "timestamp": 1319328000000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2011,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1038/nature10545",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2011,
+          10,
+          21
+        ]
+      ],
+      "date-time": "2011-10-21T14:50:33Z",
+      "timestamp": 1319208633000
+    },
+    "page": "552-555",
+    "source": "Crossref",
+    "is-referenced-by-count": 271,
+    "title": "Membrane protein sequestering by ionic protein–lipid interactions",
+    "prefix": "10.1038",
+    "volume": "479",
+    "author": [
+      {
+        "given": "Geert",
+        "family": "van den Bogaart",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Karsten",
+        "family": "Meyenberg",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "H. Jelger",
+        "family": "Risselada",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Hayder",
+        "family": "Amin",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Katrin I.",
+        "family": "Willig",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Barbara E.",
+        "family": "Hubrich",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Markus",
+        "family": "Dier",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Stefan W.",
+        "family": "Hell",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Helmut",
+        "family": "Grubmüller",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ulf",
+        "family": "Diederichsen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Reinhard",
+        "family": "Jahn",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2011,
+          10,
+          23
+        ]
+      ]
+    },
+    "container-title": "Nature",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://www.nature.com/articles/nature10545.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/nature10545",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/nature10545.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          25
+        ]
+      ],
+      "date-time": "2017-12-25T08:41:30Z",
+      "timestamp": 1514191290000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          10,
+          23
+        ]
+      ]
+    },
+    "references-count": 29,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2011,
+            11
+          ]
+        ]
+      },
+      "issue": "7374"
+    },
+    "alternative-id": [
+      "BFnature10545"
+    ],
+    "URL": "https://doi.org/10.1038/nature10545",
+    "relation": {
+      "cites": []
+    },
+    "container-title-short": "Nature",
+    "short_url": "https://doi.org/c7d3fn",
+    "id": "U2YHSNKE"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          23
+        ]
+      ],
+      "date-time": "2018-08-23T09:02:45Z",
+      "timestamp": 1535014965162
+    },
+    "reference-count": 29,
+    "publisher": "Springer Nature",
+    "issue": "7372",
+    "license": [
+      {
+        "URL": "http://www.springer.com/tdm",
+        "start": {
+          "date-parts": [
+            [
+              2011,
+              11,
+              1
+            ]
+          ],
+          "date-time": "2011-11-01T00:00:00Z",
+          "timestamp": 1320105600000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2011,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1038/nature10587",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2011,
+          11,
+          8
+        ]
+      ],
+      "date-time": "2011-11-08T17:06:38Z",
+      "timestamp": 1320771998000
+    },
+    "page": "208-211",
+    "source": "Crossref",
+    "is-referenced-by-count": 355,
+    "title": "Electrically driven directional motion of a four-wheeled molecule on a metal surface",
+    "prefix": "10.1038",
+    "volume": "479",
+    "author": [
+      {
+        "given": "Tibor",
+        "family": "Kudernac",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Nopporn",
+        "family": "Ruangsupapichat",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Manfred",
+        "family": "Parschau",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Beatriz",
+        "family": "Maciá",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nathalie",
+        "family": "Katsonis",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Syuzanna R.",
+        "family": "Harutyunyan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Karl-Heinz",
+        "family": "Ernst",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ben L.",
+        "family": "Feringa",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2011,
+          11,
+          10
+        ]
+      ]
+    },
+    "container-title": "Nature",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://www.nature.com/articles/nature10587.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/nature10587",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/nature10587.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          4
+        ]
+      ],
+      "date-time": "2018-01-04T06:01:19Z",
+      "timestamp": 1515045679000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          11
+        ]
+      ]
+    },
+    "references-count": 29,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2011,
+            11
+          ]
+        ]
+      },
+      "issue": "7372"
+    },
+    "alternative-id": [
+      "BFnature10587"
+    ],
+    "URL": "https://doi.org/10.1038/nature10587",
+    "relation": {
+      "cites": []
+    },
+    "container-title-short": "Nature",
+    "short_url": "https://doi.org/c5vf24",
+    "id": "OAnfwOYX"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          30
+        ]
+      ],
+      "date-time": "2018-08-30T18:22:27Z",
+      "timestamp": 1535653347771
+    },
+    "reference-count": 111,
+    "publisher": "Springer Nature",
+    "issue": "1",
+    "license": [
+      {
+        "URL": "http://www.springer.com/tdm",
+        "start": {
+          "date-parts": [
+            [
+              2006,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2006-10-01T00:00:00Z",
+          "timestamp": 1159660800000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2006,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1038/nnano.2006.45",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2006,
+          10,
+          5
+        ]
+      ],
+      "date-time": "2006-10-05T16:36:28Z",
+      "timestamp": 1160066188000
+    },
+    "page": "25-35",
+    "source": "Crossref",
+    "is-referenced-by-count": 893,
+    "title": "Making molecular machines work",
+    "prefix": "10.1038",
+    "volume": "1",
+    "author": [
+      {
+        "given": "Wesley R.",
+        "family": "Browne",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Ben L.",
+        "family": "Feringa",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2006,
+          10,
+          1
+        ]
+      ]
+    },
+    "container-title": "Nature Nanotechnology",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://www.nature.com/articles/nnano.2006.45.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/nnano.2006.45",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/nnano.2006.45.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          4
+        ]
+      ],
+      "date-time": "2017-12-04T06:57:23Z",
+      "timestamp": 1512370643000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2006,
+          10
+        ]
+      ]
+    },
+    "references-count": 111,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2006,
+            10
+          ]
+        ]
+      },
+      "issue": "1"
+    },
+    "alternative-id": [
+      "BFnnano200645"
+    ],
+    "URL": "https://doi.org/10.1038/nnano.2006.45",
+    "relation": {
+      "cites": []
+    },
+    "container-title-short": "Nature Nanotech",
+    "short_url": "https://doi.org/fwvp8s",
+    "id": "10FsKpWBI"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          15
+        ]
+      ],
+      "date-time": "2018-08-15T09:02:35Z",
+      "timestamp": 1534323755936
+    },
+    "reference-count": 123,
+    "publisher": "Springer Nature",
+    "issue": "5",
+    "license": [
+      {
+        "URL": "http://www.springer.com/tdm",
+        "start": {
+          "date-parts": [
+            [
+              2010,
+              5,
+              1
+            ]
+          ],
+          "date-time": "2010-05-01T00:00:00Z",
+          "timestamp": 1272672000000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2010,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1038/nrc2842",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2010,
+          4,
+          23
+        ]
+      ],
+      "date-time": "2010-04-23T04:51:07Z",
+      "timestamp": 1271998267000
+    },
+    "page": "342-352",
+    "source": "Crossref",
+    "is-referenced-by-count": 185,
+    "title": "Phosphoinositide signalling in cancer: beyond PI3K and PTEN",
+    "prefix": "10.1038",
+    "volume": "10",
+    "author": [
+      {
+        "given": "Tom D.",
+        "family": "Bunney",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Matilda",
+        "family": "Katan",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2010,
+          5,
+          1
+        ]
+      ]
+    },
+    "container-title": "Nature Reviews Cancer",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://www.nature.com/articles/nrc2842.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/nrc2842",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/nrc2842.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          17
+        ]
+      ],
+      "date-time": "2018-01-17T15:54:01Z",
+      "timestamp": 1516204441000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2010,
+          5
+        ]
+      ]
+    },
+    "references-count": 123,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2010,
+            5
+          ]
+        ]
+      },
+      "issue": "5"
+    },
+    "alternative-id": [
+      "BFnrc2842"
+    ],
+    "URL": "https://doi.org/10.1038/nrc2842",
+    "relation": {
+      "cites": []
+    },
+    "container-title-short": "Nat Rev Cancer",
+    "short_url": "https://doi.org/cmpb9m",
+    "id": "1DCzqvykg"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          23
+        ]
+      ],
+      "date-time": "2018-08-23T18:02:37Z",
+      "timestamp": 1535047357362
+    },
+    "reference-count": 118,
+    "publisher": "Springer Nature",
+    "issue": "2",
+    "license": [
+      {
+        "URL": "http://www.springer.com/tdm",
+        "start": {
+          "date-parts": [
+            [
+              2008,
+              2,
+              1
+            ]
+          ],
+          "date-time": "2008-02-01T00:00:00Z",
+          "timestamp": 1201824000000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2008,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1038/nrm2328",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2008,
+          1,
+          23
+        ]
+      ],
+      "date-time": "2008-01-23T13:14:23Z",
+      "timestamp": 1201094063000
+    },
+    "page": "99-111",
+    "source": "Crossref",
+    "is-referenced-by-count": 724,
+    "title": "Membrane recognition by phospholipid-binding domains",
+    "prefix": "10.1038",
+    "volume": "9",
+    "author": [
+      {
+        "given": "Mark A.",
+        "family": "Lemmon",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2008,
+          2,
+          1
+        ]
+      ]
+    },
+    "container-title": "Nature Reviews Molecular Cell Biology",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://www.nature.com/articles/nrm2328.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/nrm2328",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/nrm2328.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          28
+        ]
+      ],
+      "date-time": "2018-01-28T09:14:52Z",
+      "timestamp": 1517130892000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2008,
+          2
+        ]
+      ]
+    },
+    "references-count": 118,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2008,
+            2
+          ]
+        ]
+      },
+      "issue": "2"
+    },
+    "alternative-id": [
+      "BFnrm2328"
+    ],
+    "URL": "https://doi.org/10.1038/nrm2328",
+    "relation": {
+      "cites": []
+    },
+    "container-title-short": "Nat Rev Mol Cell Biol",
+    "short_url": "https://doi.org/fqqt8p",
+    "id": "uyKE7bWV"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          7,
+          23
+        ]
+      ],
+      "date-time": "2018-07-23T19:22:31Z",
+      "timestamp": 1532373751686
+    },
+    "reference-count": 57,
+    "publisher": "Springer Nature",
+    "issue": "6",
+    "license": [
+      {
+        "URL": "http://www.springer.com/tdm",
+        "start": {
+          "date-parts": [
+            [
+              2013,
+              5,
+              12
+            ]
+          ],
+          "date-time": "2013-05-12T00:00:00Z",
+          "timestamp": 1368316800000
+        },
+        "delay-in-days": 0,
+        "content-version": "unspecified"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2013,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1038/nsmb.2570",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2013,
+          5,
+          12
+        ]
+      ],
+      "date-time": "2013-05-12T19:29:52Z",
+      "timestamp": 1368386992000
+    },
+    "page": "679-686",
+    "source": "Crossref",
+    "is-referenced-by-count": 105,
+    "title": "Phosphatidylinositol 4,5-bisphosphate clusters act as molecular beacons for vesicle recruitment",
+    "prefix": "10.1038",
+    "volume": "20",
+    "author": [
+      {
+        "given": "Alf",
+        "family": "Honigmann",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Geert",
+        "family": "van den Bogaart",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Emilio",
+        "family": "Iraheta",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "H Jelger",
+        "family": "Risselada",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dragomir",
+        "family": "Milovanovic",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Veronika",
+        "family": "Mueller",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Stefan",
+        "family": "Müllar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ulf",
+        "family": "Diederichsen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Dirk",
+        "family": "Fasshauer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Helmut",
+        "family": "Grubmüller",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Stefan W",
+        "family": "Hell",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Christian",
+        "family": "Eggeling",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Karin",
+        "family": "Kühnel",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Reinhard",
+        "family": "Jahn",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "297",
+    "published-online": {
+      "date-parts": [
+        [
+          2013,
+          5,
+          12
+        ]
+      ]
+    },
+    "container-title": "Nature Structural & Molecular Biology",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://www.nature.com/articles/nsmb.2570.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/nsmb.2570",
+        "content-type": "text/html",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "http://www.nature.com/articles/nsmb.2570.pdf",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          19
+        ]
+      ],
+      "date-time": "2018-01-19T05:13:45Z",
+      "timestamp": 1516338825000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          5,
+          12
+        ]
+      ]
+    },
+    "references-count": 57,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2013,
+            6
+          ]
+        ]
+      },
+      "issue": "6"
+    },
+    "alternative-id": [
+      "BFnsmb2570"
+    ],
+    "URL": "https://doi.org/10.1038/nsmb.2570",
+    "relation": {
+      "cites": []
+    },
+    "container-title-short": "Nat Struct Mol Biol",
+    "short_url": "https://doi.org/f4zzwr",
+    "id": "Gw4f4Ayu"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          3
+        ]
+      ],
+      "date-time": "2018-05-03T03:01:58Z",
+      "timestamp": 1525316518391
+    },
+    "reference-count": 0,
+    "publisher": "Royal Society of Chemistry (RSC)",
+    "issue": "8",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "DOI": "10.1039/b101231m",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2002,
+          7,
+          26
+        ]
+      ],
+      "date-time": "2002-07-26T09:18:12Z",
+      "timestamp": 1027675092000
+    },
+    "page": "759-760",
+    "source": "Crossref",
+    "is-referenced-by-count": 80,
+    "title": "Photocontrolled self-assembly of molecular switches",
+    "prefix": "10.1039",
+    "author": [
+      {
+        "given": "Linda N.",
+        "family": "Lucas",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Jan",
+        "family": "van Esch",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Ben L.",
+        "family": "Feringa",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Richard M.",
+        "family": "Kellogg",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "292",
+    "container-title": "Chemical Communications",
+    "original-title": [],
+    "link": [
+      {
+        "URL": "http://pubs.rsc.org/en/content/articlepdf/2001/CC/B101231M",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          1,
+          7
+        ]
+      ],
+      "date-time": "2017-01-07T07:18:48Z",
+      "timestamp": 1483773528000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2001
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "issue": "8"
+    },
+    "URL": "https://doi.org/10.1039/b101231m",
+    "relation": {},
+    "container-title-short": "Chem. Commun.",
+    "short_url": "https://doi.org/ctmh7t",
+    "id": "jCuccJLJ"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          6,
+          27
+        ]
+      ],
+      "date-time": "2018-06-27T23:02:36Z",
+      "timestamp": 1530140556145
+    },
+    "reference-count": 139,
+    "publisher": "Royal Society of Chemistry (RSC)",
+    "issue": "7",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "DOI": "10.1039/c1cs15005g",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2011,
+          3,
+          17
+        ]
+      ],
+      "date-time": "2011-03-17T13:30:21Z",
+      "timestamp": 1300368621000
+    },
+    "page": "3656",
+    "source": "Crossref",
+    "is-referenced-by-count": 154,
+    "title": "Walking molecules",
+    "prefix": "10.1039",
+    "volume": "40",
+    "author": [
+      {
+        "given": "Max",
+        "family": "von Delius",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "David A.",
+        "family": "Leigh",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "292",
+    "container-title": "Chemical Society Reviews",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://pubs.rsc.org/en/content/articlepdf/2011/CS/C1CS15005G",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          19
+        ]
+      ],
+      "date-time": "2017-06-19T21:13:30Z",
+      "timestamp": 1497906810000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2011
+        ]
+      ]
+    },
+    "references-count": 139,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2011
+          ]
+        ]
+      },
+      "issue": "7"
+    },
+    "URL": "https://doi.org/10.1039/c1cs15005g",
+    "relation": {
+      "cites": []
+    },
+    "container-title-short": "Chem. Soc. Rev.",
+    "short_url": "https://doi.org/bx42ss",
+    "id": "SfUEsk0e"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          9
+        ]
+      ],
+      "date-time": "2018-05-09T10:28:51Z",
+      "timestamp": 1525861731849
+    },
+    "reference-count": 37,
+    "publisher": "Royal Society of Chemistry (RSC)",
+    "issue": "19",
+    "funder": [
+      {
+        "DOI": "10.13039/100000001",
+        "name": "National Science Foundation",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "DMR-1120901"
+        ]
+      },
+      {
+        "DOI": "10.13039/100000016",
+        "name": "U.S. Department of Health and Human Services",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "T32 HL007954",
+          "NIH U01-EB016027"
+        ]
+      },
+      {
+        "DOI": "10.13039/100000062",
+        "name": "National Institute of Diabetes and Digestive and Kidney Diseases",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "R01 DK083592"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "rsc.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "abstract": "<p>The most highly charged phospholipids, polyphosphoinositides, are often involved in signaling pathways that originate at cell–cell and cell–matrix contacts, and different isomers of polyphosphoinositides have distinct biological functions that cannot be explained by separate highly specific protein ligand binding sites [Lemmon, <italic>Nat. Rev. Mol. Cell Biol.</italic>, 2008, <bold>9</bold>, 99–111].</p>",
+    "DOI": "10.1039/c5cp00862j",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2015,
+          4,
+          9
+        ]
+      ],
+      "date-time": "2015-04-09T13:00:37Z",
+      "timestamp": 1428584437000
+    },
+    "page": "12608-12615",
+    "update-policy": "http://dx.doi.org/10.1039/rsc_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 5,
+    "title": "Physical chemistry and membrane properties of two phosphatidylinositol bisphosphate isomers",
+    "prefix": "10.1039",
+    "volume": "17",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0003-3928-5050",
+        "authenticated-orcid": false,
+        "given": "David R.",
+        "family": "Slochower",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Institute for Medicine and Engineering"
+          },
+          {
+            "name": "University of Pennsylvania"
+          },
+          {
+            "name": "Philadelphia, PA"
+          },
+          {
+            "name": "USA"
+          },
+          {
+            "name": "Department of Bioengineering"
+          }
+        ]
+      },
+      {
+        "given": "Yu-Hsiu",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute for Medicine and Engineering"
+          },
+          {
+            "name": "University of Pennsylvania"
+          },
+          {
+            "name": "Philadelphia, PA"
+          },
+          {
+            "name": "USA"
+          }
+        ]
+      },
+      {
+        "given": "Ravi",
+        "family": "Radhakrishnan",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute for Medicine and Engineering"
+          },
+          {
+            "name": "University of Pennsylvania"
+          },
+          {
+            "name": "Philadelphia, PA"
+          },
+          {
+            "name": "USA"
+          },
+          {
+            "name": "Department of Bioengineering"
+          }
+        ]
+      },
+      {
+        "given": "Paul A.",
+        "family": "Janmey",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Institute for Medicine and Engineering"
+          },
+          {
+            "name": "University of Pennsylvania"
+          },
+          {
+            "name": "Philadelphia, PA"
+          },
+          {
+            "name": "USA"
+          },
+          {
+            "name": "Department of Bioengineering"
+          }
+        ]
+      }
+    ],
+    "member": "292",
+    "published-online": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "container-title": "Physical Chemistry Chemical Physics",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://pubs.rsc.org/en/content/articlepdf/2015/CP/C5CP00862J",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          14
+        ]
+      ],
+      "date-time": "2017-11-14T10:00:34Z",
+      "timestamp": 1510653634000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2015
+        ]
+      ]
+    },
+    "references-count": 37,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2015
+          ]
+        ]
+      },
+      "issue": "19"
+    },
+    "URL": "https://doi.org/10.1039/c5cp00862j",
+    "relation": {
+      "cites": []
+    },
+    "container-title-short": "Phys. Chem. Chem. Phys.",
+    "assertion": [
+      {
+        "value": "This document is Similarity Check deposited",
+        "name": "similarity_check",
+        "explanation": {
+          "URL": "https://www.crossref.org/services/similarity-check/"
+        },
+        "group": {
+          "name": "similarity_check",
+          "label": "SIMILARITY CHECK"
+        }
+      },
+      {
+        "value": "Supplementary Information",
+        "URL": "https://doi.org/10.1039/C5CP00862J",
+        "name": "related_data",
+        "group": {
+          "name": "related_data",
+          "label": "RELATED DATA"
+        }
+      },
+      {
+        "value": "David R. Slochower (ORCID)",
+        "URL": "http://orcid.org/0000-0003-3928-5050",
+        "name": "identifier",
+        "group": {
+          "name": "author_identifiers",
+          "label": "IDENTIFIERS"
+        }
+      },
+      {
+        "value": "The PCCP Owner Societies have an exclusive publication licence for this journal",
+        "name": "copyright_licence",
+        "group": {
+          "name": "copyright_licensing",
+          "label": "COPYRIGHT AND LICENSING"
+        }
+      },
+      {
+        "value": "The accepted version of this article will be made freely available after a 12 month embargo period",
+        "name": "copyright_licence",
+        "label": "OPEN ACCESS",
+        "group": {
+          "name": "copyright_licensing",
+          "label": "COPYRIGHT AND LICENSING"
+        }
+      },
+      {
+        "value": "Single-blind",
+        "order": 2,
+        "name": "peer_review_method",
+        "group": {
+          "name": "peer_review_method",
+          "label": "PEER REVIEW METHOD"
+        }
+      },
+      {
+        "value": "Received 10 February 2015; Accepted 7 April 2015;  Accepted Manuscript published 9 April 2015;  Advance Article published 22 April 2015;  Version of Record published 6 May 2015",
+        "order": 1,
+        "name": "history",
+        "group": {
+          "name": "publication_history",
+          "label": "PUBLICATION HISTORY"
+        }
+      }
+    ],
+    "short_url": "https://doi.org/f8mnwf",
+    "id": "1E1rz4J4o"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          5,
+          8
+        ]
+      ],
+      "date-time": "2018-05-08T08:47:12Z",
+      "timestamp": 1525769232419
+    },
+    "reference-count": 80,
+    "publisher": "Royal Society of Chemistry (RSC)",
+    "issue": "5",
+    "license": [
+      {
+        "URL": "http://rsc.li/journals-terms-of-use",
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              12,
+              5
+            ]
+          ],
+          "date-time": "2018-12-05T00:00:00Z",
+          "timestamp": 1543968000000
+        },
+        "delay-in-days": 338,
+        "content-version": "am"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "rsc.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "abstract": "<p>Fluctuations favour state B = (B,B′) based on kinetic asymmetry combined with moderate dissipation rather than state A = (A,A′) in which the absolute amount of dissipation is greater but where there is no kinetic asymmetry.</p>",
+    "DOI": "10.1039/c7cc06683j",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          5
+        ]
+      ],
+      "date-time": "2017-12-05T14:03:22Z",
+      "timestamp": 1512482602000
+    },
+    "page": "427-444",
+    "update-policy": "http://dx.doi.org/10.1039/rsc_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 1,
+    "title": "Stochastic pumping of non-equilibrium steady-states: how molecules adapt to a fluctuating environment",
+    "prefix": "10.1039",
+    "volume": "54",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0001-7472-187X",
+        "authenticated-orcid": false,
+        "given": "R. D.",
+        "family": "Astumian",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Physics"
+          },
+          {
+            "name": "University of Maine"
+          },
+          {
+            "name": "Orono"
+          },
+          {
+            "name": "USA"
+          }
+        ]
+      }
+    ],
+    "member": "292",
+    "published-online": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "container-title": "Chemical Communications",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://pubs.rsc.org/en/content/articlepdf/2018/CC/C7CC06683J",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          1,
+          11
+        ]
+      ],
+      "date-time": "2018-01-11T09:49:21Z",
+      "timestamp": 1515664161000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "references-count": 80,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2018
+          ]
+        ]
+      },
+      "issue": "5"
+    },
+    "URL": "https://doi.org/10.1039/c7cc06683j",
+    "relation": {
+      "cites": []
+    },
+    "container-title-short": "Chem. Commun.",
+    "assertion": [
+      {
+        "value": "This document is Similarity Check deposited",
+        "name": "similarity_check",
+        "explanation": {
+          "URL": "https://www.crossref.org/services/similarity-check/"
+        },
+        "group": {
+          "name": "similarity_check",
+          "label": "SIMILARITY CHECK"
+        }
+      },
+      {
+        "value": "R. D. Astumian (ORCID)",
+        "URL": "http://orcid.org/0000-0001-7472-187X",
+        "name": "identifier",
+        "group": {
+          "name": "author_identifiers",
+          "label": "IDENTIFIERS"
+        }
+      },
+      {
+        "value": "Authors can choose between single-blind and double-blind peer review",
+        "order": 2,
+        "name": "peer_review_method",
+        "group": {
+          "name": "peer_review_method",
+          "label": "PEER REVIEW METHOD"
+        }
+      },
+      {
+        "value": "Received 29 August 2017; Accepted 5 December 2017;  Accepted Manuscript published 5 December 2017;  Advance Article published 15 December 2017;  Version of Record published 11 January 2018",
+        "order": 1,
+        "name": "history",
+        "group": {
+          "name": "publication_history",
+          "label": "PUBLICATION HISTORY"
+        }
+      }
+    ],
+    "short_url": "https://doi.org/gd3w9b",
+    "id": "qhUBHBOM"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          23
+        ]
+      ],
+      "date-time": "2018-08-23T09:02:45Z",
+      "timestamp": 1535014965164
+    },
+    "reference-count": 156,
+    "publisher": "Royal Society of Chemistry (RSC)",
+    "issue": "9",
+    "funder": [
+      {
+        "DOI": "10.13039/100010663",
+        "name": "H2020 European Research Council",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "AIG 694345 and 339019"
+        ]
+      },
+      {
+        "DOI": "10.13039/501100000266",
+        "name": "Engineering and Physical Sciences Research Council",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "EP/H021620/1&2"
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001722",
+        "name": "Koninklijke Nederlandse Akademie van Wetenschappen",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "Gravitation programme 0024.001.0035"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "rsc.org"
+      ],
+      "crossmark-restriction": true
+    },
+    "abstract": "<p>Artificial molecular motors take inspiration from motor proteins, nature's solution for achieving directional molecular level motion. An overview is given of the principal designs of artificial molecular motors and their modes of operation. We identify some key challenges remaining in the field.</p>",
+    "DOI": "10.1039/c7cs00245a",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          4,
+          20
+        ]
+      ],
+      "date-time": "2017-04-20T12:55:01Z",
+      "timestamp": 1492692901000
+    },
+    "page": "2592-2621",
+    "update-policy": "http://dx.doi.org/10.1039/rsc_crossmark_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 86,
+    "title": "Artificial molecular motors",
+    "prefix": "10.1039",
+    "volume": "46",
+    "author": [
+      {
+        "given": "Salma",
+        "family": "Kassem",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "School of Chemistry"
+          },
+          {
+            "name": "University of Manchester"
+          },
+          {
+            "name": "Manchester"
+          },
+          {
+            "name": "UK"
+          }
+        ]
+      },
+      {
+        "given": "Thomas",
+        "family": "van Leeuwen",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Stratingh Institute for Chemistry"
+          },
+          {
+            "name": "University of Groningen"
+          },
+          {
+            "name": "9747 AG Groningen"
+          },
+          {
+            "name": "The Netherlands"
+          }
+        ]
+      },
+      {
+        "given": "Anouk S.",
+        "family": "Lubbe",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Stratingh Institute for Chemistry"
+          },
+          {
+            "name": "University of Groningen"
+          },
+          {
+            "name": "9747 AG Groningen"
+          },
+          {
+            "name": "The Netherlands"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-2324-3657",
+        "authenticated-orcid": false,
+        "given": "Miriam R.",
+        "family": "Wilson",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Chemistry"
+          },
+          {
+            "name": "University of Manchester"
+          },
+          {
+            "name": "Manchester"
+          },
+          {
+            "name": "UK"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-0588-8435",
+        "authenticated-orcid": false,
+        "given": "Ben L.",
+        "family": "Feringa",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Stratingh Institute for Chemistry"
+          },
+          {
+            "name": "University of Groningen"
+          },
+          {
+            "name": "9747 AG Groningen"
+          },
+          {
+            "name": "The Netherlands"
+          }
+        ]
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-1202-4507",
+        "authenticated-orcid": false,
+        "given": "David A.",
+        "family": "Leigh",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "School of Chemistry"
+          },
+          {
+            "name": "University of Manchester"
+          },
+          {
+            "name": "Manchester"
+          },
+          {
+            "name": "UK"
+          }
+        ]
+      }
+    ],
+    "member": "292",
+    "published-online": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "container-title": "Chemical Society Reviews",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://pubs.rsc.org/en/content/articlepdf/2017/CS/C7CS00245A",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          11,
+          28
+        ]
+      ],
+      "date-time": "2017-11-28T18:15:51Z",
+      "timestamp": 1511892951000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017
+        ]
+      ]
+    },
+    "references-count": 156,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2017
+          ]
+        ]
+      },
+      "issue": "9"
+    },
+    "URL": "https://doi.org/10.1039/c7cs00245a",
+    "relation": {
+      "cites": []
+    },
+    "container-title-short": "Chem. Soc. Rev.",
+    "assertion": [
+      {
+        "value": "This document is Similarity Check deposited",
+        "name": "similarity_check",
+        "explanation": {
+          "URL": "https://www.crossref.org/services/similarity-check/"
+        },
+        "group": {
+          "name": "similarity_check",
+          "label": "SIMILARITY CHECK"
+        }
+      },
+      {
+        "value": "Miriam R. Wilson (ORCID)",
+        "URL": "http://orcid.org/0000-0003-2324-3657",
+        "name": "identifier",
+        "group": {
+          "name": "author_identifiers",
+          "label": "IDENTIFIERS"
+        }
+      },
+      {
+        "value": "Ben L. Feringa (ORCID)",
+        "URL": "http://orcid.org/0000-0003-0588-8435",
+        "name": "identifier",
+        "group": {
+          "name": "author_identifiers",
+          "label": "IDENTIFIERS"
+        }
+      },
+      {
+        "value": "David A. Leigh (ORCID)",
+        "URL": "http://orcid.org/0000-0002-1202-4507",
+        "name": "identifier",
+        "group": {
+          "name": "author_identifiers",
+          "label": "IDENTIFIERS"
+        }
+      },
+      {
+        "value": "The Royal Society of Chemistry has an exclusive publication licence for this journal",
+        "name": "copyright_licence",
+        "group": {
+          "name": "copyright_licensing",
+          "label": "COPYRIGHT AND LICENSING"
+        }
+      },
+      {
+        "value": "Single-blind",
+        "order": 2,
+        "name": "peer_review_method",
+        "group": {
+          "name": "peer_review_method",
+          "label": "PEER REVIEW METHOD"
+        }
+      },
+      {
+        "value": "Received 4 April 2017;  Advance Article published 20 April 2017;  Version of Record published 9 May 2017",
+        "order": 1,
+        "name": "history",
+        "group": {
+          "name": "publication_history",
+          "label": "PUBLICATION HISTORY"
+        }
+      }
+    ],
+    "short_url": "https://doi.org/gd3t7j",
+    "id": "1H5r7SBir"
+  },
+  {
+    "institution": {
+      "name": "bioRxiv",
+      "place": [
+        "-"
+      ],
+      "acronym": [
+        "-"
+      ]
+    },
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          7,
+          14
+        ]
+      ],
+      "date-time": "2018-07-14T04:40:55Z",
+      "timestamp": 1531543255433
+    },
+    "posted": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          21
+        ]
+      ]
+    },
+    "group-title": "Biophysics",
+    "reference-count": 0,
+    "publisher": "Cold Spring Harbor Laboratory",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "accepted": {
+      "date-parts": [
+        [
+          2018,
+          7,
+          13
+        ]
+      ]
+    },
+    "abstract": "<jats:p>Here, we focus on testing and improving force fields for molecular modeling, which see widespread use in diverse areas of computational chemistry and biomolecular simulation. A key issue affecting the accuracy and transferrability of these force fields is the use of atom typing. Traditional approaches to defining molecular mechanics force fields must encode, within a discrete set of atom types, all information which will ever be needed about the chemical environment; parameters are then assigned by looking up combinations of these atom types in tables. This atom typing approach leads to a wide variety of problems such as inextensible atom-typing machinery, enormous difficulty in expanding parameters encoded by atom types, and unnecessarily proliferation of encoded parameters. Here, we describe a new approach to assigning parameters for molecular mechanics force fields based on the industry standard SMARTS chemical perception language (with extensions to identify specific atoms available in SMIRKS). In this approach, each force field term (bonds, angles, and torsions, and nonbonded interactions) features separate definitions assigned in a hierarchical manner without using atom types. We accomplish this using direct chemical perception, where parameters are assigned directly based on substructure queries operating on the molecule(s) being parameterized, thereby avoiding the intermediate step of assigning atom types --- a step which can be considered indirect chemical perception. Direct chemical perception allows for substantial simplification of force fields, as well as additional generality in the substructure queries. This approach is applicable to a wide variety of (bio)molecular systems, and can greatly reduce the number of parameters needed to create a complete force field. Further flexibility can also be gained by allowing force field terms to be interpolated based on the assignment of fractional bond orders via the same procedure used to assign partial charges. As an example of the utility of this approach, we provide a minimalist small molecule force field derived from Merck's parm@Frosst (an Amber parm99 descendant), in which a parameter definition file only approximately 300 lines long can parameterize a large and diverse spectrum of pharmaceutically relevant small molecule chemical space. We benchmark this minimalist force field on the FreeSolv small molecule hydration free energy set and calculations of densities and dielectric constants from the ThermoML Archive, demonstrating that it achieves comparable accuracy to the Generalized Amber Force Field (GAFF) that consists of many thousands of parameters.</jats:p>",
+    "DOI": "10.1101/286542",
+    "type": "manuscript",
+    "created": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          21
+        ]
+      ],
+      "date-time": "2018-03-21T23:05:14Z",
+      "timestamp": 1521673514000
+    },
+    "source": "Crossref",
+    "is-referenced-by-count": 0,
+    "title": "Open Force Field Consortium: Escaping atom types using direct chemical perception with SMIRNOFF v0.1",
+    "prefix": "10.1101",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0002-1083-5533",
+        "authenticated-orcid": false,
+        "given": "David",
+        "family": "Mobley",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-2777-1174",
+        "authenticated-orcid": false,
+        "given": "Caitlin C.",
+        "family": "Bannan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Andrea",
+        "family": "Rizzi",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Christopher I.",
+        "family": "Bayly",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-0542-119X",
+        "authenticated-orcid": false,
+        "given": "John D.",
+        "family": "Chodera",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-4030-9312",
+        "authenticated-orcid": false,
+        "given": "Victoria T.",
+        "family": "Lim",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Nathan M.",
+        "family": "Lim",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0001-6095-8788",
+        "authenticated-orcid": false,
+        "given": "Kyle A.",
+        "family": "Beauchamp",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0003-3249-1097",
+        "authenticated-orcid": false,
+        "given": "Michael R.",
+        "family": "Shirts",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-3375-1738",
+        "authenticated-orcid": false,
+        "given": "Michael K.",
+        "family": "Gilson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Peter K.",
+        "family": "Eastman",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "246",
+    "container-title": [],
+    "original-title": [],
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1101/286542",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2018,
+          7,
+          14
+        ]
+      ],
+      "date-time": "2018-07-14T04:27:47Z",
+      "timestamp": 1531542467000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          3,
+          21
+        ]
+      ]
+    },
+    "references-count": 0,
+    "URL": "https://doi.org/10.1101/286542",
+    "relation": {},
+    "subtype": "preprint",
+    "short_url": "https://doi.org/gc5vxt",
+    "id": "HlBr7NrU"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          13
+        ]
+      ],
+      "date-time": "2018-08-13T10:42:35Z",
+      "timestamp": 1534156955282
+    },
+    "reference-count": 29,
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "issue": "5835",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2007,
+          7,
+          13
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.1135394",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2007,
+          7,
+          12
+        ]
+      ],
+      "date-time": "2007-07-12T21:03:59Z",
+      "timestamp": 1184274239000
+    },
+    "page": "239-242",
+    "source": "Crossref",
+    "is-referenced-by-count": 176,
+    "title": "Mechanism of Two Classes of Cancer Mutations in the Phosphoinositide 3-Kinase Catalytic Subunit",
+    "prefix": "10.1126",
+    "volume": "317",
+    "author": [
+      {
+        "given": "N.",
+        "family": "Miled",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Y.",
+        "family": "Yan",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "W.-C.",
+        "family": "Hon",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "O.",
+        "family": "Perisic",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "M.",
+        "family": "Zvelebil",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Y.",
+        "family": "Inbar",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "D.",
+        "family": "Schneidman-Duhovny",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "H. J.",
+        "family": "Wolfson",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "J. M.",
+        "family": "Backer",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "R. L.",
+        "family": "Williams",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "221",
+    "container-title": "Science",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1126/science.1135394",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          17
+        ]
+      ],
+      "date-time": "2017-06-17T20:47:51Z",
+      "timestamp": 1497732471000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2007,
+          7,
+          13
+        ]
+      ]
+    },
+    "references-count": 29,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2007,
+            7,
+            13
+          ]
+        ]
+      },
+      "issue": "5835"
+    },
+    "URL": "https://doi.org/10.1126/science.1135394",
+    "relation": {
+      "cites": []
+    },
+    "container-title-short": "Science",
+    "short_url": "https://doi.org/fjtpkb",
+    "id": "1HRoQaadQ"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          7,
+          19
+        ]
+      ],
+      "date-time": "2018-07-19T09:22:30Z",
+      "timestamp": 1531992150753
+    },
+    "reference-count": 36,
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "issue": "6341",
+    "license": [
+      {
+        "URL": "http://www.sciencemag.org/about/science-licenses-journal-article-reuse",
+        "start": {
+          "date-parts": [
+            [
+              2018,
+              6,
+              2
+            ]
+          ],
+          "date-time": "2018-06-02T00:00:00Z",
+          "timestamp": 1527897600000
+        },
+        "delay-in-days": 366,
+        "content-version": "vor"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100000781",
+        "name": "European Research Council",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "299859",
+          "694345"
+        ]
+      },
+      {
+        "DOI": "10.13039/501100003246",
+        "name": "Nederlandse Organisatie voor Wetenschappelijk Onderzoek",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "299856"
+        ]
+      },
+      {
+        "DOI": "10.13039/501100001722",
+        "name": "Koninklijke Nederlandse Akademie van Wetenschappen",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "299857"
+        ]
+      },
+      {
+        "name": "NanoNextNL",
+        "award": [
+          "299858"
+        ]
+      },
+      {
+        "name": "Netherlands Ministry of Education and Science - Gravitation Program",
+        "award": [
+          "024.001.035",
+          "299860"
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1126/science.aam8808",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          29
+        ]
+      ],
+      "date-time": "2017-06-29T17:28:20Z",
+      "timestamp": 1498757300000
+    },
+    "page": "964-968",
+    "source": "Crossref",
+    "is-referenced-by-count": 20,
+    "title": "Locked synchronous rotor motion in a molecular motor",
+    "prefix": "10.1126",
+    "volume": "356",
+    "author": [
+      {
+        "ORCID": "http://orcid.org/0000-0002-9404-7269",
+        "authenticated-orcid": false,
+        "given": "Peter",
+        "family": "Štacko",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "Jos C. M.",
+        "family": "Kistemaker",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "given": "Thomas",
+        "family": "van Leeuwen",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-7270-0319",
+        "authenticated-orcid": false,
+        "given": "Mu-Chieh",
+        "family": "Chang",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-5905-5108",
+        "authenticated-orcid": false,
+        "given": "Edwin",
+        "family": "Otten",
+        "sequence": "additional",
+        "affiliation": []
+      },
+      {
+        "ORCID": "http://orcid.org/0000-0002-9404-7269",
+        "authenticated-orcid": false,
+        "given": "Ben L.",
+        "family": "Feringa",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "221",
+    "published-online": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          1
+        ]
+      ]
+    },
+    "container-title": "Science",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1126/science.aam8808",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          12,
+          11
+        ]
+      ],
+      "date-time": "2017-12-11T18:29:57Z",
+      "timestamp": 1513016997000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2017,
+          6,
+          1
+        ]
+      ]
+    },
+    "references-count": 36,
+    "journal-issue": {
+      "published-online": {
+        "date-parts": [
+          [
+            2017,
+            6,
+            1
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2017,
+            6,
+            2
+          ]
+        ]
+      },
+      "issue": "6341"
+    },
+    "alternative-id": [
+      "10.1126/science.aam8808"
+    ],
+    "URL": "https://doi.org/10.1126/science.aam8808",
+    "relation": {
+      "cites": []
+    },
+    "container-title-short": "Science",
+    "short_url": "https://doi.org/gbhmv9",
+    "id": "mKSNFvW7"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          7
+        ]
+      ],
+      "date-time": "2018-08-07T18:02:40Z",
+      "timestamp": 1533664960104
+    },
+    "reference-count": 117,
+    "publisher": "Annual Reviews",
+    "issue": "1",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2002,
+          6
+        ]
+      ]
+    },
+    "DOI": "10.1146/annurev.biophys.31.082901.134259",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2002,
+          7,
+          28
+        ]
+      ],
+      "date-time": "2002-07-28T23:12:45Z",
+      "timestamp": 1027897965000
+    },
+    "page": "151-175",
+    "source": "Crossref",
+    "is-referenced-by-count": 484,
+    "title": "PIP2 and Proteins: Interactions, Organization, and Information Flow",
+    "prefix": "10.1146",
+    "volume": "31",
+    "author": [
+      {
+        "given": "Stuart",
+        "family": "McLaughlin",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Department of Physiology and Biophysics, HSC, SUNY Stony Brook, New York 11794-8661; e-mail: "
+          },
+          {
+            "name": "Department of Microbiology and Immunology, Weill Medical College of Cornell University, 1300 York Avenue, Box 62, New York, New York 10021"
+          }
+        ]
+      },
+      {
+        "given": "Jiyao",
+        "family": "Wang",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physiology and Biophysics, HSC, SUNY Stony Brook, New York 11794-8661; e-mail: "
+          },
+          {
+            "name": "Department of Microbiology and Immunology, Weill Medical College of Cornell University, 1300 York Avenue, Box 62, New York, New York 10021"
+          }
+        ]
+      },
+      {
+        "given": "Alok",
+        "family": "Gambhir",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physiology and Biophysics, HSC, SUNY Stony Brook, New York 11794-8661; e-mail: "
+          },
+          {
+            "name": "Department of Microbiology and Immunology, Weill Medical College of Cornell University, 1300 York Avenue, Box 62, New York, New York 10021"
+          }
+        ]
+      },
+      {
+        "given": "Diana",
+        "family": "Murray",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Department of Physiology and Biophysics, HSC, SUNY Stony Brook, New York 11794-8661; e-mail: "
+          },
+          {
+            "name": "Department of Microbiology and Immunology, Weill Medical College of Cornell University, 1300 York Avenue, Box 62, New York, New York 10021"
+          }
+        ]
+      }
+    ],
+    "member": "22",
+    "container-title": "Annual Review of Biophysics and Biomolecular Structure",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://www.annualreviews.org/doi/pdf/10.1146/annurev.biophys.31.082901.134259",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          1,
+          17
+        ]
+      ],
+      "date-time": "2017-01-17T10:17:42Z",
+      "timestamp": 1484648262000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2002,
+          6
+        ]
+      ]
+    },
+    "references-count": 117,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2002,
+            6
+          ]
+        ]
+      },
+      "issue": "1"
+    },
+    "alternative-id": [
+      "10.1146/annurev.biophys.31.082901.134259"
+    ],
+    "URL": "https://doi.org/10.1146/annurev.biophys.31.082901.134259",
+    "relation": {},
+    "container-title-short": "Annu. Rev. Biophys. Biomol. Struct.",
+    "short_url": "https://doi.org/bjgrvm",
+    "id": "3EmJ4esY"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          21
+        ]
+      ],
+      "date-time": "2018-08-21T02:42:40Z",
+      "timestamp": 1534819360711
+    },
+    "reference-count": 342,
+    "publisher": "Annual Reviews",
+    "issue": "1",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2001,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1146/annurev.cellbio.17.1.615",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2002,
+          7,
+          27
+        ]
+      ],
+      "date-time": "2002-07-27T11:40:13Z",
+      "timestamp": 1027770013000
+    },
+    "page": "615-675",
+    "source": "Crossref",
+    "is-referenced-by-count": 553,
+    "title": "Cellular Function of Phosphoinositide 3-Kinases: Implications for Development, Immunity, Homeostasis, and Cancer",
+    "prefix": "10.1146",
+    "volume": "17",
+    "author": [
+      {
+        "given": "Roy",
+        "family": "Katso",
+        "sequence": "first",
+        "affiliation": [
+          {
+            "name": "Ludwig Institute for Cancer Research, 91 Riding House Street, London, W1W 7BS, England; e-mail:     "
+          },
+          {
+            "name": "Department of Biochemistry and Molecular Biology, Gower Street, London WC1E 6BT, England;"
+          }
+        ]
+      },
+      {
+        "given": "Klaus",
+        "family": "Okkenhaug",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Ludwig Institute for Cancer Research, 91 Riding House Street, London, W1W 7BS, England; e-mail:     "
+          },
+          {
+            "name": "Department of Biochemistry and Molecular Biology, Gower Street, London WC1E 6BT, England;"
+          }
+        ]
+      },
+      {
+        "given": "Khatereh",
+        "family": "Ahmadi",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Ludwig Institute for Cancer Research, 91 Riding House Street, London, W1W 7BS, England; e-mail:     "
+          },
+          {
+            "name": "Department of Biochemistry and Molecular Biology, Gower Street, London WC1E 6BT, England;"
+          }
+        ]
+      },
+      {
+        "given": "Sarah",
+        "family": "White",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Ludwig Institute for Cancer Research, 91 Riding House Street, London, W1W 7BS, England; e-mail:     "
+          },
+          {
+            "name": "Department of Biochemistry and Molecular Biology, Gower Street, London WC1E 6BT, England;"
+          }
+        ]
+      },
+      {
+        "given": "John",
+        "family": "Timms",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Ludwig Institute for Cancer Research, 91 Riding House Street, London, W1W 7BS, England; e-mail:     "
+          },
+          {
+            "name": "Department of Biochemistry and Molecular Biology, Gower Street, London WC1E 6BT, England;"
+          }
+        ]
+      },
+      {
+        "given": "Michael D.",
+        "family": "Waterfield",
+        "sequence": "additional",
+        "affiliation": [
+          {
+            "name": "Ludwig Institute for Cancer Research, 91 Riding House Street, London, W1W 7BS, England; e-mail:     "
+          },
+          {
+            "name": "Department of Biochemistry and Molecular Biology, Gower Street, London WC1E 6BT, England;"
+          }
+        ]
+      }
+    ],
+    "member": "22",
+    "container-title": "Annual Review of Cell and Developmental Biology",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "http://www.annualreviews.org/doi/pdf/10.1146/annurev.cellbio.17.1.615",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2017,
+          1,
+          17
+        ]
+      ],
+      "date-time": "2017-01-17T09:43:18Z",
+      "timestamp": 1484646198000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2001,
+          11
+        ]
+      ]
+    },
+    "references-count": 342,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2001,
+            11
+          ]
+        ]
+      },
+      "issue": "1"
+    },
+    "alternative-id": [
+      "10.1146/annurev.cellbio.17.1.615"
+    ],
+    "URL": "https://doi.org/10.1146/annurev.cellbio.17.1.615",
+    "relation": {},
+    "container-title-short": "Annu. Rev. Cell Dev. Biol.",
+    "short_url": "https://doi.org/cx78gc",
+    "id": "l2gqdgv"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          30
+        ]
+      ],
+      "date-time": "2018-08-30T06:42:31Z",
+      "timestamp": 1535611351175
+    },
+    "reference-count": 0,
+    "publisher": "American Association for Cancer Research (AACR)",
+    "issue": "15",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2007,
+          8,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1158/1078-0432.ccr-07-0653",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2007,
+          8,
+          1
+        ]
+      ],
+      "date-time": "2007-08-01T18:19:18Z",
+      "timestamp": 1185992358000
+    },
+    "page": "4637s-4640s",
+    "source": "Crossref",
+    "is-referenced-by-count": 15,
+    "title": "The Role of Phosphoinositide 3-Kinase Pathway Inhibitors in the Treatment of Lung Cancer",
+    "prefix": "10.1158",
+    "volume": "13",
+    "author": [
+      {
+        "given": "J. A.",
+        "family": "Engelman",
+        "sequence": "first",
+        "affiliation": []
+      }
+    ],
+    "member": "1086",
+    "container-title": "Clinical Cancer Research",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1158/1078-0432.CCR-07-0653",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2016,
+          12,
+          23
+        ]
+      ],
+      "date-time": "2016-12-23T10:52:20Z",
+      "timestamp": 1482490340000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2007,
+          8,
+          1
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "published-print": {
+        "date-parts": [
+          [
+            2007,
+            8,
+            1
+          ]
+        ]
+      },
+      "issue": "15"
+    },
+    "URL": "https://doi.org/10.1158/1078-0432.ccr-07-0653",
+    "relation": {},
+    "container-title-short": "Clinical Cancer Research",
+    "short_url": "https://doi.org/ds6h9k",
+    "id": "izLqFTEH"
+  },
+  {
+    "indexed": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          28
+        ]
+      ],
+      "date-time": "2018-08-28T12:42:38Z",
+      "timestamp": 1535460158777
+    },
+    "reference-count": 0,
+    "publisher": "The Company of Biologists",
+    "issue": "9",
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2012,
+          9,
+          15
+        ]
+      ]
+    },
+    "DOI": "10.1242/bio.20122071",
+    "type": "article-journal",
+    "created": {
+      "date-parts": [
+        [
+          2012,
+          7,
+          14
+        ]
+      ],
+      "date-time": "2012-07-14T09:21:38Z",
+      "timestamp": 1342257698000
+    },
+    "page": "857-862",
+    "source": "Crossref",
+    "is-referenced-by-count": 38,
+    "title": "Segregation of PIP2 and PIP3 into distinct nanoscale regions within the plasma membrane",
+    "prefix": "10.1242",
+    "volume": "1",
+    "author": [
+      {
+        "given": "J.",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": []
+      },
+      {
+        "given": "D. A.",
+        "family": "Richards",
+        "sequence": "additional",
+        "affiliation": []
+      }
+    ],
+    "member": "237",
+    "published-online": {
+      "date-parts": [
+        [
+          2012,
+          7,
+          13
+        ]
+      ]
+    },
+    "container-title": "Biology Open",
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://syndication.highwire.org/content/doi/10.1242/bio.20122071",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2016,
+          12,
+          22
+        ]
+      ],
+      "date-time": "2016-12-22T23:27:02Z",
+      "timestamp": 1482449222000
+    },
+    "score": 1.0,
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2012,
+          7,
+          13
+        ]
+      ]
+    },
+    "references-count": 0,
+    "journal-issue": {
+      "published-online": {
+        "date-parts": [
+          [
+            2012,
+            9,
+            15
+          ]
+        ]
+      },
+      "published-print": {
+        "date-parts": [
+          [
+            2012,
+            9,
+            15
+          ]
+        ]
+      },
+      "issue": "9"
+    },
+    "URL": "https://doi.org/10.1242/bio.20122071",
+    "relation": {},
+    "container-title-short": "Biology Open",
+    "short_url": "https://doi.org/f4fg7v",
+    "id": "rvpDeSHJ"
+  },
+  {
+    "URL": "https://biophyscode.github.io/",
+    "greycite-canonical-uri": null,
+    "title": "BioPhysCode Portal",
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          4,
+          22
+        ]
+      ]
+    },
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2018-08-20 23:03:55",
+    "type": "webpage",
+    "id": "aHkuGDrS"
+  },
+  {
+    "URL": "https://github.com/biophyscode",
+    "title": "BioPhysCode",
+    "container-title": "GitHub",
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2018-08-20 23:03:57",
+    "type": "webpage",
+    "id": "14RTQvTQS"
+  },
+  {
+    "URL": "https://github.com/leeping/forcebalance",
+    "title": "leeping/forcebalance",
+    "container-title": "GitHub",
+    "author": [
+      {
+        "family": "Wang",
+        "given": "Lee-Ping"
+      }
+    ],
+    "greycite-status": "Scanned",
+    "greycite-scanned": "2018-08-22 18:03:15",
+    "type": "webpage",
+    "id": "8Q2gLatV"
+  },
+  {
+    "type": "chapter",
+    "title": "Lipid Membrane Shape Evolution and the Actin Cytoskeleton",
+    "container-title": "Handbook of Lipid Membranes, Molecular and Materials aspects",
+    "publisher": "Taylor & Francis Publishers",
+    "ISBN": "978-1-4665-5572-3",
+    "author": [
+      {
+        "family": "Slochower",
+        "given": "David R."
+      },
+      {
+        "family": "Wang",
+        "given": "Yu-Hsiu"
+      },
+      {
+        "family": "Radhakrishnan",
+        "given": "Ravi"
+      },
+      {
+        "family": "Janmey",
+        "given": "Paul A."
+      }
+    ],
+    "collection-editor": [
+      {
+        "family": "Safinya",
+        "given": "Cyrus"
+      },
+      {
+        "family": "Rädler",
+        "given": "Joachim"
+      }
+    ],
+    "issued": {
+      "literal": "2018"
+    },
+    "id": "1AHXI1BtY"
+  }
+]

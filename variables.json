@@ -1,57 +1,26 @@
 {
-  "date": "August 18, 2018",
+  "date": "August 31, 2018",
   "authors": [
     {
-      "github": "johndoe",
-      "name": "John Doe",
-      "initials": "JD",
-      "orcid": "XXXX-XXXX-XXXX-XXXX",
-      "twitter": "johndoe",
-      "email": "john.doe@something.com",
-      "affiliations": [
-        "Department of Something, University of Whatever"
-      ],
-      "funders": "Grant XXXXXXXX",
-      "affiliation_numbers": [
-        1
-      ]
-    },
-    {
-      "github": "janeroe",
-      "name": "Jane Roe",
-      "initials": "JR",
-      "orcid": "XXXX-XXXX-XXXX-XXXX",
-      "email": "jane.roe@whatever.edu",
-      "affiliations": [
-        "Department of Something, University of Whatever",
-        "Department of Whatever, University of Something"
-      ],
-      "affiliation_numbers": [
-        1,
-        2
-      ]
-    }
-  ],
-  "affiliations": [
-    {
-      "affiliation": "Department of Something, University of Whatever",
-      "affiliation_number": 1
-    },
-    {
-      "affiliation": "Department of Whatever, University of Something",
-      "affiliation_number": 2
+      "github": "slochower",
+      "name": "David R. Slochower",
+      "initials": "DRS",
+      "twitter": "drslochower",
+      "email": "slochower@gmail.com"
     }
   ],
   "ci_source": {
     "repo_slug": "slochower/scaling-octo-garbanzo",
     "repo_owner": "slochower",
     "repo_name": "scaling-octo-garbanzo",
-    "commit": "e82bc10625da9358fdbec946826dfc22dc86bb14"
+    "commit": "dedf08cd38969fc034a29d3cd121c6215b1847dc"
   },
   "manuscript_stats": {
     "reference_counts": {
-      "total": 0
+      "doi": 42,
+      "url": 4,
+      "total": 46
     },
-    "word_count": 123
+    "word_count": 2820
   }
 }
