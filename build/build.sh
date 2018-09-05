@@ -11,12 +11,12 @@ manubot \
   --content-directory=content \
   --output-directory=output \
   --cache-directory=ci/cache \
-  --log-level=DEBUG
+  --log-level=INFO
 
-BUILD_HTML="true"
+BUILD_HTML="false"
 BUILD_PDF="false"
-BUILD_DOCX="false"
-BUILD_LATEX="false"
+BUILD_DOCX="true"
+BUILD_LATEX="true"
 
 # pandoc settings
 # Exports so that we can convert and resize figures.
@@ -98,37 +98,44 @@ fi
 
 if [ "$BUILD_LATEX" = "true" ];
 then
-  echo "Exporting LATEX manuscript"
-  pandoc --verbose \
-    --from=markdown \
-    --to=latex \
-    --filter=pandoc-fignos \
-    --filter=pandoc-eqnos \
-    --filter=pandoc-tablenos \
-    --filter=pandoc-img-glob \
-    --bibliography=$BIBLIOGRAPHY_PATH \
-    --csl=$CSL_PATH \
-    --template=build/assets/nih.tex \
-    --metadata link-citations=true \
-    --number-sections \
-    --resource-path=.:content \
-    -s --output=output/manuscript.tex \
-    $INPUT_PATH
+  # echo "Exporting LATEX manuscript"
+  # pandoc --verbose \
+  #   --from=markdown \
+  #   --to=latex \
+  #   --filter=pandoc-fignos \
+  #   --filter=pandoc-eqnos \
+  #   --filter=pandoc-tablenos \
+  #   --filter=pandoc-img-glob \
+  #   --bibliography=$BIBLIOGRAPHY_PATH \
+  #   --csl=$CSL_PATH \
+  #   --template=build/assets/nih.tex \
+  #   --metadata link-citations=true \
+  #   --number-sections \
+  #   --resource-path=.:content \
+  #   -s --output=output/manuscript.tex \
+  #   $INPUT_PATH
 
   echo "Exporting LATEX (PDF) manuscript"
-  pandoc --verbose \
+
+  FONT="Helvetica"
+  COLORLINKS="true"
+  pandoc \
     --from=markdown \
-    --filter=pandoc-fignos \
     --filter=pandoc-eqnos \
     --filter=pandoc-tablenos \
     --filter=pandoc-img-glob \
+    --filter=pandoc-chemfig \
+    --filter=pandoc-fignos \
     --bibliography=$BIBLIOGRAPHY_PATH \
     --csl=$CSL_PATH \
     --template=build/assets/nih.tex \
     --metadata link-citations=true \
     --number-sections \
-    --resource-path=.:content \
+    --resource-path=.:content:../content \
     --pdf-engine=xelatex \
+    --variable mainfont="${FONT}" \
+    --variable sansfont="${FONT}" \
+    --variable colorlinks="${COLORLINKS}" \
     --output=output/manuscript.pdf \
     $INPUT_PATH
 

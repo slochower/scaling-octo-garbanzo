@@ -30,12 +30,9 @@ $endif$$if(dir)$$if(latex-dir-rtl)$
 $endif$$endif$%
 %% DRS packages to load based on NIH.
 \documentclass[11pt,notitlepage]{article}
-\usepackage{helvet} % Helvetica font
-\renewcommand*\familydefault{\sfdefault} % Use the sans serif version of the font
-\usepackage[T1]{fontenc}
-\linespread{1.05} % A little extra line spread is better for the Palatino font
 
-\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+% \usepackage[T1]{fontenc}
+\linespread{1.15} % A little extra line spread is better for the Palatino font
 \usepackage{amsfonts, amsmath, amsthm, amssymb} % For math fonts, symbols and environments
 \usepackage{graphicx} % Required for including images
 \usepackage{booktabs} % Top and bottom rules for table
@@ -46,14 +43,27 @@ $endif$$endif$%
 \usepackage[T1]{fontenc}
 \usepackage[greek,english]{babel}
 % For switching to xelatex if unicode detected...
-\usepackage{fontspec}
-\setmainfont{Helvetica}
+ \usepackage[no-math]{fontspec}
+ \setmainfont{Helvetica}
+ \usepackage{mathspec}
+\setmathsfont(Digits,Latin,Greek)[Uppercase=Italic,Lowercase=Italic]{Helvetica}
+
+\usepackage[small,compact]{titlesec}
+ \titlespacing{\title}{0pt}{0ex}{-2in}
+ \titlespacing{\section}{0pt}{\parskip}{-\parskip}
+ \titlespacing{\subsection}{0pt}{\parskip}{-\parskip}
+ \titlespacing{\subsubsection}{0pt}{\parskip}{-\parskip}
+ \titleformat{\section}%
+  [hang]% <shape>
+  {\normalfont\bfseries}% <format>
+  {}% <label>
+  {0pt}% <sep>
+  {}% <before code>
+
+\renewcommand{\thesection}{}
+\renewcommand{\thesubsection}{\arabic{subsection}}
 
 
-\usepackage{titlesec}
-\titlespacing{\section}{0pt}{\parskip}{-\parskip}
-\titlespacing{\subsection}{0pt}{\parskip}{-\parskip}
-\titlespacing{\subsubsection}{0pt}{\parskip}{-\parskip}
 
 \pagestyle{empty} % Remove page numbers
 
@@ -92,15 +102,15 @@ $endif$
   \usepackage[utf8]{inputenc}
   \usepackage{textcomp} % provides euro and other symbols
 \else % if luatex or xelatex
-$if(mathspec)$
-  \ifxetex
-    \usepackage{mathspec}
-  \else
-    \usepackage{unicode-math}
-  \fi
-$else$
-  \usepackage{unicode-math}
-$endif$
+%$if(mathspec)$
+%  \ifxetex
+%    \usepackage{mathspec}
+%  \else
+%    \usepackage{unicode-math}
+%  \fi
+%$else$
+%  \usepackage{unicode-math}
+%$endif$
   \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
 $for(fontfamilies)$
   \newfontfamily{$fontfamilies.name$}[$fontfamilies.options$]{$fontfamilies.font$}
@@ -114,17 +124,17 @@ $endif$
 $if(monofont)$
     \setmonofont[Mapping=tex-ansi$if(monofontoptions)$,$for(monofontoptions)$$monofontoptions$$sep$,$endfor$$endif$]{$monofont$}
 $endif$
-$if(mathfont)$
-$if(mathspec)$
-  \ifxetex
-    \setmathfont(Digits,Latin,Greek)[$for(mathfontoptions)$$mathfontoptions$$sep$,$endfor$]{$mathfont$}
-  \else
-    \setmathfont[$for(mathfontoptions)$$mathfontoptions$$sep$,$endfor$]{$mathfont$}
-  \fi
-$else$
-  \setmathfont[$for(mathfontoptions)$$mathfontoptions$$sep$,$endfor$]{$mathfont$}
-$endif$
-$endif$
+%$if(mathfont)$
+%$if(mathspec)$
+%  \ifxetex
+%    \setmathfont(Digits,Latin,Greek)[$for(mathfontoptions)$$mathfontoptions$$sep$,$endfor$]{$mathfont$}
+%  \else
+%    \setmathfont[$for(mathfontoptions)$$mathfontoptions$$sep$,$endfor$]{$mathfont$}
+%  \fi
+%$else$
+%  \setmathfont[$for(mathfontoptions)$$mathfontoptions$$sep$,$endfor$]{$mathfont$}
+%$endif$
+%$endif$
 $if(CJKmainfont)$
   \ifxetex
     \usepackage{xeCJK}
@@ -355,7 +365,8 @@ $endfor$
 $endif$
 
 $if(title)$
-\title{$title$$if(thanks)$\thanks{$thanks$}$endif$}
+%DRS
+\title{\vspace{-0.5in} $title$ \vspace{-1in}$if(thanks)$\thanks{$thanks$}$endif$}
 $endif$
 $if(subtitle)$
 \providecommand{\subtitle}[1]{}
