@@ -1,49 +1,35 @@
 \PassOptionsToPackage{unicode=true}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 \PassOptionsToPackage{dvipsnames,svgnames*,x11names*}{xcolor}
-
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames*,x11names*}{xcolor}
+%
 %% DRS packages to load based on NIH.
 \documentclass[11pt,notitlepage]{article}
-\usepackage{amsfonts, amsmath, amsthm, amssymb}
-\usepackage{graphicx}
-\usepackage{booktabs}
-\usepackage{wrapfig}
-\usepackage[labelfont=bf]{caption}
-\usepackage{hyperref}
-\hypersetup{
-$if(title-meta)$
-            pdftitle={$title-meta$},
-$endif$
-$if(author-meta)$
-            pdfauthor={$author-meta$},
-$endif$
-$if(keywords)$
-            pdfkeywords={$for(keywords)$$keywords$$sep$, $endfor$},
-$endif$
-$if(colorlinks)$
-            colorlinks=true,
-            linkcolor=$if(linkcolor)$$linkcolor$$else$Maroon$endif$,
-            citecolor=$if(citecolor)$$citecolor$$else$Blue$endif$,
-            urlcolor=$if(urlcolor)$$urlcolor$$else$Blue$endif$,
-$else$
-            pdfborder={0 0 0},
-$endif$
-            breaklinks=true}
 
+% \usepackage[T1]{fontenc}
+\linespread{1.05} % A little extra line spread is better for the Palatino font
+\usepackage{amsfonts, amsmath, amsthm, amssymb} % For math fonts, symbols and environments
+\usepackage{graphicx} % Required for including images
+\usepackage{booktabs} % Top and bottom rules for table
+\usepackage{wrapfig} % Allows in-line images
+\usepackage[labelfont=bf]{caption} % Make figure numbering in captions bold
 \usepackage[top=0.5in,bottom=0.5in,left=0.5in,right=0.5in]{geometry} % Reduce the size of the margin
-\linespread{1.15} 
-\pagestyle{empty}
-
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{microtype}
 \usepackage[greek,english]{babel}
-\usepackage[no-math]{fontspec}
-\setmainfont{Helvetica}
-\usepackage{mathspec}
-\setmathsfont(Digits,Latin,Greek)[Uppercase=Italic,Lowercase=Italic]{Helvetica}
+\usepackage{xcolor}
+\usepackage{hyperref}
+% For switching to xelatex if unicode detected...
+ \usepackage[no-math]{fontspec}
+ \setmainfont{Helvetica}
+ \usepackage{mathspec}
+\setmathfont(Digits,Latin)[Uppercase=Italic,Lowercase=Italic]{Helvetica}
+\setmathfont(Greek)[Uppercase=Regular,Lowercase=Italic]{Helvetica}
 
 \usepackage[small,compact]{titlesec}
+\usepackage{setspace}
  \titlespacing{\title}{0pt}{0ex}{-2in}
  \titlespacing{\section}{0pt}{\parskip}{-\parskip}
  \titlespacing{\subsection}{0pt}{\parskip}{-\parskip}
@@ -54,27 +40,58 @@ $endif$
   {}% <label>
   {0pt}% <sep>
   {}% <before code>
- \titleformat{\subsection}%
-  [hang]% <shape>
-  {\normalfont\bfseries}% <format>
-  {\thesubsection}% <label>
-  {1em}% <sep>
-  {}% <before code>
-
 
 \renewcommand{\thesection}{}
 \renewcommand{\thesubsection}{\arabic{subsection}}
 
-\usepackage{grffile}
+\pagestyle{empty} % Remove page numbers
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
 \usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
+\else % if luatex or xelatex
+%%  \usepackage{unicode-math}
+%  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+    \setmainfont[]{Helvetica}
+    \setsansfont[]{Helvetica}
+%\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
 \makeatother
-
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-
 
 $if(natbib)$
 \usepackage[$natbiboptions$]{natbib}

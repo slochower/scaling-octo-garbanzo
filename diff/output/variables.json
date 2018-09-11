@@ -1,0 +1,20 @@
+{
+  "date": "September 11, 2018",
+  "authors": [
+    {
+      "github": "slochower",
+      "name": "David R. Slochower",
+      "initials": "DRS",
+      "twitter": "drslochower",
+      "email": "slochower@gmail.com"
+    }
+  ],
+  "manuscript_stats": {
+    "reference_counts": {
+      "doi": 44,
+      "url": 4,
+      "total": 48
+    },
+    "word_count": 4604
+  }
+}

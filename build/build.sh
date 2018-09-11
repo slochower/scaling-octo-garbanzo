@@ -15,7 +15,7 @@ manubot \
 
 BUILD_HTML="false"
 BUILD_PDF="false"
-BUILD_DOCX="true"
+BUILD_DOCX="false"
 BUILD_LATEX="true"
 
 # pandoc settings
@@ -119,7 +119,7 @@ then
 
   FONT="Helvetica"
   COLORLINKS="true"
-  pandoc \
+  pandoc --verbose \
     --from=markdown \
     --filter=pandoc-eqnos \
     --filter=pandoc-tablenos \
@@ -128,7 +128,7 @@ then
     --filter=pandoc-fignos \
     --bibliography=$BIBLIOGRAPHY_PATH \
     --csl=$CSL_PATH \
-    --template=build/assets/nih.tex \
+    --template=build/assets/nih4.tex \
     --metadata link-citations=true \
     --number-sections \
     --resource-path=.:content:../content \
@@ -137,9 +137,8 @@ then
     --variable sansfont="${FONT}" \
     --variable colorlinks="${COLORLINKS}" \
     --output=output/manuscript.pdf \
-    $INPUT_PATH
+    $INPUT_PATH > output/manuscript.tex
 
 fi
-
 
 echo "Build complete"
