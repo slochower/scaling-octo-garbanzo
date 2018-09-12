@@ -58,10 +58,10 @@ sudo tlmgr option repository ftp://tug.org/historic/systems/texlive/2015/tlnet-f
 #   INSTALL ADDITIONAL PACKAGES HERE
 # ----------------------------------------------------------------------------
 echo "TLMGR"
-sudo tlmgr install \
-    hyperref       \
-    parskip        \
-    babel          \
-    tools          \
-    graphics       \
-    xcolor
+#sudo tlmgr install \
+#    hyperref       \
+#    parskip        \
+#    babel          \
+#    tools          \
+#    graphics       \
+#    xcolor
