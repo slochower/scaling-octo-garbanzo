@@ -12,6 +12,13 @@ before_install:
   - hash -r
   - conda config --set always_yes yes --set changeps1 no
   - conda info --all
+addons:
+  apt:
+    packages:
+    - texlive-xetex
+    - texlive-latex-extra
+    - texlive-fonts-recommended
+    - latex-xcolor
 install:
   - conda env create --quiet --file build/environment.yml
   - conda activate manubot
@@ -19,7 +26,6 @@ install:
   - pip install pandocfilters
   - pip install pandoc-img-glob
   - sh ci/pandoc-chemfig.sh
-  - sh ci/tlsetup.sh
 script:
   - BUILD_HTML=true sh build/build.sh
   - sh build/build.sh
