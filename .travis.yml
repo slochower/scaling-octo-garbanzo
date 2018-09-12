@@ -17,8 +17,11 @@ install:
   - conda activate manubot
   - pip install panflute
   - pip install pandocfilters
-  - pip install pandoc-img-glob  
+  - pip install pandoc-img-glob
+  - sh ci/pandoc-chemfig.sh
+  - sh ci/tlsetup.sh
 script:
+  - BUILD_HTML=true sh build/build.sh
   - sh build/build.sh
 cache:
   directories:
