@@ -19,7 +19,7 @@ install:
   - pip install pandocfilters
   - pip install pandoc-img-glob  
 script:
-  - BUILD_DOCX=true sh build/build.sh
+  - sh build/build.sh
 cache:
   directories:
     - ci/cache
