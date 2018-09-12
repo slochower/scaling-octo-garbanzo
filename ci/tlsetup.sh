@@ -25,11 +25,13 @@
 #
 
 # Update aptitude repository
+echo "Updating"
 sudo apt-get -qq update
 
 # Install TexLive 2015 Distribution
 # This includes the recommended fonts, LaTeX packages, and the XeLaTeX
 # compiler
+echo "Installing LaTeX..."
 sudo apt-get install -y --no-install-recommends texlive-fonts-recommended \
     texlive-latex-extra \
     texlive-fonts-extra \
@@ -38,12 +40,15 @@ sudo apt-get install -y --no-install-recommends texlive-fonts-recommended \
     texlive-xetex
 
 # Install decompression tool to extract LaTex packages later on
+echo "Extra 1"
 sudo apt-get install -y xzdec
 
 # Install biber for .bib compilation
+echo "Extra 2"
 sudo apt-get install -y biber
 
 # Initialize user tree for installing additional packages
+echo "Extra 3"
 sudo tlmgr init-usertree
 
 # Define repository for obtaining LaTeX packages (using TexLive 2015)
@@ -52,7 +57,7 @@ sudo tlmgr option repository ftp://tug.org/historic/systems/texlive/2015/tlnet-f
 # ----------------------------------------------------------------------------
 #   INSTALL ADDITIONAL PACKAGES HERE
 # ----------------------------------------------------------------------------
-
+echo "TLMGR"
 sudo tlmgr install \
     hyperref       \
     parskip        \
