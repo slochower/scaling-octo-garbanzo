@@ -13,7 +13,7 @@ manubot \
   --cache-directory=ci/cache \
   --log-level=INFO
 
-BUILD_HTML="true"
+BUILD_HTML="false"
 BUILD_PDF="false"
 BUILD_DOCX="false"
 BUILD_LATEX="true"
