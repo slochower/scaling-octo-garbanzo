@@ -18,6 +18,7 @@ addons:
     - texlive-xetex
     - texlive-latex-extra
     - texlive-fonts-recommended
+    - texlive-lang-greek
     - latex-xcolor
 install:
   - conda env create --quiet --file build/environment.yml
