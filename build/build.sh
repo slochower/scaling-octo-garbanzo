@@ -14,7 +14,7 @@ manubot \
   --log-level=INFO
 
 BUILD_HTML="false"
-BUILD_PDF="true"
+BUILD_PDF="false"
 BUILD_DOCX="false"
 BUILD_LATEX="true"
 
