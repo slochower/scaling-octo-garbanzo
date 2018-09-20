@@ -32,7 +32,7 @@ $endif$$endif$%
 \documentclass[11pt,notitlepage]{article}
 
 % \usepackage[T1]{fontenc}
-\linespread{1.08} % A little extra line spread is better for the Palatino font
+\linespread{1.15} % A little extra line spread is better for the Palatino font
 \usepackage{amsfonts, amsmath, amsthm, amssymb} % For math fonts, symbols and environments
 \usepackage{graphicx} % Required for including images
 \usepackage{booktabs} % Top and bottom rules for table
@@ -58,7 +58,7 @@ $endif$$endif$%
 
 
  \usepackage[small,compact]{titlesec}
- \titlespacing{\title}{0pt}{0ex}{-2in}
+ \titlespacing{\title}{-2in}{0ex}{-3in}
  \titlespacing{\section}{0pt}{\parskip}{-\parskip}
  \titlespacing{\subsection}{0pt}{-\parskip}{-\parskip}
  \titlespacing{\subsubsection}{0pt}{0pt}{-\parskip}
@@ -370,8 +370,7 @@ $endif$
 
 $if(title)$
 %DRS
-\title{\vspace{-1in}\Large $title$ \vspace{-1in}$if(thanks)$\thanks{$thanks$}$endif$}
-\title{\vspace{-0.5in}\Large Membranes, motors, and molecular modeling \vspace{-1in}}
+\title{\large \vspace{-0.75in} \textbf{$title$} \vspace{-1in} $if(thanks)$\thanks{$thanks$}$endif$}
 \fancypagestyle{title}{%
   \setlength{\headheight}{22pt}%
   \fancyhf{}% No header/footer
@@ -379,9 +378,10 @@ $if(title)$
   \renewcommand{\footrulewidth}{0pt}% No footer rule
   \fancyfoot[C]{\thepage}% Page number in Centre of footer
   \fancyhead[L]{David R.~Slochower}
-  \fancyhead[R]{Research Plan -- Summary}
+  \fancyhead[R]{Research Plan}
 }%
  \lhead{David R.~Slochower}
+ \rhead{Research Plan}
 
 % \pagestyle{empty} % Remove page numbers
 
