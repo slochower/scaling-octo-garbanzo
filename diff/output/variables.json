@@ -1,5 +1,5 @@
 {
-  "date": "September 11, 2018",
+  "date": "September 20, 2018",
   "authors": [
     {
       "github": "slochower",
@@ -11,10 +11,10 @@
   ],
   "manuscript_stats": {
     "reference_counts": {
-      "doi": 44,
+      "doi": 60,
       "url": 4,
-      "total": 48
+      "total": 64
     },
-    "word_count": 4604
+    "word_count": 8183
   }
 }

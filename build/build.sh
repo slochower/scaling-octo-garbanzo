@@ -14,9 +14,9 @@ manubot \
   --log-level=INFO
 
 BUILD_HTML="false"
-BUILD_PDF="true"
+BUILD_PDF="false"
 BUILD_DOCX="false"
-BUILD_LATEX="false"
+BUILD_LATEX="true"
 
 # pandoc settings
 # Exports so that we can convert and resize figures.
@@ -130,7 +130,6 @@ then
     --csl=$CSL_PATH \
     --template=build/assets/nih4.tex \
     --metadata link-citations=true \
-    --number-sections \
     --resource-path=.:content:../content \
     --pdf-engine=xelatex \
     --variable mainfont="${FONT}" \
@@ -139,6 +138,24 @@ then
     --output=output/manuscript.pdf \
     $INPUT_PATH > output/manuscript.tex
 
-fi
+  echo "pandoc --verbose \
+    --from=markdown \
+    --filter=pandoc-eqnos \
+    --filter=pandoc-tablenos \
+    --filter=pandoc-img-glob \
+    --filter=pandoc-chemfig \
+    --filter=pandoc-fignos \
+    --bibliography=$BIBLIOGRAPHY_PATH \
+    --csl=$CSL_PATH \
+    --template=build/assets/nih4.tex \
+    --metadata link-citations=true \
+    --resource-path=.:content:../content \
+    --pdf-engine=xelatex \
+    --variable mainfont=\"${FONT}\" \
+    --variable sansfont=\"${FONT}\" \
+    --variable colorlinks=\"${COLORLINKS}\" \
+    --output=output/manuscript.pdf \
+    $INPUT_PATH > output/manuscript.tex"
 
+fi
 echo "Build complete"
