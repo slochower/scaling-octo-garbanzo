@@ -126,6 +126,7 @@ then
     --filter=pandoc-img-glob \
     --filter=pandoc-chemfig \
     --filter=pandoc-fignos \
+    --lua-filter=build/latex-color.lua \
     --bibliography=$BIBLIOGRAPHY_PATH \
     --csl=$CSL_PATH \
     --template=build/assets/nih4.tex \

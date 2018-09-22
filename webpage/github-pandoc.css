@@ -208,9 +208,13 @@ hr {
  * Address styling not present in IE 8/9.
  */
 
- span.red {
-    color: #FF0000;
-  }
+span.red {
+color: #FF0000;
+}
+
+span.Maroon {
+    color: #800000;
+}  
 
 mark {
     background: #ff0;
