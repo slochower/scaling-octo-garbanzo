@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  19 SEP 2018 21:08
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  27 SEP 2018 23:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**tmp.tex
-(./tmp.tex
+**diff.tex
+(./diff.tex
 LaTeX2e <2018-04-01> patch level 2
 Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2018/texmf-dist/tex/latex/base/article.cls
@@ -1005,8 +1005,9 @@ LaTeX Info: Redefining \DIFaddbeginFL on input line 216.
 LaTeX Info: Redefining \DIFaddendFL on input line 217.
 LaTeX Info: Redefining \DIFdelbeginFL on input line 218.
 LaTeX Info: Redefining \DIFdelendFL on input line 219.
- (./tmp.aux)
-\openout1 = `tmp.aux'.
+
+(./diff.aux)
+\openout1 = `diff.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 222.
 LaTeX Font Info:    ... okay on input line 222.
@@ -1032,8 +1033,7 @@ LaTeX Font Info:    ... okay on input line 222.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 222.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 222.
 
-
-(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 222.
@@ -1103,9 +1103,9 @@ LaTeX Info: Redefining \ref on input line 222.
 LaTeX Info: Redefining \pageref on input line 222.
 LaTeX Info: Redefining \nameref on input line 222.
 
-(./tmp.out) (./tmp.out)
+(./diff.out) (./diff.out)
 \@outlinefile=\write3
-\openout3 = `tmp.out'.
+\openout3 = `diff.out'.
 
 
 (/usr/local/texlive/2018/texmf-dist/tex/latex/microtype/mt-cmr.cfg
@@ -1131,297 +1131,121 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 LaTeX Warning: No \author given.
 
+! Too many }'s.
+l.258 }
+       
+? 
+File: content/images/membrane-vmd.png Graphic file (type bmp)
+<content/images/membrane-vmd.png>
 [1
 
 ]
+File: content/images/stereospecific.png Graphic file (type bmp)
+<content/images/stereospecific.png>
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] [3]
-Overfull \hbox (302.18355pt too wide) in paragraph at lines 560--561
-[]|   []
- []
-
-File: content/images/membrane-vmd.png Graphic file (type bmp)
-<content/images/membrane-vmd.png>
-
-Overfull \hbox (6.79909pt too wide) in paragraph at lines 582--585
- [][][] 
- []
-
-
-Underfull \hbox (badness 3148) in paragraph at lines 585--585
-[]\TU/Helvetica(0)/bx/n/10 Figure 1: |[]|   []   |   []   |   []   |   []
- []
+[2]
+! Too many }'s.
+l.452 }
+       
+? 
+File: content/images/motor.png Graphic file (type bmp)
+<content/images/motor.png>
+[3]
+File: content/images/offset-barriers.png Graphic file (type bmp)
+<content/images/offset-barriers.png>
 
 
-Underfull \hbox (badness 6094) in paragraph at lines 585--585
-|   []   |   []   |   []   |   []
- []
+LaTeX Warning: File `content/images/Feringa-R-with-table.png' not found on inpu
+t line 563.
 
+! Unable to load picture or PDF file 'content/images/Feringa-R-with-table.png'.
+<to be read again> 
+                   }
+l.563 ...{content/images/Feringa-R-with-table.png}
+                                                  
+? 
 
-Underfull \hbox (badness 2368) in paragraph at lines 585--585
-|   []   |   []   |   []   |   []
+! Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.563 ...{content/images/Feringa-R-with-table.png}
+                                                  
+? 
+
+! Package graphics Error: Division by 0.
+
+See the graphics package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.563 ...{content/images/Feringa-R-with-table.png}
+                                                  
+? 
+File: content/images/Feringa-R-with-table.png Graphic file (type bmp)
+<content/images/Feringa-R-with-table.png>
+
+Underfull \hbox (badness 8170) in paragraph at lines 566--566
+[]\TU/Helvetica(0)/bx/n/10 Figure 5: |[]|   []   |   []
  []
 
 [4]
-
-LaTeX Warning: Reference `fig:membrane-setup' on page 5 undefined on input line
- 617.
-
-File: content/images/stereospecific.png Graphic file (type bmp)
-<content/images/stereospecific.png>
-
-Overfull \hbox (6.8022pt too wide) in paragraph at lines 656--658
- [][][] 
- []
-
-
-Underfull \hbox (badness 6173) in paragraph at lines 658--658
-[]\TU/Helvetica(0)/bx/n/10 Figure 2: |[]|   []   |   []   |   []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 658--658
-|   []   |   []   |   []
- []
-
-
-LaTeX Warning: Reference `fig:stereospecific' on page 5 undefined on input line
- 679.
-
+! Too many }'s.
+l.623 }
+       
+? 
+File: content/images/APR-annotated.png Graphic file (type bmp)
+<content/images/APR-annotated.png>
 [5]
-File: content/images/motor.png Graphic file (type bmp)
-<content/images/motor.png>
-
-
-LaTeX Warning: Reference `fig:motor-diagram' on page 6 undefined on input line 
-733.
-
-
-LaTeX Warning: Reference `fig:motors' on page 6 undefined on input line 753.
-
-File: content/images/offset-barriers.png Graphic file (type bmp)
-<content/images/offset-barriers.png>
-
-LaTeX Warning: Reference `fig:motors' on page 6 undefined on input line 794.
-
-[6]
-
-LaTeX Warning: Reference `fig:COBYLA' on page 7 undefined on input line 831.
-
-File: content/images/COBYLA.png Graphic file (type bmp)
-<content/images/COBYLA.png>
-[7]
-Overfull \hbox (164.02533pt too wide) in paragraph at lines 857--858
-[]|   []
- []
-
-File: content/images/motor.png Graphic file (type bmp)
-<content/images/motor.png>
-
-LaTeX Warning: Reference `fig:motor-diagram' on page 8 undefined on input line 
-892.
-
-
-LaTeX Warning: Reference `fig:motors' on page 8 undefined on input line 920.
-
-File: content/images/offset-barriers.png Graphic file (type bmp)
-<content/images/offset-barriers.png>
-
-Overfull \hbox (6.8149pt too wide) in paragraph at lines 924--932
- [][][] 
- []
-
-
-LaTeX Warning: Reference `fig:motors' on page 8 undefined on input line 954.
-
-[8]
-
-LaTeX Warning: Reference `fig:COBYLA' on page 9 undefined on input line 998.
-
-[9]
-File: content/images/COBYLA.png Graphic file (type bmp)
-<content/images/COBYLA.png>
-
-Overfull \hbox (6.81702pt too wide) in paragraph at lines 1002--1008
- [][][] 
- []
-
-
-Underfull \hbox (badness 1067) in paragraph at lines 1016--1051
-[]\TU/Helvetica(0)/m/n/10.95 Designing ligands that bind their target with high
- affinity and specificity is
- []
-
-File: content/images/APR-annotated.png Graphic file (type bmp)
-<content/images/APR-annotated.png>
-
-LaTeX Warning: Reference `fig:apr' on page 10 undefined on input line 1069.
-
-
-Underfull \hbox (badness 1038) in paragraph at lines 1062--1082
-[]\TU/Helvetica(0)/m/n/10.95 Host-guest systems are noncovalent complexes betwe
-en a cavity-like host
- []
-
-[10] [11]
 File: content/images/SMIRNOFF-vs-GAFF-deltaG.png Graphic file (type bmp)
 <content/images/SMIRNOFF-vs-GAFF-deltaG.png>
-
-
-LaTeX Warning: Reference `fig:smirnoff' on page 12 undefined on input line 1145
-.
-
-[12]
-File: content/images/APR-annotated.png Graphic file (type bmp)
-<content/images/APR-annotated.png>
-
-Overfull \hbox (6.80304pt too wide) in paragraph at lines 1275--1278
- [][][] 
+ [6]
+Underfull \hbox (badness 10000) in paragraph at lines 808--834
+[][]\TU/Helvetica(0)/m/n/10.95 To []|   []   |   []   |   []   |   []   |   [] 
+  |   []   |   []
  []
 
 
-Underfull \hbox (badness 3679) in paragraph at lines 1278--1278
-[]\TU/Helvetica(0)/bx/n/10 Figure 11: |[]|   []   |   []   |   []   |   []
+Underfull \hbox (badness 3838) in paragraph at lines 808--834
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
+  |   []
  []
 
+[7] [8] [9]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1231.
+ [10]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1231.
+ (./diff.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1231.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1231.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1278--1278
-|   []   |   []   |   []   |   []
- []
+Package rerunfilecheck Info: File `diff.out' has not changed.
+(rerunfilecheck)             Checksum: B979551795CD92A6C0A11F5099BB4895.
 
-
-LaTeX Warning: Reference `fig:apr' on page 13 undefined on input line 1302.
-
-[13]
-File: content/images/SMIRNOFF-vs-GAFF-deltaG.png Graphic file (type bmp)
-<content/images/SMIRNOFF-vs-GAFF-deltaG.png>
-
-Overfull \hbox (6.79349pt too wide) in paragraph at lines 1355--1358
- [][][] 
- []
-
-
-Underfull \hbox (badness 1888) in paragraph at lines 1358--1358
-|   []   |   []   |   []   |   []   |   []
- []
-
-
-Underfull \hbox (badness 1199) in paragraph at lines 1358--1358
-|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1358--1358
-|   []   |   []   |   []   |   []   |   []
- []
-
-
-LaTeX Warning: Reference `fig:smirnoff' on page 14 undefined on input line 1369
-.
-
-[14] [15] [16]
-Underfull \hbox (badness 1783) in paragraph at lines 1506--1511
-\TU/Helvetica(0)/m/n/10.95 P. A. Physical Chemistry and Membrane Properties of 
-Two
- []
-
-
-Overfull \hbox (14.75302pt too wide) in paragraph at lines 1524--1529
-[][]\TU/Helvetica(0)/m/n/10.95 (10) Faiderbe, S.; Chagnaud, J.-L.; Geffard, M. 
-Anti-Phosphoinositide
- []
-
-[17] [18]
-Underfull \hbox (badness 1803) in paragraph at lines 1633--1639
-|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-
-Underfull \hbox (badness 2680) in paragraph at lines 1640--1646
-|   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-
-Underfull \hbox (badness 4927) in paragraph at lines 1647--1653
-[][][]|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-
-Underfull \hbox (badness 3179) in paragraph at lines 1647--1653
-|   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-
-Underfull \hbox (badness 3407) in paragraph at lines 1654--1661
-|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-
-Underfull \hbox (badness 1028) in paragraph at lines 1662--1668
-|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-
-Underfull \hbox (badness 1342) in paragraph at lines 1669--1675
-|   []   |   []   [][]|   []   |   []   |   []   |   []   |   []   |   []
- []
-
-
-Underfull \hbox (badness 3460) in paragraph at lines 1676--1682
-[][][]|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-
-Overfull \hbox (9.22821pt too wide) in paragraph at lines 1676--1682
-|   []   [][]|   []   |   []   |   []   |   []   |   []   |   []   |   [][]
- []
-
-[19] [20]
-Underfull \hbox (badness 1502) in paragraph at lines 1837--1841
-\TU/Helvetica(0)/m/n/10.95 K. Bind3P: Optimization of a Water Model Based on Ho
-st–
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1842.
-[21]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1842.
- (./tmp.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1842.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1842.
-
-
-
-Package rerunfilecheck Warning: File `tmp.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `tmp.out':
-(rerunfilecheck)             Before: BC4C99DEB0FBB5A85850C6A4878BF883
-(rerunfilecheck)             After:  364AACF00B726FC7CC1D43CA438F4250.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1842.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1231.
  )
 (\end occurred when \ifnum on line 78 was incomplete) 
 Here is how much of TeX's memory you used:
- 24705 strings out of 492970
- 460103 string characters out of 6133938
- 675959 words of memory out of 5000000
- 28443 multiletter control sequences out of 15000+600000
- 541796 words of font info for 79 fonts, out of 8000000 for 9000
+ 24691 strings out of 492970
+ 458746 string characters out of 6133938
+ 641965 words of memory out of 5000000
+ 28406 multiletter control sequences out of 15000+600000
+ 541772 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 43i,12n,65p,10410b,461s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,12n,65p,10411b,411s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on tmp.pdf (21 pages).
+Output written on diff.pdf (10 pages).

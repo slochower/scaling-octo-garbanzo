@@ -1,0 +1,117 @@
+[
+{
+  "type": "webpage",
+  "standard_citation": "url:https://github.com/greenelab/manubot-rootstock",
+  "URL": "https://github.com/greenelab/manubot-rootstock",
+  "title": "greenelab/manubot-rootstock GitHub repository",
+  "container-title": "GitHub",
+  "issued": {
+    "date-parts": [
+      [
+        2017
+      ]
+    ]
+  },
+  "author": [
+    {
+      "given": "Daniel",
+      "family": "Himmelstein"
+    }
+  ]
+},
+{
+  "type": "chapter",
+  "standard_citation": "url:www.google.com",
+  "title": "Lipid Membrane Shape Evolution and the Actin Cytoskeleton",
+  "container-title": "Handbook of Lipid Membranes, Molecular and Materials aspects",
+  "publisher": "Taylor & Francis Publishers",
+  "ISBN": "978-1-4665-5572-3",
+  "author": [
+    {
+      "family": "Slochower",
+      "given": "David R."
+    },
+    {
+      "family": "Wang",
+      "given": "Yu-Hsiu"
+    },
+    {
+      "family": "Radhakrishnan",
+      "given": "Ravi"
+    },
+    {
+      "family": "Janmey",
+      "given": "Paul A."
+    }
+  ],
+  "collection-editor": [
+    {
+      "family": "Safinya",
+      "given": "Cyrus"
+    },
+    {
+      "family": "Rädler",
+      "given": "Joachim"
+    }
+  ],
+
+  "issued": {
+    "literal": "2018"
+  }
+},
+{
+  "standard_citation": "url:https://github.com/leeping/forcebalance",
+  "URL": "https://github.com/leeping/forcebalance",
+  "title": "leeping/forcebalance",
+  "container-title": "GitHub",
+  "author": [
+    {
+      "family": "Wang",
+      "given": "Lee-Ping"
+    }
+  ],
+  "greycite-status": "Scanned",
+  "greycite-scanned": "2018-08-22 18:03:15",
+  "type": "webpage",
+  "id": "8Q2gLatV"
+},
+{
+  "type": "chapter",
+  "standard_citation": "url:http://www.cambridge.org/us/academic/subjects/life-sciences/pharmacology-and-drug-discovery/drug-design-structure-and-ligand-based-approaches?format=HB&isbn=9780521887236",
+  "title": "Free-energy calculations in structure-based drug design",
+  "container-title": "Drug Design: Structure- and Ligand-Based Approaches",
+  "publisher": "Cambridge University Press",
+  "ISBN": "9780521887236",
+  "author": [
+    {
+      "family": "Shirts",
+      "given": "Michael R."
+    },
+    {
+      "family": "Mobley",
+      "given": "David L."
+    },
+    {
+      "family": "Brown",
+      "given": "Scott P."
+    }
+    ],
+  "collection-editor": [
+    {
+      "family": "Merz Jr.",
+      "given": "Kenneth M."
+    },
+    {
+      "family": "Ringe",
+      "given": "Dagmar"
+    },
+    {
+      "family": "Reynolds",
+      "given": "Charles H."
+    }
+  ],
+  "issued": {
+    "literal": "2010"
+  }
+}
+]

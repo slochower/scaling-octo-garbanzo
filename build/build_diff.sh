@@ -10,18 +10,17 @@ export LC_ALL=en_US.UTF-8
 echo "Retrieving and processing reference metadata"
 manubot   --content-directory=diff/content/   --output-directory=diff/output   --cache-directory=ci/cache   --log-level=INFO
 
-mv diff/output/manuscript.md diff/output/manuscript-a12dad5.md
+mv diff/output/manuscript.md diff/output/manuscript-now.md
 CSL_PATH=build/assets/journal-of-chemical-theory-and-computation.csl
 BIBLIOGRAPHY_PATH=diff/output/references.json
-INPUT_PATH=diff/output/manuscript-a12dad5.md
+INPUT_PATH=diff/output/manuscript-now.md
 
 # Make output directory
 mkdir -p output
 cp -r content/images diff/content/images
 
-# Create PDF output
-echo "Exporting PDF manuscript"
 FONT="Helvetica"
 COLORLINKS="true"
-pandoc     --from=markdown     --filter=pandoc-eqnos     --filter=pandoc-tablenos     --filter=pandoc-img-glob     --filter=pandoc-chemfig     --filter=pandoc-fignos     --bibliography=$BIBLIOGRAPHY_PATH     --csl=$CSL_PATH     --template=build/assets/nih4.tex     --metadata link-citations=true     --number-sections     --resource-path=.:content:../content     --pdf-engine=xelatex     --variable mainfont="${FONT}"     --variable sansfont="${FONT}"     --variable colorlinks="${COLORLINKS}"     --output=diff/output/manuscript-a12dad5.tex     $INPUT_PATH
+pandoc     --from=markdown     --filter=pandoc-eqnos     --filter=pandoc-tablenos     --filter=pandoc-img-glob     --filter=pandoc-chemfig     --filter=pandoc-fignos     --bibliography=$BIBLIOGRAPHY_PATH     --csl=$CSL_PATH     --template=build/assets/nih4.tex     --metadata link-citations=true     --number-sections     --resource-path=.:content:../content     --pdf-engine=xelatex     --variable mainfont="${FONT}"     --variable sansfont="${FONT}"     --variable colorlinks="${COLORLINKS}"     --output=diff/output/manuscript-now.tex     $INPUT_PATH
 echo "Build complete"
+rm diff/content/*.md

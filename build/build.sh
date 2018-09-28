@@ -15,17 +15,16 @@ manubot \
 
 BUILD_HTML="false"
 BUILD_PDF="false"
-BUILD_DOCX="false"
+BUILD_DOCX="true"
 BUILD_LATEX="true"
+BUILD_PDF_VIA_LATEX="true"
 
 # pandoc settings
 # Exports so that we can convert and resize figures.
 CSL_PATH=build/assets/journal-of-chemical-theory-and-computation.csl
 DOCX_PATH=build/assets/pandoc.docx
-SVG_FIX=build/assets/pandoc-svg.py
-export PNG_RESIZE=build/assets/png_resize.py
 BIBLIOGRAPHY_PATH=output/references.json
-export INPUT_PATH=output/manuscript.md
+INPUT_PATH=output/manuscript.md
 
 # Make output directory
 mkdir -p output
@@ -80,7 +79,7 @@ fi
 if [ "$BUILD_DOCX" = "true" ];
 then
   echo "Exporting DOCX manuscript"
-  pandoc --verbose \
+  pandoc \
     --from=markdown \
     --to=docx \
     --filter=pandoc-fignos \
@@ -98,28 +97,31 @@ fi
 
 if [ "$BUILD_LATEX" = "true" ];
 then
-  # echo "Exporting LATEX manuscript"
-  # pandoc --verbose \
-  #   --from=markdown \
-  #   --to=latex \
-  #   --filter=pandoc-fignos \
-  #   --filter=pandoc-eqnos \
-  #   --filter=pandoc-tablenos \
-  #   --filter=pandoc-img-glob \
-  #   --bibliography=$BIBLIOGRAPHY_PATH \
-  #   --csl=$CSL_PATH \
-  #   --template=build/assets/nih.tex \
-  #   --metadata link-citations=true \
-  #   --number-sections \
-  #   --resource-path=.:content \
-  #   -s --output=output/manuscript.tex \
-  #   $INPUT_PATH
+  echo "Exporting LATEX manuscript"
+  pandoc \
+    --from=markdown \
+    --to=latex \
+    --filter=pandoc-fignos \
+    --filter=pandoc-eqnos \
+    --filter=pandoc-tablenos \
+    --filter=pandoc-img-glob \
+    --bibliography=$BIBLIOGRAPHY_PATH \
+    --csl=$CSL_PATH \
+    --template=build/assets/nih4.tex \
+    --metadata link-citations=true \
+    --number-sections \
+    --resource-path=.:content \
+    -s --output=output/manuscript.tex \
+    $INPUT_PATH
 
+fi
+
+if [ "$BUILD_PDF_VIA_LATEX" = "true" ];
+  then
   echo "Exporting LATEX (PDF) manuscript"
-
   FONT="Helvetica"
   COLORLINKS="true"
-  pandoc --verbose \
+  pandoc \
     --from=markdown \
     --filter=pandoc-eqnos \
     --filter=pandoc-tablenos \
@@ -137,26 +139,7 @@ then
     --variable sansfont="${FONT}" \
     --variable colorlinks="${COLORLINKS}" \
     --output=output/manuscript.pdf \
-    $INPUT_PATH > output/manuscript.tex
-
-  echo "pandoc --verbose \
-    --from=markdown \
-    --filter=pandoc-eqnos \
-    --filter=pandoc-tablenos \
-    --filter=pandoc-img-glob \
-    --filter=pandoc-chemfig \
-    --filter=pandoc-fignos \
-    --bibliography=$BIBLIOGRAPHY_PATH \
-    --csl=$CSL_PATH \
-    --template=build/assets/nih4.tex \
-    --metadata link-citations=true \
-    --resource-path=.:content:../content \
-    --pdf-engine=xelatex \
-    --variable mainfont=\"${FONT}\" \
-    --variable sansfont=\"${FONT}\" \
-    --variable colorlinks=\"${COLORLINKS}\" \
-    --output=output/manuscript.pdf \
-    $INPUT_PATH > output/manuscript.tex"
+    $INPUT_PATH
 
 fi
 echo "Build complete"

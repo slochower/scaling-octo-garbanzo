@@ -1,0 +1,883 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% NIH Grant Proposal for the Specific Aims and Research Plan Sections
+% LaTeX Template
+% Version 1.0 (21/10/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Erick Tatro (erickttr@gmail.com) with modifications by:
+% Vel (vel@latextemplates.com)
+%
+% Adapted from:
+% J. Hrabe (http://www.magalien.com/public/nih_grants_in_latex.html)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\PassOptionsToPackage{unicode=true}{hyperref} % options for packages loaded elsewhere
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames*,x11names*}{xcolor}
+%
+%% DRS packages to load based on NIH.
+\documentclass[11pt,notitlepage]{article}
+
+% \usepackage[T1]{fontenc}
+\linespread{1.15} % A little extra line spread is better for the Palatino font
+\usepackage{amsfonts, amsmath, amsthm, amssymb} % For math fonts, symbols and environments
+\usepackage{graphicx} % Required for including images
+\usepackage{booktabs} % Top and bottom rules for table
+\usepackage{wrapfig} % Allows in-line images
+\usepackage{setspace}
+\usepackage[labelfont=bf,font=small]{caption} % Make figure numbering in captions bold
+\captionsetup{belowskip=-4pt,aboveskip=4pt}
+\usepackage[top=0.5in,bottom=0.5in,left=0.5in,right=0.5in,includeheadfoot]{geometry} % Reduce the size of the margin
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[greek,english]{babel}
+% For switching to xelatex if unicode detected...
+ \usepackage[no-math]{fontspec}
+ \setmainfont{Helvetica}
+ %\usepackage{mathspec}
+ %\setmathfont(Digits,Latin)[Uppercase=Italic,Lowercase=Italic]{Helvetica}
+ %\setmathfont(Greek)[Uppercase=Regular,Lowercase=Regular]{Helvetica}
+ 
+\usepackage{fancyhdr}
+\renewcommand{\headrulewidth}{0pt}
+\pagestyle{fancy}
+%\setlength{\headheight}{15.2pt}
+
+
+ \usepackage[small,compact]{titlesec}
+ \titlespacing{\title}{-2in}{0ex}{-3in}
+ \titlespacing{\section}{0pt}{\parskip}{-\parskip}
+ \titlespacing{\subsection}{0pt}{-\parskip}{-\parskip}
+ \titlespacing{\subsubsection}{0pt}{0pt}{-\parskip}
+ \titleformat{\section}%
+  [hang]% <shape>
+  {\normalfont\bfseries}% <format>
+  {}% <label>
+  {0pt}% <sep>
+  {}% <before code>
+
+\renewcommand{\thesection}{}
+\renewcommand{\thesubsection}{\arabic{subsection}}
+
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provides euro and other symbols
+\else % if luatex or xelatex
+%%  \usepackage{unicode-math}
+%  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+    \setmainfont[]{Helvetica}
+    \setsansfont[]{Helvetica}
+%\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage[]{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+            pdftitle={Membranes, Motors, and Molecular Modeling},
+            pdfauthor={David R. Slochower},
+            colorlinks=true,
+            linkcolor=Maroon,
+            citecolor=Blue,
+            urlcolor=Blue,
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+%DRS
+\title{\large \vspace{-0.75in} \textbf{Membranes, Motors, and Molecular Modeling} \vspace{-1in} }
+\fancypagestyle{title}{%
+  \setlength{\headheight}{22pt}%
+  \fancyhf{}% No header/footer
+  \renewcommand{\headrulewidth}{0pt}% No header rule
+  \renewcommand{\footrulewidth}{0pt}% No footer rule
+  \fancyfoot[C]{\thepage}% Page number in Centre of footer
+  \fancyhead[L]{David R.~Slochower}
+  \fancyhead[R]{Research Plan}
+}%
+ \lhead{David R.~Slochower}
+ \rhead{Research Plan}
+
+% \pagestyle{empty} % Remove page numbers
+
+\date{}
+
+\begin{document}
+% DRS
+\lhead{David R.~Slochower}
+
+\maketitle
+%DRS
+\thispagestyle{title}
+
+
+The interface between physics and biology is an active, growing area of
+science with many opportunities and unanswered questions. I plan to
+focus on three areas that bridge theory, modeling, and simulations. My
+research program will investigate the physical principles that underlie
+biological and chemical phenomena, providing new insight into the
+complex behavior of cell membranes and the operation and design of
+molecular motors. In parallel, I will develop advanced simulation
+technologies to compute binding free energies and improve force fields,
+continuing my commitment to open source software and open access
+science.
+
+\textcolor{blue}{\textbf{Insert university-specific paragraph here.}}
+
+\hypertarget{use-simulations-to-understand-lipid-dynamics-in-cell-membranes}{%
+\subsection{Use simulations to understand lipid dynamics in cell
+membranes}\label{use-simulations-to-understand-lipid-dynamics-in-cell-membranes}}
+
+\emph{The goal of this aim is to characterize lipid-lipid interactions
+and the physical mechanisms that drive and stabilize lateral segregation
+of lipid species.}
+
+The primary function of a membrane is to separate what is outside from
+what is inside, yet cell membranes are extremely dynamic: they act as
+scaffolds for the generation of second messengers, as the attachment
+point for the cytoskeleton, and form highly curved geometries during
+vesicle fusion and fission, among myriad other functions. Mammalian
+plasma membranes are a rich mixture of hundreds of types of
+phospholipids intermingled with other types of lipids, sterols, and
+proteins. Continuum models have shed light on membrane topology and
+geometry, but they are not well suited to capture the intracacies of
+lipid-lipid
+interactions\textsuperscript{\protect\hyperlink{ref-w5pYOl69}{1}}, and
+until recently\textsuperscript{\protect\hyperlink{ref-1Dvbhukpz}{2}},
+most simulations have incorporated only a few lipid types,
+notwithstanding the tremendous diversity present in cell membranes.
+
+
+\begin{wrapfloat}{figure}{R}{2.5in}
+\centering
+\includegraphics{content/images/membrane-vmd.png}
+\caption{An example of a curved membrane with many different lipid
+species, colored separately, representative of the systems I will
+simulate.}
+\label{fig:membrane-setup}
+\end{wrapfloat}
+
+Despite advances in super-resolution microscopy, such as
+PALM\textsuperscript{\protect\hyperlink{ref-mNNsAL8U}{3}} and
+STORM\textsuperscript{\protect\hyperlink{ref-12fkuxySq}{4}}, \emph{in
+vivo} characterization of membrane heterogeneity remains challenging due
+to the high spatiotemporal resolution required to study fluctuating
+nanoscale assemblies of lipids and proteins in living cells and the need
+to chemically modify the lipids or bind them to ligands in order to
+visualize them or detect their motions and conformations by
+spectroscopy. However, a variety of indirect experimental techniques,
+often using fluorescently labeled lipid analogs, have characterized the
+existence of sub-micron sized domains in living cells and plasma
+membrane
+extracts\textsuperscript{\protect\hyperlink{ref-GGtK2c0N}{5}--\protect\hyperlink{ref-aiu6Tmil}{9}}.
+Even in the absence of proteins or chemical modifications, \emph{in
+vitro} assays in the Janmey group have demonstrated clusters of
+negatively charged phospholipids of on the order of 50 nm after the
+addition of as little as 1 μM
+Ca\textsuperscript{2+}\textsuperscript{\protect\hyperlink{ref-LhOwGz4k}{10}}.
+
+My approach is to understand what conditions promote cluster formation
+and how the behavior of lipids in clusters differs from bulk. I will
+initially focus on delineating the nucleation of cation-induced clusters
+of anionic phospholipids. This work will involve extending the methods I
+developed to investigate single molecule QM/MM and all-atom nanoscale
+simulations. In those simulations, I found that Ca\textsuperscript{2+}
+can act as ``molecular glue,'' forming aggregates of three lipids that
+remain together for at least 100 ns, much longer than other ion-lipid
+bond lifetimes. Extending beyond the all-atom simulations, I will use
+the \href{https://github.com/biophyscode}{methods} we created to
+construct and equilibrate multi-component membrane systems to build
+models containing rich mixtures of phospholipids (Figure
+\ref{fig:membrane-setup}), going past typical two or three-component
+systems that are frequently used.
+
+The finite and well-defined size of the experimentally-characterized
+domains suggests there is a balance between the mutual electrostatic and
+steric repulsion of negatively charged lipids and attraction mediated by
+counterions. I will monitor the extent of phase separation and demixing
+in simulations containing combinations of physiological divalent and
+monovalent ions with varying fractions of charged and uncharged lipids.
+The calculated diffusion coefficient inside the clusters can be compared
+with values obtained using fluorescence correlation spectroscopy (FCS)
+and spot variant
+FCS\textsuperscript{\protect\hyperlink{ref-oBaB5Z87}{7}}. Simple,
+physical models based primarily on
+electrostatics\textsuperscript{\protect\hyperlink{ref-10CqL9t0a}{11}}
+predict continual growth of clusters in the presence of excess
+counterions, yet \emph{in vivo} clusters plateau at a stable size.
+Taking advantage of multiscale techniques, including all-atom and
+coarse-grained simulations using GPU-accelerated molecular dynamics, I
+will be able to study the growth and merging of clusters on the
+biologically-relevant microsecond to millisecond timescale. The size and
+shape of the simulated clusters will be contrasted with those seen with
+AFM imaging and electron
+microscopy\textsuperscript{\protect\hyperlink{ref-LhOwGz4k}{10}}.
+
+Experiments pulling thin membrane tethers have shown that
+phase-separated phospholipid domains form precisely at the junction of
+highly curved
+regions\textsuperscript{\protect\hyperlink{ref-XIltXoGI}{12}}, implying
+a relationship between membrane morphology and lipid sorting. Free
+energy methods, such as those detailed in the
+\protect\hyperlink{build-advanced-technologies-to-perform-free-energy-calculations-for-drug-design}{third
+aim} of this proposal, can be impose a given curvature on a region and
+measure the energy required to do so. The bending modulus and mean
+curvature of simulated clusters will be compared with data from pipette
+aspiration of membrane
+tubules\textsuperscript{\protect\hyperlink{ref-oBaB5Z87}{7},\protect\hyperlink{ref-aiu6Tmil}{9},\protect\hyperlink{ref-XIltXoGI}{12}},
+and the order parameter of lipids inside the cluster can be contrasted
+with complementary non-fluorescent methods, such as EPR, NMR, and
+neutron scattering.
+
+
+\begin{wrapfloat}{figure}{L}{2in}
+\centering
+\includegraphics{content/images/stereospecific.png}
+\caption{An illustration of stereospecific recognition of phospholipids
+by proteins.}
+\label{fig:stereospecific}
+\end{wrapfloat}
+
+In the second phase of this project, I will study whether being in a
+cluster alters the ability of certain lipids to perform their biological
+roles. Many of the lipids implicated in cluster formation, such as
+PtdIns(4,5)\emph{P}\textsubscript{2}, have been shown to bind hundreds
+of proteins\textsuperscript{\protect\hyperlink{ref-uyKE7bWV}{13}}, and
+several integral membrane proteins have been shown to partition into
+lipid raft-like
+domains\textsuperscript{\protect\hyperlink{ref-2TfZ4zWV}{14}}. In some
+cases, PtdIns(4,5)\emph{P}\textsubscript{2} binds protein pockets in a
+highly stereospecific manner (e.g., PtdIns(4,5)\emph{P}\textsubscript{2}
+may bind tightly but the closely related isomers
+PtdIns(3,4)\emph{P}\textsubscript{2} and
+PtdIns(3,5)\emph{P}\textsubscript{2} may not bind at all) requiring a
+fully extended and accessible head group (Figure
+\ref{fig:stereospecific}). In order to evaluate the biological
+consequences of clustering, I will run simulations containing proteins
+that bind through either non-specific, electrostatic attraction (e.g.,
+N-WASP and gelsolin) or through tight coordination (e.g., the PH domain
+of PLCδ). Whether these proteins bind ``free'' lipid molecules as well
+as they bind clustered ones will be tested using enhanced sampling
+methods.
+
+I expect the outcome of studying lipid sorting and segregation to be
+especially helpful for understanding how the accumulation of membrane
+comopnents is coupled to the many dynamic biological roles of the plasma
+membrane. Furthermore, I anticipate the results in the second phase
+could provide quantitative insights for pore-formation in cell membranes
+by toxins and cationic surfactants, the activation of integral ion
+channels and GPCRs by certain lipids, and the energetics of membrane
+fusion, fission and other buckling geometries.
+
+\hypertarget{develop-design-principles-for-synthetic-molecular-motors}{%
+\subsection{Develop design principles for synthetic molecular
+motors}\label{develop-design-principles-for-synthetic-molecular-motors}}
+
+\emph{The proposed research will investigate current molecular motors
+and suggest new scaffolds for future nanomachines.}
+
+
+\begin{wrapfloat}{figure}{L}{2in}
+\centering
+\includegraphics{content/images/motor.png}
+\caption{The two degrees of freedom in a synthetic molecular motor.}
+\label{fig:motor-diagram}
+\end{wrapfloat}
+
+As demonstrated by Richard Feynman in a lecture on Brownian ratchets,
+the challenge of designing molecular motors is not how to create
+movement, but how to control the directionality of the omnipresent --
+and random -- motion on the molecular
+scale\textsuperscript{\protect\hyperlink{ref-10FsKpWBI}{15}}.
+Non-protein synthetic molecules can be used to drive molecular motion
+and have been employed as ``wheels'' on nano-scale
+cars\textsuperscript{\protect\hyperlink{ref-OAnfwOYX}{16}},
+trains\textsuperscript{\protect\hyperlink{ref-10MPrT2Vf}{17}},
+worms\textsuperscript{\protect\hyperlink{ref-Tels98bO}{18}}, and
+walkers\textsuperscript{\protect\hyperlink{ref-SfUEsk0e}{19}}, or in new
+forms of responsive
+materials\textsuperscript{\protect\hyperlink{ref-jCuccJLJ}{20}}. Yet,
+the design of these machines has mostly consisted of trial and error and
+it is not clear \emph{a priori} how chemically modifying their scaffolds
+affects their
+functioning\textsuperscript{\protect\hyperlink{ref-1H5r7SBir}{21}}.
+
+One the most well-studied groups of molecular machines is the ``second
+generation'' rotary motors from Ben Feringa and
+colleagues\textsuperscript{\protect\hyperlink{ref-FwAqK1Dt}{22}}. These
+overcrowded alkenes have two stable enantiomers, and adopt a helical
+shape due to the steric strain around the central double bond (Figure
+\ref{fig:motor-diagram}). Upon irradiation with light and the
+application of heat, the two sets of conjugated rings rotate relative to
+each other, with the central bond acting as an axle, and for simplicity,
+one set of rings is designated the ``stator'' while the other set is
+called the ``rotor.'' The directional motion of these molecules can be
+analyzed in terms of two degrees of freedom: \(E\) to \(Z\) for the
+isomerization of the double bond (analogous to \emph{cis} and
+\emph{trans}) and \(P\) and \(M\) for the overall twist or helicity of
+the molecule.
+
+Considerable effort has been spent using advanced quantum mechanical
+modeling to investigate the photochemical excitation and the dynamics of
+the excited
+state\textsuperscript{\protect\hyperlink{ref-so4s7d25}{23},\protect\hyperlink{ref-N6pRFM85}{24}}.
+However, those insights have not been combined with the statistical
+mechanics of the four ground states that comprise the 360\(^\circ\)
+cycle of the motor (Figure \ref{fig:motors}, left side). My approach to
+modeling involves adapting the nonequilibrium method I developed to
+analyze directional motion in biological motors. The ground state
+structures can be mapped onto discretized potential energy surfaces
+(PES) for each isomerization state, that will be determined evaluating
+the ground state energy of the motor as a function of the central
+dihedral angle (Figure \ref{fig:motors}, right side). A Markov matrix
+encodes the rates of moving between and along bins on each PES, and the
+eigenvectors of this matrix characterize the steady state probability
+flux that quantifies the extent of directional motion. From this, I can
+determine the maximum speed and the maximum power that can be produced
+by individual motors.
+
+\begin{figure}
+\centering
+\includegraphics[width=1\textwidth,height=\textheight]{content/images/offset-barriers.png}
+\caption{On the left, the four ground state conformations of a second
+generation motor, adapted from Štacko et
+al\textsuperscript{\protect\hyperlink{ref-mKSNFvW7}{25}}. On the right,
+the same four states placed on free energy profiles. The energy profiles
+are periodic, with two cycles shown for either isomerization state. A
+clone of the lower \(E\) energy surface is shown above, for clarity, to
+demonstrate the progression from state 4 to state 1 requires
+energy.\label{fig:motors}}
+\end{figure}
+
+
+\begin{wrapfloat}{figure}{R}{2in}
+\centering
+\includegraphics{content/images/Feringa-R-with-table.png}
+\caption{Functional group additions can have a large effect on overall
+rotation rates (redrawn
+from\textsuperscript{\protect\hyperlink{ref-gimGEnwq}{26}}).}
+\label{fig:feringa-r}
+\end{wrapfloat}
+
+This group of molecules is perhaps the most well-studied and
+well-characterized class of motors. Over the past decade, there have
+been many designs for rotary motors (reviewed by Kassem et
+al.\textsuperscript{\protect\hyperlink{ref-1H5r7SBir}{21}}), and it has
+become clear that the chemical constituents on both the rotor and the
+stator affect motor
+operation\textsuperscript{\protect\hyperlink{ref-MVPWALSk}{27}} (Figure
+\ref{fig:feringa-r}). Reducing the bulkiness of the rotor can speed up
+the overall rotation rate of the motor, but can also lead to the loss of
+directionality\textsuperscript{\protect\hyperlink{ref-1F5wsgY82}{28}}.
+It is also possible to alter the quantum yield of the photochemical step
+by adding electron withdrawing or electron donating groups, polarizing
+the molecule and lengthening the central double
+bond\textsuperscript{\protect\hyperlink{ref-Ewc7FKL8}{29},\protect\hyperlink{ref-122TltEto}{30}}.
+Yet, to date there is no underlying theory that can be leveraged to aid
+the creation of new motors.
+
+By systematically studying how the addition of chemical moieties affects
+the \(E\) and \(Z\) PES of the motors, the relationship between the
+chemical makeup of the rotor and stator and the strength of directional
+motion will become clear. The understanding gained from this analysis
+can be used to suggest new avenues in chemical space to create rotors
+geared for a particular purpose. For example, in some instances it may
+be desirable to have motors that rotate slowly but provide a tremendous
+amount of torque (e.g., for using nanoscale motors to transport
+macroscopic objects) while in other circumstances, it may be more
+beneficial to have motors that rotate as quickly as possible (e.g., for
+using motors to rapidly switch the surface properties of a particular
+material). The results of this research will provide a fundamental
+understanding of the principles underlying motor operation and open up
+rational design for molecular rotors, pumps, transporters, and other
+nanorobotics.
+
+\hypertarget{build-advanced-technologies-to-perform-free-energy-calculations-for-drug-design}{%
+\subsection{Build advanced technologies to perform free energy
+calculations for drug
+design}\label{build-advanced-technologies-to-perform-free-energy-calculations-for-drug-design}}
+
+\emph{The proposed research in this aim will advance quantitative
+methods for free energy calculations and incorporate binding
+thermodynamics into a community-driven open access force field effort.}
+
+Designing ligands that bind their target with high affinity and
+specificity is one objective of small-molecule drug discovery, yet
+hit-to-lead and lead-optimization can take upwards of three years owing
+to the fact it is often necessary to synthesize hundreds or thousands of
+new compounds. Drug discovery is very expensive and often fails. In
+recent years, the pharmaceutical industry has begun to use absolute and
+relative binding free energy calculations to help narrow the number of
+compounds that must be
+synthesized\textsuperscript{\protect\hyperlink{ref-1FiDpP1LR}{31},\protect\hyperlink{ref-1BwXH3GFO}{32}}.
+In particular, the advent of computational calorimetry has enabled
+quantitative and high-precision comparisons of binding free energies,
+enthalpies, and entropies (by subtraction) with experimental values
+determined by isothermal titration calorimetry or
+NMR\textsuperscript{\protect\hyperlink{ref-1935a9V0d}{33}}. The root
+mean squared error associated with such calculations is several
+kcal/mol\textsuperscript{\protect\hyperlink{ref-LWd10vQy}{34}}, and even
+a modest improvement of the prediction accuracy by 1 kcal/mol would lead
+to a substantial decrease in the number of compounds that must be
+manually synthesized and
+tested\textsuperscript{\protect\hyperlink{ref-fC0t6Cy1}{35}}. The first
+goal of this aim is to create better tools for estimating protein-ligand
+binding constants.
+
+
+\begin{wrapfloat}{figure}{L}{3in}
+\centering
+\includegraphics{content/images/APR-annotated.png}
+\caption{An example host-guest system, \(\alpha\)-cyclodextrin with
+cyclooctanol (unbound) showing the pulling coordinate along the \(z\)
+axis.}
+\label{fig:apr}
+\end{wrapfloat}
+
+Host-guest systems, nonconvalent complexes between a cavity-containing
+host and a small molecule guest, have emerged as a powerful tool for
+evaluating free energy algorithms. The attach-pull-release (APR) method
+has consistently been ranked among the most accurate techniques for
+predicting binding thermodynamics host-guest complexes in blind
+challenges\textsuperscript{\protect\hyperlink{ref-BGsUYQln}{36},\protect\hyperlink{ref-GA1AFcUw}{37}}.
+In APR, the reversible work of transferring the guest from the binding
+site to solution, via a physical pathway, is computed using a series of
+umbrella sampling windows (Figure \ref{fig:apr}). In the ``attach''
+phase, restraints are connected to the guest (and optionally, to the
+host for better conformational sampling) through a parameter
+\(\lambda \in [0, 1]\) that controls the strength of the restraints.
+During the ``pull'' phase, the equilibrium length of a distance
+restraint joining the guest and host is increased until the guest is no
+longer interacting with the host molecule. The ``release'' phase
+reverses the work of attaching the restraints and also corrects the
+concentration of the guest molecule to standard state. Simulating each
+window and integrating over the partial derivative of the restraint
+energy with respect to the restraint target, we can generate a potential
+of mean force along the pulling coordinate that is used to compute the
+binding free energy at standard state, \(\Delta G^\circ\).
+
+I will independently continue the development of APR, and its Python
+interface that I created -- called pAPRika -- by transforming it into a
+generalized tool that is capable of computing free energies along any
+physical pathway, using either AMBER or the open source OpenMM as
+simulation packages. The core functionality of pAPRika is already being
+used by research groups across the country and in at least one group in
+China. An important milestone is adapting pAPRika for the efficient
+computation of protein-ligand binding free energies. One advantage of
+APR is a complete thermodynamic description of binding
+(\(\Delta G^\circ\), \(\Delta H\), and \(-T \Delta S\)) that are all
+absolute quantities for any protein-ligand pair instead of relative
+\(\Delta G\) values along some chosen route of successive alchemical
+modifications that would be obtained through free energy perturbation
+methods. Due to the much larger size of proteins compared to host-guest
+complexes, the increased fluctuations in potential energy make
+\(\Delta G^\circ\) much harder to converge. A key step will be adding
+the ability to automatically allocate resources, by calculating the
+``return on investment'' (ROI) in each window that reports how extra
+sampling in any \(\lambda\) state affects the standard error of the mean
+binding affinity. Efficient APR calculations are well suited to predict
+which ligands, among a series of potentially unrelated scaffolds and
+structures, will bind most tightly to a protein target, such as during
+virtual screening.
+
+Even when results are well-converged, the accuracy of a free energy
+simulations is necessarily limited by the accuracy of the force field it
+uses. Most established small molecule force fields (e.g., the general
+AMBER force field, GAFF) have been tuned using pure liquid state data,
+such as the average density, enthalpy of vaporization, or the
+self-diffusion coefficient. Over the past decade, it has become clear
+that reproducing those properties well does not guarantee binding
+thermodynamics at a level acceptable for guiding experiments. The open
+force field group (OpenFF) is an academic collaboration that aims to
+develop new force fields using open access methods, open source
+software, and high-quality open data sets. One central difference with
+the OpenFF group is the use of direct chemical perception to apply force
+field parameters based on a molecular graph instead of atom
+types\textsuperscript{\protect\hyperlink{ref-HlBr7NrU}{38}}, and the
+desire to avoid over-fitting parameters by making Monte Carlo moves in
+parameter space to find the fewest number of parameters required to
+describe a set of
+chemistries\textsuperscript{\protect\hyperlink{ref-13lTSBgHy}{39}}. The
+first prototype force field from this effort was release in June 2018,
+called SMIRNOFF99Frosst v0.1, based on a predecessor of GAFF.
+SMIRNOFF99Frosst is able to perform as well as GAFF, and in some cases,
+alleviate conformational problems caused by GAFF's atom types, in only
+335 parameter lines compared to the 6794 lines in GAFF version 2.1.
+Beyond this initial release, multiple generations of SMIRNOFF-based
+force fields are planned, incorporating new forms of Lennard-Jones
+interactions, the addition of atom polarizabilities, and Bayesian
+estimates to quantify systematic errors in the force field.
+
+
+\begin{wrapfloat}{figure}{R}{3in}
+\centering
+\includegraphics{content/images/SMIRNOFF-vs-GAFF-deltaG.png}
+\caption{A comparison of binding free energies between SMIRNOFF99Frosst
+and GAFF v1.7 for a series of cyclodextrin hosts and guests (unpublished
+results). Points are colored according to guest functional group.}
+\label{fig:smirnoff}
+\end{wrapfloat}
+
+As a member of the OpenFF consortium, I am responsible for benchmarking
+new iterations of SMIRNOFF-family force fields using host-guest
+thermodynamics computed by pAPRika. Figure \ref{fig:smirnoff} shows the
+very first comparison of SMIRNOFF99Frosst v0.1 and GAFF v1.7 on
+host-guest systems. GAFF v1.7 is known to overestimate binding
+affinities by \textgreater{}1
+kcal/mol\textsuperscript{\protect\hyperlink{ref-HVgz5rZq}{40}}, and it
+appears that SMIRNOFF99Frosst reduces this tendency. To begin, I will
+use the ``\href{https://escholarship.org/uc/item/9p37m6bq}{benchmark
+set}'' of Mobley et
+al.\textsuperscript{\protect\hyperlink{ref-12BD3oHp4}{41}}. There,
+experimental data are available for rigid curcurbituril and highly
+flexible cyclodextrin hosts with a variety of drug-like guest molecules.
+When available, I plan to incorporate the binding data resulting from
+selective derivatization of cyclodextrins designed to evaluate specific
+functional group
+interactions\textsuperscript{\protect\hyperlink{ref-13gqBX78S}{42}}.
+pAPRika makes it easy to match the simulations to the experimental
+conditions, including host and guest concentration, stoichiometry, ion
+concentration, and buffer conditions.
+
+To include pAPRika calculations in the creation of new force fields, I
+will leverage the ForceBalance framework of Wang et
+al.\textsuperscript{\protect\hyperlink{ref-JFWYe0Pp}{43}} ForceBalance
+uses thermodynamic fluctuation formulas and reference data (e.g.,
+\emph{ab initio} quantum mechanical calculations and experimentally
+known molecular or bulk properties) to optimize an objective function,
+such as the sum of squared differences between the calculated and
+reference values. I will extend my collaboration with Dr.~Lee-Ping Wang
+and integrate pAPRika binding free energy calculations into the
+optimization loop of ForceBalance. Enthalpies are poorly correlated with
+free energies, and thus, they represent a nearly independent set of data
+to compare. I have experience working with the analytic derivatives of
+the binding free energy with respect to Lennard-Jones
+parameters\textsuperscript{\protect\hyperlink{ref-xRauI5mb}{44}}, and
+using these derivatives to tune parameters was recently used by a
+colleague to optimize the TIP3P water model for binding calculations by
+post-processing existing MD trajectories for small parameter
+perturbation\textsuperscript{\protect\hyperlink{ref-NeqIQDLp}{45}}.
+
+Together, these methodological improvements will help create a
+transparent and robust set of metrics to evaluate the performance of
+candidate force fields on an equal footing. By incorporating host-guest
+binding data, the degeneracy in parameter space will be broken, avoiding
+force fields that agree excellently with experiment for liquid
+properties and yet agree poorly on binding. I believe the ideas in this
+aim could be turned into an NIH proposal by demonstrating the need to
+systematically evaluate force field accuracy for protein-ligand binding,
+perhaps the most important application of this work for human health.
+
+\pagebreak
+\setlength{\parskip}{0.1mm}
+
+\hypertarget{references}{%
+\section*{References}\label{references}}
+\addcontentsline{toc}{section}{References}
+
+\setstretch{1}
+
+\hypertarget{refs}{}
+\leavevmode\hypertarget{ref-w5pYOl69}{}%
+(1) Bassereau, P.; Jin, R.; Baumgart, T.; Deserno, M.; Dimova, R.;
+Frolov, V. A.; Bashkirov, P. V.; Grubmüller, H.; Jahn, R.; Risselada, H.
+J.; et al. The 2018 Biomembrane Curvature and Remodeling Roadmap.
+\emph{J. Phys. D: Appl. Phys.} \textbf{2018}, \emph{51} (34), 343001.
+
+\leavevmode\hypertarget{ref-1Dvbhukpz}{}%
+(2) Ingólfsson, H. I.; Melo, M. N.; van Eerden, F. J.; Arnarez, C.;
+Lopez, C. A.; Wassenaar, T. A.; Periole, X.; de Vries, A. H.; Tieleman,
+D. P.; Marrink, S. J. Lipid Organization of the Plasma Membrane.
+\emph{J. Am. Chem. Soc.} \textbf{2014}, \emph{136} (41), 14554--14559.
+
+\leavevmode\hypertarget{ref-mNNsAL8U}{}%
+(3) Betzig, E.; Patterson, G. H.; Sougrat, R.; Lindwasser, O. W.;
+Olenych, S.; Bonifacino, J. S.; Davidson, M. W.; Lippincott-Schwartz,
+J.; Hess, H. F. Imaging Intracellular Fluorescent Proteins at Nanometer
+Resolution. \emph{Science} \textbf{2006}, \emph{313} (5793), 1642--1645.
+
+\leavevmode\hypertarget{ref-12fkuxySq}{}%
+(4) Rust, M. J.; Bates, M.; Zhuang, X. Sub-Diffraction-Limit Imaging by
+Stochastic Optical Reconstruction Microscopy (STORM). \emph{Nat Meth}
+\textbf{2006}, \emph{3} (10), 793--796.
+
+\leavevmode\hypertarget{ref-GGtK2c0N}{}%
+(5) Gidwani, A.; Holowka, D.; Baird, B. Fluorescence Anisotropy
+Measurements of Lipid Order in Plasma Membranes and Lipid Rafts from
+RBL-2H3 Mast Cells†. \emph{Biochemistry} \textbf{2001}, \emph{40} (41),
+12422--12429.
+
+\leavevmode\hypertarget{ref-1Eg1Hzju1}{}%
+(6) Swamy, M. J.; Ciani, L.; Ge, M.; Smith, A. K.; Holowka, D.; Baird,
+B.; Freed, J. H. Coexisting Domains in the Plasma Membranes of Live
+Cells Characterized by Spin-Label ESR Spectroscopy. \emph{Biophysical
+Journal} \textbf{2006}, \emph{90} (12), 4452--4465.
+
+\leavevmode\hypertarget{ref-oBaB5Z87}{}%
+(7) Levental, I.; Byfield, F.; Chowdhury, P.; Gai, F.; Baumgart, T.;
+Janmey, P. Cholesterol-Dependent Phase Separation in Cell-Derived Giant
+Plasma-Membrane Vesicles. \emph{Biochem. J.} \textbf{2009}, \emph{424}
+(2), 163--167.
+
+\leavevmode\hypertarget{ref-BzP79Vj9}{}%
+(8) Sengupta, P.; Holowka, D.; Baird, B. Fluorescence Resonance Energy
+Transfer Between Lipid Probes Detects Nanoscopic Heterogeneity in the
+Plasma Membrane of Live Cells. \emph{Biophysical Journal} \textbf{2007},
+\emph{92} (10), 3564--3574.
+
+\leavevmode\hypertarget{ref-aiu6Tmil}{}%
+(9) Baumgart, T.; Hammond, A. T.; Sengupta, P.; Hess, S. T.; Holowka, D.
+A.; Baird, B. A.; Webb, W. W. Large-Scale Fluid/Fluid Phase Separation
+of Proteins and Lipids in Giant Plasma Membrane Vesicles.
+\emph{Proceedings of the National Academy of Sciences} \textbf{2007},
+\emph{104} (9), 3165--3170.
+
+\leavevmode\hypertarget{ref-LhOwGz4k}{}%
+(10) Wang, Y.-H.; Collins, A.; Guo, L.; Smith-Dupont, K. B.; Gai, F.;
+Svitkina, T.; Janmey, P. A. Divalent Cation-Induced Cluster Formation by
+Polyphosphoinositides in Model Membranes. \emph{J. Am. Chem. Soc.}
+\textbf{2012}, \emph{134} (7), 3387--3395.
+
+\leavevmode\hypertarget{ref-10CqL9t0a}{}%
+(11) Ellenbroek, W.; Wang, Y.-H.; Christian, D.; Discher, D.; Janmey,
+P.; Liu, A. Divalent Cation-Dependent Formation of Electrostatic PIP2
+Clusters in Lipid Monolayers. \emph{Biophysical Journal} \textbf{2011},
+\emph{101} (9), 2178--2184.
+
+\leavevmode\hypertarget{ref-XIltXoGI}{}%
+(12) Heinrich, M.; Tian, A.; Esposito, C.; Baumgart, T. Dynamic Sorting
+of Lipids and Proteins in Membrane Tubes with a Moving Phase Boundary.
+\emph{Proceedings of the National Academy of Sciences} \textbf{2010},
+\emph{107} (16), 7208--7213.
+
+\leavevmode\hypertarget{ref-uyKE7bWV}{}%
+(13) Lemmon, M. A. Membrane Recognition by Phospholipid-Binding Domains.
+\emph{Nat Rev Mol Cell Biol} \textbf{2008}, \emph{9} (2), 99--111.
+
+\leavevmode\hypertarget{ref-2TfZ4zWV}{}%
+(14) Raghunathan, K.; Kenworthy, A. K. Dynamic Pattern Generation in
+Cell Membranes: Current Insights into Membrane Organization.
+\emph{Biochimica et Biophysica Acta (BBA) - Biomembranes} \textbf{2018},
+\emph{1860} (10), 2018--2031.
+
+\leavevmode\hypertarget{ref-10FsKpWBI}{}%
+(15) Browne, W. R.; Feringa, B. L. Making Molecular Machines Work.
+\emph{Nature Nanotech} \textbf{2006}, \emph{1} (1), 25--35.
+
+\leavevmode\hypertarget{ref-OAnfwOYX}{}%
+(16) Kudernac, T.; Ruangsupapichat, N.; Parschau, M.; Maciá, B.;
+Katsonis, N.; Harutyunyan, S. R.; Ernst, K.-H.; Feringa, B. L.
+Electrically Driven Directional Motion of a Four-Wheeled Molecule on a
+Metal Surface. \emph{Nature} \textbf{2011}, \emph{479} (7372), 208--211.
+
+\leavevmode\hypertarget{ref-10MPrT2Vf}{}%
+(17) Sasaki, T.; Guerrero, J. M.; Leonard, A. D.; Tour, J. M. Nanotrains
+and Self-Assembled Two-Dimensional Arrays Built from Carboranes Linked
+by Hydrogen Bonding of Dipyridones. \emph{Nano Res.} \textbf{2008},
+\emph{1} (5), 412--419.
+
+\leavevmode\hypertarget{ref-Tels98bO}{}%
+(18) Sasaki, T.; Tour, J. M. Synthesis of a New Photoactive
+Nanovehicle:~ A Nanoworm. \emph{Org. Lett.} \textbf{2008}, \emph{10}
+(5), 897--900.
+
+\leavevmode\hypertarget{ref-SfUEsk0e}{}%
+(19) von Delius, M.; Leigh, D. A. Walking Molecules. \emph{Chem. Soc.
+Rev.} \textbf{2011}, \emph{40} (7), 3656.
+
+\leavevmode\hypertarget{ref-jCuccJLJ}{}%
+(20) Lucas, L. N.; van Esch, J.; Feringa, B. L.; Kellogg, R. M.
+Photocontrolled Self-Assembly of Molecular Switches. \emph{Chem.
+Commun.} \textbf{2001}, No. 8, 759--760.
+
+\leavevmode\hypertarget{ref-1H5r7SBir}{}%
+(21) Kassem, S.; van Leeuwen, T.; Lubbe, A. S.; Wilson, M. R.; Feringa,
+B. L.; Leigh, D. A. Artificial Molecular Motors. \emph{Chem. Soc. Rev.}
+\textbf{2017}, \emph{46} (9), 2592--2621.
+
+\leavevmode\hypertarget{ref-FwAqK1Dt}{}%
+(22) Klok, M.; Walko, M.; Geertsema, E.; Ruangsupapichat, N.;
+Kistemaker, J.; Meetsma, A.; Feringa, B. New Mechanistic Insight in the
+Thermal Helix Inversion of Second-Generation Molecular Motors.
+\emph{Chem. Eur. J.} \textbf{2008}, \emph{14} (35), 11183--11193.
+
+\leavevmode\hypertarget{ref-so4s7d25}{}%
+(23) Kazaryan, A.; Lan, Z.; Schäfer, L. V.; Thiel, W.; Filatov, M.
+Surface Hopping Excited-State Dynamics Study of the Photoisomerization
+of a Light-Driven Fluorene Molecular Rotary Motor. \emph{J. Chem. Theory
+Comput.} \textbf{2011}, \emph{7} (7), 2189--2199.
+
+\leavevmode\hypertarget{ref-N6pRFM85}{}%
+(24) Kazaryan, A.; Kistemaker, J. C. M.; Schäfer, L. V.; Browne, W. R.;
+Feringa, B. L.; Filatov, M. Understanding the Dynamics Behind the
+Photoisomerization of a Light-Driven Fluorene Molecular Rotary Motor.
+\emph{J. Phys. Chem. A} \textbf{2010}, \emph{114} (15), 5058--5067.
+
+\leavevmode\hypertarget{ref-mKSNFvW7}{}%
+(25) Štacko, P.; Kistemaker, J. C. M.; van Leeuwen, T.; Chang, M.-C.;
+Otten, E.; Feringa, B. L. Locked Synchronous Rotor Motion in a Molecular
+Motor. \emph{Science} \textbf{2017}, \emph{356} (6341), 964--968.
+
+\leavevmode\hypertarget{ref-gimGEnwq}{}%
+(26) Vicario, J.; Walko, M.; Meetsma, A.; Feringa, B. L. Fine Tuning of
+the Rotary Motion by Structural Modification in Light-Driven
+Unidirectional Molecular Motors. \emph{J. Am. Chem. Soc.} \textbf{2006},
+\emph{128} (15), 5127--5135.
+
+\leavevmode\hypertarget{ref-MVPWALSk}{}%
+(27) Bauer, J.; Hou, L.; Kistemaker, J. C. M.; Feringa, B. L. Tuning the
+Rotation Rate of Light-Driven Molecular Motors. \emph{J. Org. Chem.}
+\textbf{2014}, \emph{79} (10), 4446--4455.
+
+\leavevmode\hypertarget{ref-1F5wsgY82}{}%
+(28) ter Wiel, M. K. J.; van Delden, R. A.; Meetsma, A.; Feringa, B. L.
+Increased Speed of Rotation for the Smallest Light-Driven Molecular
+Motor. \emph{J. Am. Chem. Soc.} \textbf{2003}, \emph{125} (49),
+15076--15086.
+
+\leavevmode\hypertarget{ref-Ewc7FKL8}{}%
+(29) Filatov, M.; Olivucci, M. Designing Conical Intersections for
+Light-Driven Single Molecule Rotary Motors: From Precessional to Axial
+Motion. \emph{J. Org. Chem.} \textbf{2014}, \emph{79} (8), 3587--3600.
+
+\leavevmode\hypertarget{ref-122TltEto}{}%
+(30) Nikiforov, A.; Gamez, J. A.; Thiel, W.; Filatov, M. Computational
+Design of a Family of Light-Driven Rotary Molecular Motors with Improved
+Quantum Efficiency. \emph{J. Phys. Chem. Lett.} \textbf{2015}, \emph{7}
+(1), 105--110.
+
+\leavevmode\hypertarget{ref-1FiDpP1LR}{}%
+(31) van Vlijmen, H.; Desjarlais, R. L.; Mirzadegan, T. Computational
+Chemistry at Janssen. \emph{J Comput Aided Mol Des} \textbf{2016},
+\emph{31} (3), 267--273.
+
+\leavevmode\hypertarget{ref-1BwXH3GFO}{}%
+(32) Christ, C. D.; Fox, T. Accuracy Assessment and Automation of Free
+Energy Calculations for Drug Design. \emph{J. Chem. Inf. Model.}
+\textbf{2013}, \emph{54} (1), 108--120.
+
+\leavevmode\hypertarget{ref-1935a9V0d}{}%
+(33) Henriksen, N. M.; Fenley, A. T.; Gilson, M. K. Computational
+Calorimetry: High-Precision Calculation of Host--Guest Binding
+Thermodynamics. \emph{J. Chem. Theory Comput.} \textbf{2015}, \emph{11}
+(9), 4377--4394.
+
+\leavevmode\hypertarget{ref-LWd10vQy}{}%
+(34) Gaieb, Z.; Liu, S.; Gathiaka, S.; Chiu, M.; Yang, H.; Shao, C.;
+Feher, V. A.; Walters, W. P.; Kuhn, B.; Rudolph, M. G.; et al. D3R Grand
+Challenge 2: Blind Prediction of Protein--Ligand Poses, Affinity
+Rankings, and Relative Binding Free Energies. \emph{J Comput Aided Mol
+Des} \textbf{2017}, \emph{32} (1), 1--20.
+
+\leavevmode\hypertarget{ref-fC0t6Cy1}{}%
+(35) Shirts, M. R.; Mobley, D. L.; Brown, S. P. Free-Energy Calculations
+in Structure-Based Drug Design. In \emph{Drug Design: Structure- and
+Ligand-Based Approaches}; Merz Jr., K. M., Ringe, D., Reynolds, C. H.,
+Series Eds.; Cambridge University Press, 2010.
+
+\leavevmode\hypertarget{ref-BGsUYQln}{}%
+(36) Yin, J.; Henriksen, N. M.; Slochower, D. R.; Shirts, M. R.; Chiu,
+M. W.; Mobley, D. L.; Gilson, M. K. Overview of the SAMPL5 Host--Guest
+Challenge: Are We Doing Better? \emph{J Comput Aided Mol Des}
+\textbf{2016}, \emph{31} (1), 1--19.
+
+\leavevmode\hypertarget{ref-GA1AFcUw}{}%
+(37) Muddana, H. S.; Fenley, A. T.; Mobley, D. L.; Gilson, M. K. The
+SAMPL4 Host--Guest Blind Prediction Challenge: An Overview. \emph{J
+Comput Aided Mol Des} \textbf{2014}, \emph{28} (4), 305--317.
+
+\leavevmode\hypertarget{ref-HlBr7NrU}{}%
+(38) Mobley, D.; Bannan, C. C.; Rizzi, A.; Bayly, C. I.; Chodera, J. D.;
+Lim, V. T.; Lim, N. M.; Beauchamp, K. A.; Shirts, M. R.; Gilson, M. K.;
+et al. Open Force Field Consortium: Escaping Atom Types Using Direct
+Chemical Perception with SMIRNOFF V0.1, 2018.
+
+\leavevmode\hypertarget{ref-13lTSBgHy}{}%
+(39) Zanette, C.; Bannan, C. C.; Bayly, C. I.; Fass, J.; Gilson, M.;
+Shirts, M. R.; Chodera, J.; Mobley, D. Toward Learned Chemical
+Perception of Force Field Typing Rules, 2018.
+
+\leavevmode\hypertarget{ref-HVgz5rZq}{}%
+(40) Henriksen, N. M.; Gilson, M. K. Evaluating Force Field Performance
+in Thermodynamic Calculations of Cyclodextrin Host--Guest Binding: Water
+Models, Partial Charges, and Host Force Field Parameters. \emph{J. Chem.
+Theory Comput.} \textbf{2017}, \emph{13} (9), 4253--4269.
+
+\leavevmode\hypertarget{ref-12BD3oHp4}{}%
+(41) Mobley, D. L.; Gilson, M. K. Predicting Binding Free Energies:
+Frontiers and Benchmarks. \emph{Annu. Rev. Biophys.} \textbf{2017},
+\emph{46} (1), 531--558.
+
+\leavevmode\hypertarget{ref-13gqBX78S}{}%
+(42) Kellett, K.; Kantonen, S. A.; Duggan, B. M.; Gilson, M. K. Toward
+Expanded Diversity of Host-Guest Interactions via Synthesis and
+Characterization of Cyclodextrin Derivatives, 2018.
+
+\leavevmode\hypertarget{ref-JFWYe0Pp}{}%
+(43) Wang, L.-P.; Martinez, T. J.; Pande, V. S. Building Force Fields:
+An Automatic, Systematic, and Reproducible Approach. \emph{J. Phys.
+Chem. Lett.} \textbf{2014}, \emph{5} (11), 1885--1891.
+
+\leavevmode\hypertarget{ref-xRauI5mb}{}%
+(44) Yin, J.; Fenley, A. T.; Henriksen, N. M.; Gilson, M. K. Toward
+Improved Force-Field Accuracy Through Sensitivity Analysis of Host-Guest
+Binding Thermodynamics. \emph{J. Phys. Chem. B} \textbf{2015},
+\emph{119} (32), 10145--10155.
+
+\leavevmode\hypertarget{ref-NeqIQDLp}{}%
+(45) Yin, J.; Henriksen, N. M.; Muddana, H. S.; Gilson, M. K. Bind3P:
+Optimization of a Water Model Based on Host--Guest Binding Data.
+\emph{J. Chem. Theory Comput.} \textbf{2018}, \emph{14} (7), 3621--3632.
+
+\end{document}
