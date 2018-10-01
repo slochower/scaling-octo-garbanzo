@@ -12,6 +12,8 @@ before_install:
   - hash -r
   - conda config --set always_yes yes --set changeps1 no
   - conda info --all
+  - sudo apt-get update -qq
+  - sudo apt-get install -y texlive-full
 addons:
   apt:
     packages:
