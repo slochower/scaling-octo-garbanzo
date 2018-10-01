@@ -15,7 +15,7 @@ manubot \
 
 BUILD_HTML="false"
 BUILD_PDF="false"
-BUILD_DOCX="true"
+BUILD_DOCX="false"
 BUILD_LATEX="true"
 BUILD_PDF_VIA_LATEX="true"
 
